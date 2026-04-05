@@ -17,8 +17,20 @@ export default async function ReadChapter({ params }: PageProps) {
   const chapter = getChapter(slug, chapterNum);
   if (!chapter) notFound();
 
+  const genreColors: Record<string, string> = {
+    "romantasy": "#b8860b",
+    "cozy-mystery": "#4a7c3f",
+    "bl-romance": "#ef4444",
+    "spicy-romance": "#e11d48",
+  };
+  const genreLabels: Record<string, string> = {
+    "romantasy": "Spicy Romantasy",
+    "cozy-mystery": "Cozy Mystery",
+    "bl-romance": "BL Dark Romance",
+    "spicy-romance": "18+ Dark Romance",
+  };
   const isRomantasy = story.genre === "romantasy";
-  const accentColor = isRomantasy ? "#b8860b" : "#4a7c3f";
+  const accentColor = genreColors[story.genre] || "#b8860b";
 
   const paragraphs = chapter.content.split("\n\n").filter(Boolean);
 
@@ -30,7 +42,7 @@ export default async function ReadChapter({ params }: PageProps) {
           className="text-xs font-bold uppercase tracking-widest"
           style={{ color: accentColor }}
         >
-          {isRomantasy ? "Spicy Romantasy" : "Cozy Mystery"}
+          {genreLabels[story.genre] || "Fiction"}
         </span>
         <h1 className="text-3xl font-bold text-[#1a1a1a] mt-3">
           {story.title}
@@ -87,9 +99,10 @@ export default async function ReadChapter({ params }: PageProps) {
                 className="text-xl text-[#1a1a1a] mb-2 italic"
                 style={{ fontFamily: "Georgia, serif" }}
               >
-                {isRomantasy
-                  ? "The corridor pulled her in like a breath..."
-                  : "She didn't move until she heard Nina's knock."}
+                {story.genre === "romantasy" ? "The corridor pulled her in like a breath..."
+                  : story.genre === "cozy-mystery" ? "She didn't move until she heard Nina's knock."
+                  : story.genre === "bl-romance" ? "The game had more players than he knew..."
+                  : "She sharpened her teeth..."}
               </p>
               <p className="text-[#999] text-sm mb-8">
                 New chapters every week. Stay subscribed to keep reading.

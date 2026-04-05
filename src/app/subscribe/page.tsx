@@ -142,11 +142,11 @@ function SubscribeForm() {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#999] mt-0.5 font-bold">&#8226;</span>
-              <span className="text-[#555]">Audio narration for every chapter</span>
+              <span className="text-[#555]">Original illustrations for key scenes</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#999] mt-0.5 font-bold">&#8226;</span>
-              <span className="text-[#555]">Original illustrations for key scenes</span>
+              <span className="text-[#555]">Four series across multiple genres</span>
             </li>
           </ul>
         </div>

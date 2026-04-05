@@ -14,7 +14,7 @@ export interface Story {
   slug: string;
   title: string;
   tagline: string;
-  genre: "romantasy" | "cozy-mystery";
+  genre: "romantasy" | "cozy-mystery" | "bl-romance" | "spicy-romance";
   coverImage?: string;
   chapters: Chapter[];
 }
@@ -1883,6 +1883,520 @@ I hung up. I stood in my kitchen with a photograph of my own house in my hand an
 From outside, somewhere in the dark street, a car engine started. Headlights swept across the curtain, slow and deliberate, and then pulled away.
 
 I didn't move until I heard Nina's knock.`,
+      },
+    ],
+  },
+  {
+    slug: "crimson-vow",
+    title: "Crimson Vow",
+    tagline: "Both of them were liars. Only one of them knew it.",
+    genre: "bl-romance",
+    chapters: [
+      {
+        number: 1,
+        title: "The Collector",
+        isFree: true,
+        content: `My name is Shin Haneul, and I was thirty seconds away from ruining a man's life when his hands started shaking.
+
+Not the bold kind of shaking, the kind that precedes a fist. This was fine motor failure. The tendons in his wrists jumping under skin that had gone the colour of old rice paper. His fingers were wrapped around a teacup he hadn't touched in twenty minutes, and the tea inside was cold, and the cup was chattering against the saucer like a tiny porcelain animal trying to escape.
+
+I watched the cup. I let him see me watching.
+
+"Mr. Bae," I said. "I think we both know I didn't come here for the bulgogi."
+
+The restaurant was empty. Ten p.m. on a Wednesday in Hagu-dong, which meant the dinner rush had petered out an hour ago, and the kitchen staff had been sent home with the kind of urgent hand gestures that told me Mr. Bae had been expecting this visit. The chairs were stacked on half the tables. The overhead fluorescents buzzed at a frequency that lived somewhere behind my left eye. Through the plate glass window, Hagu-dong did what Hagu-dong did at night: bled neon onto wet asphalt, pink and electric blue running together in the gutters like something alive.
+
+"I have until Friday," Bae said. "That's what they told me. Friday."
+
+"That was three Fridays ago."
+
+His mouth opened. Closed. The cup kept chattering.
+
+I leaned back in my chair. The vinyl seat cover was cracked and repaired with electrical tape, and it stuck to the back of my leather jacket with a soft tearing sound every time I moved. I pulled a cigarette from the sky-blue pack of Raison Blues in my breast pocket and held it between my fingers without lighting it. A prop. Something to occupy my hands while his fell apart.
+
+"Forty-two million won, Mr. Bae. That's the principal. The interest is another eleven. Fifty-three total. You know this."
+
+"I know this."
+
+"And you know what happens when this number gets handed to someone who isn't me."
+
+He knew. Everyone in Hagu-dong knew. The Yun Syndicate had a spectrum of debt collection, and I occupied the polite end of it. The end with conversation and tea and the illusion that this was a negotiation between equals. Past me on that spectrum, there was Park Seojin with his fox grin and his two knives. Past Seojin, there were men whose names I'd never learned because names weren't relevant to what they did.
+
+Bae set the cup down. It took him two attempts. "My daughter," he said.
+
+I waited.
+
+"Yejin. She's eleven. She's sick." He looked at the table. "Lymphoma. Stage two. The treatment at Haemun General, the good treatment, not the public ward, it costs more than this restaurant makes in a year. That's where the money went. All of it. I borrowed to pay for her treatment and now I can't pay for the borrowing and if I stop the treatment she..." He trailed off. His jaw worked around something he couldn't make into words.
+
+The fluorescents buzzed. Outside, a stray cat screamed at something in the alley, and the sound was almost human.
+
+I rolled the unlit cigarette between my thumb and forefinger. The paper crinkled softly. Inside my chest, something pressed against the walls I'd built there, and I held it down with the flat professional weight of twenty-six months of practice.
+
+"Mr. Bae. Look at me."
+
+He looked. His eyes were red-rimmed and dry. He'd run out of tears before I arrived. Probably days ago.
+
+"You have assets," I said. "The restaurant lease. The kitchen equipment. You have a Hyundai Sonata, 2019 model, parked in the alley behind the building. Blue. You have a life insurance policy through Hanwha, medium-term, taken out four years ago."
+
+His face changed. Not to fear. To something flatter than that. The realisation that he'd been researched.
+
+"Here's what I'm going to recommend to my superiors." I placed the cigarette on the table, parallel to the edge, precise. "You liquidate the Sonata. That's roughly eight million. You sign over the insurance policy assignment, which gives us a guaranteed payout schedule. That covers twenty-six million over three years. The remaining nineteen, we restructure at reduced interest, monthly payments indexed to the restaurant's revenue."
+
+"That's... you can do that?"
+
+"I can recommend it. Whether they accept depends on how convincing I am."
+
+"Why would you..."
+
+"Because a dead man doesn't pay his debts, Mr. Bae. And a man who loses his restaurant doesn't either. The Syndicate isn't a charity, but it's not stupid. You alive and working is worth more than your organs."
+
+Crude. Deliberately crude. I needed him scared enough to comply and grateful enough not to run. The balance mattered. Push too far and they vanish in the night, which means I failed the collection, which means attention I couldn't afford. Not far enough and they think the terms are negotiable, which means the same thing.
+
+Bae nodded. His hands had stopped shaking. Direction will do that. Give a drowning man a piece of driftwood and he stops thrashing.
+
+"The paperwork for the Sonata," I said. "Bring it to the Vein building, third floor, Friday. Ask for Han. Not anyone else. Me."
+
+"Han."
+
+"That's right."
+
+I stood. Tucked the cigarette behind my ear. Pulled my jacket straight. On my right thumb, my mother's ring caught the fluorescent light, and for half a second, the silver threw a coin of brightness onto the wall behind Bae's head. A tiny halo. There and gone.
+
+"Mr. Bae."
+
+He looked up.
+
+"Your daughter's treatment. Don't stop it."
+
+I left before he could respond. The door chime rang a flat, electronic note behind me, and then I was outside, and Hagu-dong swallowed me whole.
+
+---
+
+The night was warm and wet. Not raining, but remembering rain, the air thick enough to leave a film on exposed skin. I walked south through the district with my hands in my jacket pockets and my collar up, moving at the pace of a man going nowhere in particular. Neon signs stacked three high along the narrow street: a hostess bar, a PC bang, a karaoke place with a sign that read STAR GALAXY PREMIUM in English letters that flickered between hot pink and dead. The gutter ran with oily water. Somewhere to my left, a street vendor was still frying scallion pancakes, and the smell hit me low in the stomach, sesame oil and batter and the char of a griddle that hadn't been cleaned since the last administration.
+
+I turned the ring on my thumb. A habit. The silver was worn thin on the inside from two years of this exact gesture, my skin slowly eating the metal my mother once wore.
+
+Two blocks. Three. Past the jjimjilbang with its fogged windows and its hand-painted sign. Past the alley where the Syndicate ran a card game every Thursday. Past the convenience store where the night clerk, a kid named Dohyun who couldn't have been older than nineteen, was leaning in the doorway scrolling his phone, bathed in the store's white light like a saint in a painting.
+
+Four blocks south. Then east, away from the commercial strip into the concrete residential grid where the streetlights worked on a two-out-of-three basis and the buildings crowded together like they were trying to keep warm. I cut through a playground that hadn't seen a child in years. The swing set was rusted solid. A cat watched me from the top of the slide with the flat, appraising stare of a landlord.
+
+The parking garage was underneath an apartment complex on the eastern edge of the district. Eight stories of water-stained concrete with a population of approximately four working vehicles and an unlimited number of rats. I took the pedestrian entrance, a steel door with no handle on the outside that I opened with a bump key, and descended the stairs to sublevel two. The stairwell smelled like piss and engine coolant. The fluorescent tubes overhead were the same sickly frequency as Bae's restaurant, and I thought, not for the first time, that Hagu-dong's entire electrical grid was tuned to the precise wavelength of despair.
+
+Sublevel two. Three cars: a dead Kia with no plates, a construction van that hadn't moved in months, and a black Hyundai Grandeur with tinted windows and the engine running. Exhaust fumes pooled in the low-ceilinged space, mixing with the mineral smell of wet concrete. I could see the cherry-red ember of a cigarette floating behind the Grandeur's cracked driver-side window.
+
+Dunhill. Not Raison. The smoke was heavier, richer. That was how I always found Minjun. Follow the expensive cancer.
+
+I walked to the passenger side and got in.
+
+Cha Minjun was forty-one and looked fifty-five. Lean, hollowed out, with the permanent under-eye bruising of a man who had been sleeping four hours a night for fifteen years and had stopped noticing. His hair was cropped short and going grey at the temples. He wore a dark wool coat over a shirt that might have been white that morning. The Dunhill was between his index and middle fingers, and he held it the way smokers held cigarettes in films from the eighties, with a kind of practised elegance that suggested he'd learned the gesture before the habit.
+
+"You're late," he said.
+
+"Collection ran long."
+
+"The restaurant owner? Bae?"
+
+"Handled. He'll liquidate the car, sign over the insurance assignment. I'll push a restructure."
+
+Minjun took a drag. The ember brightened, painting his cheekbones in orange light, and then faded. "You're good at this."
+
+"You say that like it's a compliment."
+
+"It is."
+
+"It shouldn't be."
+
+He exhaled smoke through his nose. It filled the car like a slow, grey thought. Through the windshield, the parking garage stretched out in rows of empty spaces marked by faded yellow paint. The ceiling was low enough to feel like a hand pressing down.
+
+"Report," he said.
+
+I reported. Twenty-six months of cover maintenance had turned debriefing into something mechanical: names, dates, amounts, movements. I gave him the week's intelligence in flat, ordered sentences. A shipment rerouted through Pier 9 last Tuesday, estimated street value of three hundred million won. Kwon Mirae had restructured the Club Vein accounts through a new shell company registered in Sejong. Seojin had beaten a man named Cho outside the jjimjilbang over a gambling debt, broken his left orbital bone, and Cho was now at Haemun General telling the nurses he fell down stairs. Yun Jaewon had not been seen outside The House in eleven days.
+
+Minjun listened. He didn't take notes. He never did. Everything went into the device clipped to the sun visor, recording in a format that would be transcribed at the Sangji field office by someone who had never smelled Hagu-dong and never would.
+
+When I finished, the silence sat between us. The engine idled. Minjun smoked his Dunhill down to the filter and crushed it in the ashtray, which was already full.
+
+"There's a development," he said.
+
+I waited.
+
+"The brass is escalating. We've been building a peripheral case for two years, and they want the centre." He turned to look at me. His eyes were the colour of black coffee, flat and assessing. "They want someone in Dowan's inner circle. Not the Syndicate's orbit. Not collections and club work. Inside. Close enough to document the pipeline from source to street, and the political connections above it."
+
+My thumb found the ring. Turned it. The silver was cool against my skin.
+
+"Dowan doesn't let people close," I said.
+
+"No. He doesn't."
+
+"The inner circle is Seojin and Mirae. That's it. Everyone else is staff."
+
+"Which is why we need you promoted. Not in rank. In proximity." Minjun lit another Dunhill. The flame from his lighter threw shadows across his face that made him look like a woodcut of someone already dead. "You've been noticed. Your work on the collections has been clean, efficient. The Syndicate values competence. Dowan values it more than most."
+
+"You want me working directly under Yun Dowan."
+
+"Starting tomorrow."
+
+The word sat in the car like a third passenger.
+
+"That's fast," I said.
+
+"The timeline has accelerated. Political pressure from above. Someone in the National Assembly is getting nervous about the Haemun port contracts, and they want results before the next election cycle. The director has signed off. This is happening, Haneul."
+
+Haneul. My real name, said by the only person alive who knew it was real. In Minjun's mouth, it always sounded like a reminder. Or a question.
+
+"Dowan is not his father," I said. "He's smarter. More observant. If my cover has any inconsistency, any gap, he'll find it."
+
+"Then don't have gaps."
+
+"Everyone has gaps."
+
+Minjun looked at me. The Dunhill smoke curled between us, and for a moment the only sound was the engine and the distant drip of water from the parking garage's broken drainage pipe, a metronome counting nothing.
+
+"Are you still you?" he asked.
+
+The question he asked every time. His check-in. His welfare assessment, dressed up as three words casual enough to deny in a report.
+
+"I'm still me," I said.
+
+He held my gaze for two beats longer than the words required. Then he nodded. Turned back to the windshield. Took a drag.
+
+"You report to The House at nine a.m. Dowan's office, third floor. Seojin will escort you. Don't be charming. Don't be clever. Be exactly what your file says: a competent collector with no ambition beyond his next payday."
+
+"And what am I actually doing?"
+
+"Everything. Shipment manifests, financial records, personnel connections. We need the thread that runs from the Hagu-dong pipeline to the assemblyman's office in Sangji. That thread goes through Dowan. He manages the operational layer between street-level crime and political money. Get close enough to document it."
+
+"How close is close enough?"
+
+"You'll know." He crushed the second Dunhill. "One more thing. The Bae collection."
+
+"What about it?"
+
+"His daughter. The sick one."
+
+My hand stopped turning the ring. "What about her?"
+
+"Nothing. Just remember she exists. Remember he's a person. The day you stop noticing that is the day I pull you out."
+
+I opened the car door. The garage air hit my face, damp concrete and exhaust, and it felt cleaner than the air inside the Grandeur, which was sixty percent Dunhill smoke and forty percent things neither of us would say.
+
+"Haneul."
+
+I paused, one foot on the concrete.
+
+"The House," Minjun said. "Have you ever been inside?"
+
+"No."
+
+"No one on our side has. Not in three years of this operation. Whatever you see in there tomorrow, keep your face still. You're not an agent walking into an intelligence target. You're a debt collector who's been called up. Act like it."
+
+"I know how to act."
+
+Something moved behind his eyes. Something that might have been concern, if Minjun were the kind of man who let concern survive long enough to be visible.
+
+"That's what worries me," he said.
+
+I shut the door. Walked back across the empty parking level, my boots echoing on concrete that had never been warm. Up the stairwell. Out the steel door into the night.
+
+---
+
+Hagu-dong was quieter now. Past midnight, and the district had settled into its late shift: the hostess bars still glowing, the street vendors packing up their carts with a clatter of metal and propane, a few drunks navigating the sidewalks like men crossing a frozen river. The fog had rolled in from the harbour, and it erased the tops of the buildings and softened the neon into smeared halos of colour that seemed to float in the air unattached to anything.
+
+I walked home. Block 7 was a concrete apartment stack that looked like it had been built angry and never recovered. The elevator had been broken since before I moved in. The stairwell smelled like bleach and someone else's cigarettes. Fourth floor. My door. The lock was cheap, the kind you could defeat with a credit card and determination, and I'd left it that way on purpose. A better lock would have been a question without an answer my cover could provide.
+
+Inside. One room. Mattress on the floor, sheets tangled from this morning. The ashtray on the windowsill, overflowing. Ramyeon cups stacked on the counter like a skyline made of sodium and regret. The window looked out onto the fire escape and the karaoke bar across the alley, whose sign was in its red phase tonight, painting everything in the room the colour of a wound.
+
+I didn't turn on the light. I stood in the doorway and let the red wash over me and waited for the thing I always waited for when I came back to this apartment: the moment when the performance ended and whatever was underneath it was supposed to surface.
+
+It didn't come. It hadn't come in months. The cover and the man had grown together like two trees planted too close, their roots tangled underground in ways I couldn't separate without killing one or both.
+
+Han, the collector. Efficient. A little mean. Quick with a line that cut. He was easy. He fit the world he lived in the way a key fits a lock, and the door he opened led to rooms I understood: debts, leverage, the arithmetic of fear.
+
+Shin Haneul, NIS agent. Mission-oriented. Disciplined. Trained at twenty-two, deployed at twenty-five, undercover at twenty-five and a half. He was a file in a drawer in the Sangji field office, a set of quarterly performance metrics, a voice on Minjun's recordings.
+
+And then there was whoever stood in this apartment at midnight with the red light on his face, turning a dead woman's ring on his thumb, and I didn't have a name for him. I wasn't sure he had one. I wasn't sure he was anyone at all.
+
+I went to the bathroom. Crouched beside the sink. Reached under the basin where the pipe met the wall and pressed my fingers against the duct tape until I felt the hard rectangle of the phone. My real phone. The one that connected to encrypted NIS servers and contained enough evidence to put me in a Syndicate grave within the hour.
+
+Still there. Still taped. Still ticking like a second heartbeat in a body that was already running out of room.
+
+I didn't pull it out. I just touched it. Confirmed it. The way you touch a scar to remember the wound, even when you'd rather forget.
+
+Tomorrow I would walk into The House. The Yun Syndicate's heart. The place where Yun Jaewon ran his empire from a room full of screens, where Dowan managed violence like other men managed spreadsheets, where the soundproofed basement served purposes no one discussed. I had spent twenty-six months circling that building, collecting debts in its shadow, feeding intelligence about its edges. I had never been inside.
+
+Tomorrow, I would be.
+
+I stood up. Washed my face with cold water. Looked at myself in the mirror above the sink. The red neon from the bedroom reached even here, and in the glass I looked like something developing in a darkroom, half-formed, the image not yet fixed.
+
+My mother's ring glinted on my thumb. The only true thing I carried.
+
+I dried my face and went to the window. Lit the cigarette I'd been carrying behind my ear since Bae's restaurant, the one I'd used as a prop and then forgotten was there. The first drag hit my lungs like a small, familiar punishment. I exhaled into the red-stained air and watched the smoke dissolve against the glass.
+
+Nine a.m. The House. Third floor. Dowan's office.
+
+I had never met Yun Dowan. I'd seen him three times: once outside Club Vein, crossing the street in a black coat with Seojin at his heels, moving through the crowd like a blade through water. Once on the CCTV footage Minjun had shown me during a briefing, Dowan sitting at a desk, reviewing papers, his face revealing exactly nothing. Once at a Syndicate gathering I'd attended as peripheral staff, watching him across a room full of men who were afraid of him, and noticing that his hands, when he held his glass, were very still.
+
+Three sightings. A file two inches thick. Twenty-six months of secondhand intelligence. None of it told me what it would be like to stand in front of him and lie.
+
+I finished the cigarette. Crushed it in the ashtray with the others. Lay down on the mattress without undressing and stared at the ceiling, where the red light made slow, shifting patterns as the karaoke sign across the alley flickered between alive and dead, alive and dead, alive and dead.
+
+I closed my eyes.
+
+I was still me.
+
+I was still me.
+
+Nine a.m.`,
+      },
+    ],
+  },
+  {
+    slug: "brutal-vows",
+    title: "Brutal Vows",
+    tagline: "I didn't come to be a wife. I came to be a weapon.",
+    genre: "spicy-romance",
+    chapters: [
+      {
+        number: 1,
+        title: "The Fitting",
+        isFree: true,
+        content: `The woman in the mirror was wearing a wedding dress, and I wanted to set her on fire.
+
+My name is Sera Maren. In eleven days, I would become Sera Valenti, and the seamstress kneeling at my feet had no idea she was pinning silk to a loaded gun. She worked a needle through the hem with the quiet efficiency of someone who'd dressed a thousand brides and believed in every single one. The dress was Vera Wang. Column silhouette, off-the-shoulder, Italian mikado fabric so white it made my skin look like something carved from warm stone. Forty-seven thousand dollars of bridal fantasy, charged to my father's account. He could afford it. He was selling his daughter. The least he could do was wrap her nicely.
+
+"Stop fidgeting," Lena said from the champagne-coloured settee behind me. She had her legs crossed, a glass of Veuve in one hand, and the expression of a woman trying very hard not to cry or commit a felony. Possibly both. "You look incredible."
+
+"I look like a sacrifice."
+
+"You look like a Vogue cover. Same energy, I guess."
+
+I studied my reflection. Kleinfeld's fitting room was designed to make women fall in love with themselves. Circular platform, three angled mirrors, lighting calibrated to erase every flaw and amplify every curve. The walls were ivory. The carpet was ivory. The champagne was golden and the chairs were blush and everything in this room existed to whisper *yes, this is who you were always meant to be*.
+
+It was suffocating. All that white. All those mirrors. Twelve versions of me stared back from every surface, and not one of them looked like a woman about to marry for love.
+
+Good. Love was not the assignment.
+
+The seamstress shifted on her knees, tugging the fabric tighter at my waist. Her fingers were quick and sure. A pin appeared between her lips, then in the silk.
+
+"You carry tension here," she said, pressing two fingers to the spot where the dress met my ribcage. "And here." She touched my shoulder. "I can let out the bodice a quarter inch. It won't change the line, but you'll breathe easier."
+
+"She doesn't breathe easier," Lena said. "That's her whole thing."
+
+I shot her a look through the mirror. She raised her glass and didn't apologize.
+
+The seamstress moved to my left side and paused. Her eyes caught on my wrist. The tattoo was small, precise black ink against the inside of my forearm: *III*. Roman numeral three.
+
+"That's lovely," she said. "What does it mean?"
+
+I pulled my hand away. Not fast, not rude. Controlled. The way I did everything.
+
+"Family," I said.
+
+She smiled and went back to the pins. She didn't push. People rarely did. There was something in the way I said the word that shut doors.
+
+*III.* Third of three. Marcus, Celia, Sera. The Maren children, raised in glass towers and silence, each of us bright and sharp and built to cut. Marcus was the eldest. Twenty-three when he died, his car wrapped around a guardrail on the Long Island Expressway, a story I had swallowed like shrapnel and carried in my chest for seven years. Celia was the youngest. Twenty when the pills stopped her heart, curled on a bathroom floor in a Soho apartment she couldn't afford, wearing a dress she'd bought to impress people who didn't care if she lived or died.
+
+I was the middle. I was the one who survived. I was the Roman numeral that mattered, the only digit in that sequence that still had a pulse, and some mornings the weight of that felt like drowning in open air.
+
+But I did not think about that in the fitting room. I thought about angles. Exits. The task at hand.
+
+"So," Lena said, setting down her champagne with the careful precision of someone choosing her next words the way a surgeon chooses a scalpel. "Are we going to talk about it?"
+
+"We're not."
+
+"Because I feel like we should."
+
+"You feel like we should talk about a lot of things. That's because you're a lawyer. You're pathologically incapable of leaving silence alone."
+
+"I'm your best friend."
+
+"Also true. And as my best friend, you know that when I say *we're not talking about it*, I mean exactly that."
+
+Lena leaned forward. The settee creaked. Her dark curls fell across her forehead, and she pushed them back with a gesture so familiar it ached. I'd known her since law school orientation, when she'd sat next to me, taken one look at my colour-coded notes, and said, *You're either going to be my best friend or my nemesis, and I don't have the energy for a nemesis.* She'd been right. She usually was.
+
+"Sera."
+
+"Lena."
+
+"You're marrying Nico Valenti."
+
+There it was. The name. I let it land the way you let a wasp land on your skin, still, watchful, aware that any sudden movement would cause a sting.
+
+Nico Valenti. Thirty years old. Dark-eyed, sharp-jawed, heir to an empire built on blood and territory and the kind of loyalty that only exists when the alternative is a shallow grave. His father, Dominic, had been shot dead at a family dinner five years ago. His younger brother, Luca, was beautiful and volatile and almost certainly the reason my sister had access to the pills that killed her. And Nico, the eldest, the one who sat at the head of that family like a king carved from black marble, had agreed to marry me as part of an alliance brokered by his mother and my father.
+
+A ceasefire disguised as a wedding. A business merger sealed with two human lives.
+
+My father had told me over dinner at the Maren Tower, his silver hair immaculate, his voice the same flat, boardroom monotone he used for everything, from quarterly earnings to the sale of his only living daughter. *The Valentis have agreed. You'll marry the eldest. It secures the transition. It protects our assets. It ends the exposure.* He'd turned his signet ring once, twice, three times. His tell. *You'll do this for the family, Sera.*
+
+And I had looked at him across the white tablecloth and the crystal and the silence where my siblings should have been, and I had said *yes*.
+
+Not because I was obedient. Not because I was afraid. Because I had spent seven years waiting for exactly this invitation. An open door into the house of the people who destroyed my family. A seat at their table. A place close enough to reach.
+
+I didn't come to be a wife. I came to be a weapon.
+
+"I know who I'm marrying," I told Lena.
+
+"Do you? Because last time we discussed the Valentis, you referred to Nico as, and I quote, *the reason I believe in hell*."
+
+"I contain multitudes."
+
+"You contain a terrifying revenge fantasy that you think I don't know about."
+
+I turned on the platform. The dress whispered against my legs. The seamstress made a small, distressed sound and reached for a pin that had come loose.
+
+"Please hold still, Ms. Maren."
+
+"I'm fine." I wasn't fine. My left hand had drifted to my wrist again, thumb pressing against the tattoo. I caught myself and stopped. Folded my hands in front of me. The seamstress noticed. I saw it in her eyes. She said nothing.
+
+People who work with brides learn to read bodies the way soldiers learn to read terrain. She could see the tension threaded through me like wire, and she was smart enough not to pull it.
+
+"I know what I'm doing," I said to Lena, quieter now. Not softer. There's a difference. Soft was a thing I couldn't afford. Quiet was a thing I could weaponize.
+
+"I know you know what you're doing. That's the part that scares me." Lena uncrossed her legs and leaned back. "You've been planning something since Marcus died. Don't look at me like that. I know you. I've watched you build a case the way other people build houses, one brick at a time, every piece load-bearing. I've seen that notebook."
+
+"Don't."
+
+The word came out like a blade. Sharp, clean, final. Lena's mouth closed.
+
+The notebook. Marcus's notebook. Black Moleskine, soft cover, filled with his handwriting, that angular, impatient scrawl that looked like a man in a hurry. I'd found it in his apartment two weeks after the funeral, hidden in a hollowed-out copy of *The Art of War* because my brother had always been smarter than anyone gave him credit for and more dramatic than he needed to be. Inside: names. Numbers. Dates. Valenti names and Valenti numbers and Valenti connections laid out in ink like a map of the thing that killed him.
+
+I had memorized every page. I had built my life around those pages. And I did not talk about them. Not here. Not in a room full of mirrors and white fabric, where every surface was designed to reflect a woman who didn't exist.
+
+Lena held up both hands. Surrender.
+
+"Okay. Okay. I'm done."
+
+"You're done."
+
+"I'm done." She picked up her champagne. Took a long sip. Set it down. "But Sera?"
+
+"Mm."
+
+"If this is really what you want, then I'm with you. Maid of honour. Ride or die. All of it. But you have to promise me one thing."
+
+I waited.
+
+"Come back from it. Whatever you're walking into, whatever you're planning, come back. I can't lose you too."
+
+The word *too* hung in the air between us. Lena had loved Marcus. Not romantically, but she'd loved him the way you love your best friend's older brother, that easy, uncomplicated warmth that exists without negotiation. She'd helped me pack Celia's apartment. She'd held my hair back while I threw up on the bathroom floor the night we got the call. She knew what the Roman numeral meant. She knew what every part of me meant, and she still chose to sit on this ridiculous champagne-coloured settee and drink expensive wine and pretend we were just two women at a bridal fitting, doing a normal thing, living a normal life.
+
+I loved her for it. I would never tell her. But I loved her.
+
+"I'll come back," I said.
+
+She nodded. Wiped under her eye with one finger. Picked up her glass.
+
+"Good. Now turn around. I need to see the back."
+
+I turned. The dress moved with me, heavy and fluid, like water given shape. The seamstress stepped back to assess. I caught myself in the mirror again. Three of me. Always three.
+
+Marcus had been the one who believed in people. He'd had this light in him, this stupid, stubborn faith that the world could be better than it was, that families like ours could change. He used to argue with our father at dinner, leaning forward with his elbows on the table and his eyes on fire, insisting that there was another way. Dad would sit there with his signet ring and his silence and wait for Marcus to run out of air. Marcus always ran out of air. He'd push back from the table and go to his room and call me, and I'd listen to him rage for twenty minutes, and then he'd laugh and say, *Okay, I'm done. Tell me something real, Sera. Tell me something that matters.*
+
+I couldn't remember the last real thing I'd told anyone.
+
+Celia had been the one who felt everything. She'd been wrecked by Marcus's death in a way that made the rest of us look functional. She'd started disappearing, slipping out of our lives like water through a cracked glass. I should have caught her. I should have held on tighter. But I was nineteen and furious and so consumed by my own grief that I'd mistaken her quiet for healing when it was really the sound of someone giving up. The pills were just the period at the end of a sentence that had been writing itself for years.
+
+Two siblings. Two different kinds of gone. Both roads leading back to the same family name.
+
+Valenti.
+
+"The waistline is beautiful on you," the seamstress said, circling me now with a tape measure looped around her neck. "You have a dancer's frame. Long. But you're holding so much tension. Here, and here." She touched my shoulders again. "Try to drop them. You'll carry the dress differently."
+
+I dropped my shoulders. Breathed. The dress settled against my collarbone like a hand.
+
+"There," the seamstress said. She smiled. It was warm. Genuine. She saw a bride. She saw the dress and the occasion and the start of something, and she had no idea that the woman on her platform was not starting something. She was ending something. Or she was trying to.
+
+"Two more adjustments at the hip," she said. "Then we'll do the veil. Twenty minutes."
+
+She left to get supplies. The fitting room door closed behind her with a soft click, and then it was just Lena and me and twelve reflections.
+
+"He's going to figure you out," Lena said quietly. "Men like that don't stay fooled."
+
+"I don't need him fooled. I need him close."
+
+"There's a difference?"
+
+"A critical one."
+
+Lena shook her head. She stood, smoothing the front of her red wrap dress. She was every colour I wasn't. Bold lipstick, gold hoops, a warmth that radiated from her like heat off pavement. Standing next to her, I looked exactly like what I was: a woman dressed in white who had no business wearing it.
+
+"You know what your problem is?" she said.
+
+"I'm sure you'll tell me."
+
+"You think you can walk into that family, that house, that marriage, and feel nothing. You think you can sit across from him at breakfast and lie next to him at night and stay cold."
+
+"I'm very good at cold."
+
+"Yeah. You are. But what if he's warm?"
+
+I didn't answer. My thumb found my wrist again. The ink. The number. The dead.
+
+What if he's warm. As if warmth were something I needed. As if warmth were anything other than a tactic used by people who wanted something from you. The Marens ran cold, all glass towers and white marble and silence. If the Valentis ran warm, it was because fire was their weapon, and I knew better than to mistake it for comfort.
+
+I looked at myself in the mirror. The dress. The bare shoulders. The dark hair pinned up in a knot so tight my scalp ached. The jaw that people called strong when they meant hard. The mouth that stayed flat because smiling was a currency I didn't spend cheaply.
+
+Eleven days. In eleven days, I would walk down the aisle of a crumbling church in Little Italy toward a man whose family name I'd scratched into the margin of every document, every plan, every late-night list I'd made since I was nineteen years old. I would say vows I didn't mean. I would let him put a ring on my finger. I would move into his house and eat at his table and learn the shape of his empire from the inside, and I would find every crack, every fault line, every place where the structure was weakest.
+
+And then I would pull.
+
+"I need air," I said. "Can you handle the veil fitting?"
+
+Lena blinked. "You're leaving me to make veil decisions? I have terrible taste in veils."
+
+"You have terrible taste in men. Your taste in veils is fine."
+
+"That's the nicest thing you've ever said to me."
+
+I stepped off the platform. The dress pooled at my feet, unhemmed, trailing white silk across the ivory carpet. I gathered the fabric in both hands and walked toward the changing room. Lena watched me go. I could feel her watching. She had that look again, the one she thought she hid, the one that said *I'm scared for you* without using any words at all.
+
+In the changing room, I stood alone. Smaller mirror. Harsher light. The dress was a costume. Everything in my life was a costume. The composed daughter. The dutiful executive. The grieving sister who had packed her grief into a box and labelled it *motivation* and stored it somewhere no one could touch it.
+
+I reached behind my back and unzipped. The silk fell away. Underneath, I was just a body. Lean, scarred on the inside where it didn't show, held together by routine and rage and a plan I'd been sharpening for seven years.
+
+I dressed in my own clothes. Black trousers, cream silk blouse, heels that added two inches and cost nine hundred dollars and made a sound on marble floors that said *I am not someone you ignore.* The Maren uniform. I buttoned the blouse at the wrist, covering the tattoo. Then I uncovered it. Then I covered it again.
+
+*III.*
+
+Marcus. Celia. Sera.
+
+One buried. One cremated. One getting married.
+
+I walked out. Lena was talking to the seamstress about cathedral-length versus fingertip. I caught her eye, mouthed *thank you*, and headed for the entrance.
+
+Kleinfeld was busy. Brides everywhere, real brides, women who giggled and cried and spun in circles while their mothers clutched tissues. I moved through them like a knife through gauze. The door. The street. February air, sharp and clean, hitting my face like a corrective. Manhattan was grey and bright and loud around me, taxis honking, pedestrians weaving, the city doing what it always did: moving forward without caring who it left behind.
+
+I stood on the sidewalk and breathed.
+
+My phone buzzed.
+
+I pulled it from my coat pocket. The screen was bright. One notification. A text message from an unknown number. No contact name. No context. Just ten words that rearranged something inside my chest before I could stop them.
+
+*You should know -- he chose you. Not your father's offer. You.*
+
+I stared at the screen. The letters were black on white. Clear. Certain. They could have meant anything. They could have been a wrong number, a mistake, a misfired message from some other story.
+
+But they weren't. I knew they weren't. Because the feeling that moved through me when I read them was not confusion. It was recognition. The sick, unwanted recognition of a truth you aren't ready to carry.
+
+*He chose you.*
+
+Nico Valenti did not marry for alliance. He did not marry for his mother's negotiations or my father's offer or the terms of a contract hammered out in boardrooms by people who would never have to live inside it.
+
+He chose me.
+
+My thumb hovered over the message. I could feel my heartbeat in my fingertips, in my throat, in the tattoo on my wrist. Three seconds. I gave myself three seconds to feel whatever this was, this tremor, this fracture in the wall, this terrible, inconvenient crack in the architecture of my anger.
+
+Three seconds. Then I deleted the message.
+
+My hands were shaking. I shoved them in my coat pockets and started walking. The city swallowed me. The noise closed in. Above me, the sky was the colour of old steel, pressing down on Manhattan like a lid.
+
+I walked faster.
+
+He chose me. Fine. Let him.
+
+I didn't come here to be chosen. I came here to be a weapon. And weapons don't care who pulls the trigger.
+
+But my hands kept shaking, and I couldn't make them stop.`,
       },
     ],
   },

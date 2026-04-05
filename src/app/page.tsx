@@ -56,7 +56,7 @@ export default function Home() {
             Choose Your World
           </p>
           <h2 className="text-3xl font-bold text-[#1a1a1a] mb-4 text-center">
-            Two series. One subscription.
+            Four series. One subscription.
           </h2>
           <p className="text-[#6b6b6b] text-center mb-16 max-w-lg mx-auto">
             Chapter 1 of each story is always free. No sign-up required.
@@ -64,15 +64,43 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {stories.map((story) => {
-              const isRomantasy = story.genre === "romantasy";
-              // Romantasy: dramatic couple silhouette / Cozy: warm tea & books
-              const bgImage = isRomantasy
-                ? "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&q=80&auto=format"
-                : "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&q=80&auto=format";
+              const genreConfig: Record<string, { label: string; badge: string; gradient: string; button: string; bgImage: string; description: string }> = {
+                "romantasy": {
+                  label: "Spicy Romantasy",
+                  badge: "bg-amber-500 text-black",
+                  gradient: "bg-gradient-to-t from-purple-900/40 to-transparent",
+                  button: "bg-amber-500 text-black hover:bg-amber-400",
+                  bgImage: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&q=80&auto=format",
+                  description: "Kael Ashford reads people's dreams for a living. Not by choice. The empire conquered her homeland and gave her two options: be useful, or die. Then a new commander arrives hiding an impossible secret that could topple the empire, or destroy them both.",
+                },
+                "cozy-mystery": {
+                  label: "Cozy Mystery",
+                  badge: "bg-emerald-500 text-black",
+                  gradient: "bg-gradient-to-t from-emerald-900/40 to-transparent",
+                  button: "bg-emerald-500 text-black hover:bg-emerald-400",
+                  bgImage: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&q=80&auto=format",
+                  description: "Margot Baptiste is fifty-eight, recently widowed, and starting over in a coastal village with twenty-seven jars of tea and a judgmental ginger cat. Then she finds a body in the harbour, and her chemistry teacher brain won't stop noticing things the police missed.",
+                },
+                "bl-romance": {
+                  label: "BL Dark Romance",
+                  badge: "bg-red-500 text-white",
+                  gradient: "bg-gradient-to-t from-slate-900/50 to-transparent",
+                  button: "bg-red-500 text-white hover:bg-red-400",
+                  bgImage: "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=800&q=80&auto=format",
+                  description: "Shin Haneul is an undercover agent embedded in a Korean crime syndicate. His mission: destroy it from the inside. His problem: the enforcer he's supposed to bring down is secretly dismantling the same empire. Both are liars. Both are falling. Neither knows the other's truth.",
+                },
+                "spicy-romance": {
+                  label: "18+ Dark Romance",
+                  badge: "bg-rose-600 text-white",
+                  gradient: "bg-gradient-to-t from-stone-900/50 to-transparent",
+                  button: "bg-rose-600 text-white hover:bg-rose-500",
+                  bgImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80&auto=format",
+                  description: "Sera Maren married Nico Valenti to destroy his family from the inside. He married her because he suspects exactly that. An arranged marriage between rival dynasties where every conversation is a chess move, every touch is a calculated risk, and falling in love means betraying everyone.",
+                },
+              };
 
-              const description = isRomantasy
-                ? "Kael Ashford reads people's dreams for a living. Not by choice. The Caeloran Empire conquered her homeland fifteen years ago and gave her two options: be useful, or die. She's been walking a razor-thin line ever since, feeding the empire just enough intelligence to stay alive while secretly protecting the resistance. Then a new commander arrives, and Kael discovers he's hiding an impossible secret that could topple the empire, or destroy them both."
-                : "Margot Baptiste traded her Sydney chemistry classroom for a tea shop in the sleepy coastal village of Pearl Bay. She's fifty-eight, recently widowed, and learning to build a new life one cup at a time. Then she finds a body tangled in the harbour crab lines at low tide, and her trained eye spots something the police miss: the knots are wrong. With her imperious ginger cat and thirty years of scientific thinking, Margot starts pulling at threads the killer thought were tied tight.";
+              const config = genreConfig[story.genre] || genreConfig["romantasy"];
+              const hasChapters = story.chapters.length > 0;
 
               return (
                 <div
@@ -83,23 +111,11 @@ export default function Home() {
                   <div className="relative h-56 overflow-hidden">
                     <div
                       className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                      style={{ backgroundImage: `url('${bgImage}')` }}
+                      style={{ backgroundImage: `url('${config.bgImage}')` }}
                     />
-                    <div
-                      className={`absolute inset-0 ${
-                        isRomantasy
-                          ? "bg-gradient-to-t from-purple-900/40 to-transparent"
-                          : "bg-gradient-to-t from-emerald-900/40 to-transparent"
-                      }`}
-                    />
-                    <span
-                      className={`absolute top-4 left-4 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full ${
-                        isRomantasy
-                          ? "bg-amber-500 text-black"
-                          : "bg-emerald-500 text-black"
-                      }`}
-                    >
-                      {isRomantasy ? "Spicy Romantasy" : "Cozy Mystery"}
+                    <div className={`absolute inset-0 ${config.gradient}`} />
+                    <span className={`absolute top-4 left-4 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full ${config.badge}`}>
+                      {config.label}
                     </span>
                   </div>
 
@@ -117,19 +133,21 @@ export default function Home() {
                     </p>
 
                     <p className="text-[#4a4a4a] text-sm leading-relaxed mb-6">
-                      {description}
+                      {config.description}
                     </p>
 
-                    <Link
-                      href={`/read/${story.slug}/1`}
-                      className={`inline-block px-6 py-2.5 rounded-full font-semibold text-sm transition-all ${
-                        isRomantasy
-                          ? "bg-amber-500 text-black hover:bg-amber-400"
-                          : "bg-emerald-500 text-black hover:bg-emerald-400"
-                      }`}
-                    >
-                      Read Chapter 1 Free &rarr;
-                    </Link>
+                    {hasChapters ? (
+                      <Link
+                        href={`/read/${story.slug}/1`}
+                        className={`inline-block px-6 py-2.5 rounded-full font-semibold text-sm transition-all ${config.button}`}
+                      >
+                        Read Chapter 1 Free &rarr;
+                      </Link>
+                    ) : (
+                      <span className="inline-block px-6 py-2.5 rounded-full font-semibold text-sm bg-gray-200 text-gray-500">
+                        Coming Soon
+                      </span>
+                    )}
                   </div>
                 </div>
               );
