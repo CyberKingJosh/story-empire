@@ -13,6 +13,23 @@ function SubscribeForm() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
+  // After successful checkout, fetch the session to get the customer email and store it
+  const sessionId = searchParams.get("session_id");
+  const [emailSaved, setEmailSaved] = useState(false);
+
+  // Save email from Stripe session after successful payment
+  if (success && sessionId && !emailSaved) {
+    fetch(`/api/stripe/session?id=${sessionId}`)
+      .then((r) => r.json())
+      .then((data) => {
+        if (data.email) {
+          localStorage.setItem("se_email", data.email);
+          setEmailSaved(true);
+        }
+      })
+      .catch(() => setEmailSaved(true));
+  }
+
   if (success) {
     return (
       <main className="flex-1 bg-white flex items-center justify-center px-6 py-24">
@@ -23,7 +40,7 @@ function SubscribeForm() {
           </h1>
           <p className="text-[#555] mb-8 leading-relaxed">
             Your subscription is active. Check your email for a welcome message,
-            then dive in.
+            then dive in. All chapters are now unlocked.
           </p>
           <Link
             href="/"

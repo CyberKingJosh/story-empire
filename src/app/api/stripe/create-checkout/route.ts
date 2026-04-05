@@ -29,7 +29,7 @@ export async function POST(req: NextRequest) {
       payment_method_types: ["card"],
       customer_email: email,
       line_items: [{ price: priceId, quantity: 1 }],
-      success_url: `${process.env.NEXT_PUBLIC_APP_URL}/subscribe?success=true`,
+      success_url: `${process.env.NEXT_PUBLIC_APP_URL}/subscribe?success=true&session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${process.env.NEXT_PUBLIC_APP_URL}/subscribe?cancelled=true`,
     });
 

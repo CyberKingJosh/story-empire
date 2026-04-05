@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getStory, getChapter } from "@/lib/stories";
+import PaywallGate from "./PaywallGate";
 
 interface PageProps {
   params: Promise<{ slug: string; chapter: string }>;
@@ -19,60 +20,10 @@ export default async function ReadChapter({ params }: PageProps) {
   const isRomantasy = story.genre === "romantasy";
   const accentColor = isRomantasy ? "#b8860b" : "#4a7c3f";
 
-  if (!chapter.isFree) {
-    return (
-      <main className="flex-1 bg-white">
-        <nav className="border-b border-[#e5e5e3] bg-white px-6 py-4">
-          <div className="max-w-3xl mx-auto">
-            <Link href="/" className="text-sm text-[#6b6b6b] hover:text-[#1a1a1a] transition-colors">
-              &larr; Back to Story Empire
-            </Link>
-          </div>
-        </nav>
-        <div className="max-w-lg mx-auto px-6 py-20 text-center">
-          <h1 className="text-2xl font-bold text-[#1a1a1a] mb-2">
-            {story.title}
-          </h1>
-          <p className="text-[#6b6b6b] mb-8">
-            Chapter {chapter.number}: {chapter.title}
-          </p>
-          <div className="bg-[#fafaf8] border border-[#e5e5e3] rounded-xl p-8">
-            <p className="text-[#555] mb-6">
-              This chapter is available to subscribers.
-            </p>
-            <Link
-              href="/subscribe"
-              className="inline-block text-white font-semibold px-6 py-3 rounded-lg transition-colors"
-              style={{ backgroundColor: accentColor }}
-            >
-              Subscribe &mdash; AU$4.99/month
-            </Link>
-          </div>
-        </div>
-      </main>
-    );
-  }
-
   const paragraphs = chapter.content.split("\n\n").filter(Boolean);
 
-  return (
-    <main className="flex-1 bg-white">
-      {/* Nav */}
-      <nav className="border-b border-[#e5e5e3] bg-white px-6 py-4">
-        <div className="max-w-3xl mx-auto flex items-center justify-between">
-          <Link href="/" className="text-sm text-[#6b6b6b] hover:text-[#1a1a1a] transition-colors">
-            &larr; Back to Story Empire
-          </Link>
-          <Link
-            href="/subscribe"
-            className="text-sm font-semibold hover:opacity-80 transition-opacity"
-            style={{ color: accentColor }}
-          >
-            Subscribe
-          </Link>
-        </div>
-      </nav>
-
+  const chapterContent = (
+    <>
       {/* Chapter header */}
       <header className="bg-white border-b border-[#e5e5e3] py-12 px-6 text-center">
         <span
@@ -117,26 +68,70 @@ export default async function ReadChapter({ params }: PageProps) {
 
         {/* End of chapter CTA */}
         <div className="mt-20 pt-10 border-t border-[#e5e5e3] text-center">
-          <p
-            className="text-xl text-[#1a1a1a] mb-2 italic"
-            style={{ fontFamily: "Georgia, serif" }}
-          >
-            {isRomantasy
-              ? "This changed everything..."
-              : "Well? Are you going to figure it out or not?"}
-          </p>
-          <p className="text-[#999] text-sm mb-8">
-            Chapter 2 drops next week. Subscribe to get notified.
-          </p>
-          <Link
-            href="/subscribe"
-            className="inline-block px-7 py-3 rounded-lg font-semibold text-white text-base transition-colors"
-            style={{ backgroundColor: accentColor }}
-          >
-            Subscribe &mdash; AU$4.99/month
-          </Link>
+          {chapter.number < 4 ? (
+            <>
+              <p className="text-[#999] text-sm mb-4">
+                Continue reading
+              </p>
+              <Link
+                href={`/read/${story.slug}/${chapter.number + 1}`}
+                className="inline-block px-7 py-3 rounded-lg font-semibold text-white text-base transition-colors"
+                style={{ backgroundColor: accentColor }}
+              >
+                Chapter {chapter.number + 1} &rarr;
+              </Link>
+            </>
+          ) : (
+            <>
+              <p
+                className="text-xl text-[#1a1a1a] mb-2 italic"
+                style={{ fontFamily: "Georgia, serif" }}
+              >
+                {isRomantasy
+                  ? "The corridor pulled her in like a breath..."
+                  : "She didn't move until she heard Nina's knock."}
+              </p>
+              <p className="text-[#999] text-sm mb-8">
+                New chapters every week. Stay subscribed to keep reading.
+              </p>
+            </>
+          )}
         </div>
       </article>
+    </>
+  );
+
+  // Free chapters render directly, paid chapters go through PaywallGate
+  return (
+    <main className="flex-1 bg-white">
+      {/* Nav */}
+      <nav className="border-b border-[#e5e5e3] bg-white px-6 py-4">
+        <div className="max-w-3xl mx-auto flex items-center justify-between">
+          <Link href="/" className="text-sm text-[#6b6b6b] hover:text-[#1a1a1a] transition-colors">
+            &larr; Back to Story Empire
+          </Link>
+          <Link
+            href="/subscribe"
+            className="text-sm font-semibold hover:opacity-80 transition-opacity"
+            style={{ color: accentColor }}
+          >
+            Subscribe
+          </Link>
+        </div>
+      </nav>
+
+      {chapter.isFree ? (
+        chapterContent
+      ) : (
+        <PaywallGate
+          storyTitle={story.title}
+          chapterNumber={chapter.number}
+          chapterTitle={chapter.title}
+          accentColor={accentColor}
+        >
+          {chapterContent}
+        </PaywallGate>
+      )}
 
       {/* Footer */}
       <footer className="border-t border-[#e5e5e3] bg-white px-6 py-8">
