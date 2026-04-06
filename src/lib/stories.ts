@@ -1,6 +1,12 @@
 // Story data — serves chapters from the /stories directory
 // In production, this would come from a database. For localhost, we use static data.
 
+export interface ChapterIllustration {
+  afterParagraph: number; // insert after this paragraph index
+  src: string;
+  alt: string;
+}
+
 export interface Chapter {
   number: number;
   title: string;
@@ -8,7 +14,34 @@ export interface Chapter {
   isFree: boolean;
   headerImage?: string;
   audioUrl?: string;
+  illustrations?: ChapterIllustration[];
 }
+
+// Illustration map — which illustration goes in which chapter, after which paragraph
+export const chapterIllustrations: Record<string, Record<number, ChapterIllustration[]>> = {
+  "the-ember-throne": {
+    1: [{ afterParagraph: 3, src: "/illustrations/romantasy/ch01-dream-reading.png", alt: "Kael reading dreams in the stone chamber" }],
+    2: [{ afterParagraph: 5, src: "/illustrations/romantasy/ch02-voss-office.png", alt: "Commander Voss at his desk in amber light" }],
+    4: [{ afterParagraph: 8, src: "/illustrations/romantasy/ch04-dream-library.png", alt: "The dream library, golden light and floating energy" }],
+  },
+  "the-steeping-room-mysteries": {
+    1: [{ afterParagraph: 6, src: "/illustrations/cozy-mystery/ch01-harbour-dawn.png", alt: "Margot walking Professor Whiskers along the harbour at dawn" }],
+    2: [{ afterParagraph: 10, src: "/illustrations/cozy-mystery/ch02-steeping-room.png", alt: "The Steeping Room tea house interior" }],
+    4: [{ afterParagraph: 12, src: "/illustrations/cozy-mystery/ch04-podcast-recording.png", alt: "Margot and Nina recording the podcast" }],
+  },
+  "crimson-vow": {
+    1: [{ afterParagraph: 5, src: "/illustrations/bl-romance/ch01-haneul-neon.png", alt: "Haneul in the neon-lit alley of Hagu-dong" }],
+    2: [{ afterParagraph: 6, src: "/illustrations/bl-romance/ch02-the-house.png", alt: "The House — Yun Syndicate headquarters" }],
+    3: [{ afterParagraph: 10, src: "/illustrations/bl-romance/ch03-ramyeon-shop.png", alt: "Haneul and Dowan at Jung's ramyeon shop" }],
+    4: [{ afterParagraph: 8, src: "/illustrations/bl-romance/ch04-sedan.png", alt: "Two figures in the back of a sedan, city lights streaking past" }],
+  },
+  "brutal-vows": {
+    1: [{ afterParagraph: 4, src: "/illustrations/spicy-romance/ch01-fitting-sera.png", alt: "Sera in the bridal fitting room" }],
+    2: [{ afterParagraph: 6, src: "/illustrations/spicy-romance/ch02-rehearsal-dinner.png", alt: "The rehearsal dinner at the Ashford Hotel" }],
+    3: [{ afterParagraph: 5, src: "/illustrations/spicy-romance/ch03-wedding-sera.png", alt: "Sera at the altar of St. Cecilia's" }],
+    4: [{ afterParagraph: 8, src: "/illustrations/spicy-romance/ch04-compound-piano.png", alt: "The Valenti compound hallway at night" }],
+  },
+};
 
 export interface Story {
   slug: string;

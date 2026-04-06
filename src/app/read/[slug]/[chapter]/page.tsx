@@ -1,6 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getStory, getChapter } from "@/lib/stories";
+import { getStory, getChapter, chapterIllustrations } from "@/lib/stories";
 import PaywallGate from "./PaywallGate";
 
 interface PageProps {
@@ -55,7 +56,12 @@ export default async function ReadChapter({ params }: PageProps) {
       {/* Chapter content */}
       <article className="max-w-2xl mx-auto px-6 py-14">
         <div className="prose-chapter">
-          {paragraphs.map((p, i) => {
+          {(() => {
+            const illustrations = chapterIllustrations[story.slug]?.[chapter.number] || [];
+            const illustrationMap = new Map(illustrations.map(ill => [ill.afterParagraph, ill]));
+            let paraIdx = 0;
+
+            return paragraphs.map((p, i) => {
             if (p.startsWith("# ")) return null;
             if (p === "---") {
               return (
@@ -69,13 +75,30 @@ export default async function ReadChapter({ params }: PageProps) {
               );
             }
             const text = p.replace(/\*(.*?)\*/g, "<em>$1</em>");
+            const currentIdx = paraIdx++;
+            const illustration = illustrationMap.get(currentIdx);
+
             return (
+              <div key={i}>
               <p
-                key={i}
                 dangerouslySetInnerHTML={{ __html: text }}
               />
+              {illustration && (
+                <div className="my-10 -mx-6 md:-mx-16">
+                  <Image
+                    src={illustration.src}
+                    alt={illustration.alt}
+                    width={768}
+                    height={1024}
+                    className="w-full rounded-lg shadow-lg"
+                    style={{ maxHeight: '500px', objectFit: 'cover' }}
+                  />
+                </div>
+              )}
+              </div>
             );
-          })}
+          });
+          })()}
         </div>
 
         {/* End of chapter CTA */}
