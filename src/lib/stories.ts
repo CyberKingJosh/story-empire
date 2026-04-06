@@ -2148,6 +2148,704 @@ I was still me.
 
 Nine a.m.`,
       },
+      {
+        number: 2,
+        title: "The House",
+        isFree: false,
+        content: `The building looked dead from the outside. That was the point.
+
+I stood across the street at eight fifty-three in the morning, smoking a Raison Blue and cataloguing every detail the way Minjun had trained me to. Peeling grey paint curling off reinforced concrete walls in strips that reminded me of burnt skin. Ground-floor windows boarded with plywood so weathered it had gone the colour of bone. A rusted loading dock on the harbour side where seagulls fought over something I couldn't see and didn't want to. The whole structure sat on the waterfront like a corpse that hadn't been identified yet, and if you were a tourist, or a cop, or anyone who hadn't been invited, you'd walk past it without a second glance.
+
+Hagu-dong was overcast. The harbour fog had burned off enough to reveal a sky the colour of dishwater, and the air tasted like salt and diesel fuel and the particular metallic tang that meant rain was coming but hadn't committed. Behind me, a delivery truck idled outside a shuttered fish market, its exhaust mixing with steam from a pojangmacha where an old woman was already boiling tteokbokki for the lunch crowd, the red pepper smell so thick it coated the back of my throat.
+
+I finished the cigarette. Dropped it. Crushed it under my boot.
+
+Eight fifty-five. Five minutes to become a different kind of liar.
+
+The entrance was on the east side. No sign, no buzzer. Just a steel door painted the same grey as the walls and a man standing beside it who was roughly the dimensions of a commercial refrigerator. He looked at me with the expression of someone who had been hired specifically for his lack of expression.
+
+"Han," I said. "Dowan's office. Nine o'clock."
+
+He didn't respond. He pressed something on his phone, waited, then stepped aside. The steel door buzzed and I pulled it open and stepped into the Yun Syndicate's throat.
+
+The contrast hit like a slap.
+
+Outside: decay. Inside: control. The entrance corridor was polished concrete, seamless, lit by recessed LEDs that threw a cool, even light without shadows. The air smelled different in here. Climate-controlled, faintly chemical, the smell of money spent on things you couldn't see. Ventilation, soundproofing, the kind of infrastructure that said this building had been gutted and rebuilt from the inside, its rotten shell kept as camouflage around a body of steel and glass.
+
+I walked. My boots were quiet on the concrete. My hands were in my jacket pockets, and my right thumb turned the silver ring against my knuckle, a rhythm that nobody could see and I couldn't stop.
+
+The ground floor was open-plan. A long zinc-topped bar ran along the left wall, bottles arranged behind it with the precision of a museum display. Whiskey, mostly. Japanese and Korean. A few Scotches that cost more than my monthly cover stipend. The furniture was minimal: low leather couches, black, arranged around glass coffee tables. A few men in dark clothing sat in the far corner, talking quietly. They glanced at me and looked away. Nobody smiled. Nobody nodded. The social temperature of this room was approximately zero.
+
+Ahead: a staircase, industrial steel with open treads. A camera mounted above it, the lens tracking my approach with a soft mechanical whir.
+
+"Don't touch the railing."
+
+The voice came from behind me. I turned.
+
+Park Seojin was leaning against the bar with his arms crossed and a look on his face that suggested I'd already failed a test I didn't know I was taking. He was exactly how the file described him: wiry, quick, with sharp features and bleached blond hair that stuck up in calculated chaos. An oversized black hoodie hung off his frame, sleeves pushed to the elbows, revealing forearms corded with lean muscle. An eyebrow piercing caught the LED light. He was twenty-five and looked like a knife someone had dressed in streetwear.
+
+"Seojin?" I asked.
+
+"Seo." He pushed off the bar. "Nobody calls me Seojin except my mother, and she's dead, so." He walked past me toward the stairs, not checking to see if I followed. "Keep up. He doesn't like waiting."
+
+I kept up. First flight: the staircase opened onto a corridor of closed doors. Second flight: another corridor, narrower, with the same polished concrete and recessed lighting. Seojin moved fast, his sneakers silent on the stairs, and I matched his pace while my eyes did what they'd been trained to do. Four cameras on the ground floor, visible. Two on the second floor, positioned to cover both ends of the corridor. The doors were solid, no windows. Keycard access, from the looks of the electronic panels beside each one. Whoever had designed the interior security had been thorough and paranoid, which in this business meant they'd been right.
+
+"How long have you been collecting?" Seojin asked without turning around.
+
+"Two years."
+
+"For us?"
+
+"Who else?"
+
+He snorted. The sound contained no amusement. "Lot of people collect debts in Hagu-dong. Most of them are stupid. You're not stupid. That's what I hear."
+
+"I just follow the numbers."
+
+"Right." He stopped at the bottom of the third flight and turned to face me. His eyes were dark, quick, and they moved over my face the way a butcher assesses a cut of meat. Looking for the line where the knife should go. "Here's the thing, Han. I've been with Dowan since I was sixteen. Nine years. I've watched a lot of men walk into this building thinking they were smart enough to matter. Most of them are gone. Some of them left on their own feet. Some of them didn't."
+
+"That a warning?"
+
+"It's a weather report." He smiled. It didn't reach anything above his mouth. "Don't get lost."
+
+He turned and climbed the last flight. I followed, filing every word, every micro-expression, every detail of the route into the architecture of my memory where Minjun's recorder couldn't reach. The hostility wasn't personal. Or rather, it was entirely personal and had nothing to do with me. Seojin was territorial. I was an intruder in his hierarchy, a stranger being elevated past people who'd bled for their position. His instinct was sound.
+
+That made him dangerous.
+
+Third floor. The corridor here was shorter. Two doors only. One on the left, closed, with a heavier frame than the others and no electronic panel. Just a deadbolt. A room that was locked the old-fashioned way, with a key, and I noted it the way I noted everything: calmly, completely, and with the awareness that nothing in this building was accidental.
+
+Seojin caught me looking. His jaw tightened for half a second before he jerked his chin toward the door on the right.
+
+"Through there. He's waiting."
+
+He didn't follow me in. He leaned against the corridor wall, arms crossed again, and watched me open the door with an expression I couldn't read and didn't try to.
+
+---
+
+Dowan's office was light.
+
+That was the first thing. After the controlled dimness of the corridors, the room was almost shockingly bright. Floor-to-ceiling windows filled the entire far wall, and beyond them, the harbour stretched out in a panorama of grey water, grey sky, and the rusted geometry of container cranes at Pier 9, their arms frozen mid-reach like metal skeletons praying. The morning light came through the glass diffused by cloud cover, soft and even, and it turned everything in the room into a study in muted tones.
+
+The office was sparse. A black lacquer desk, large, positioned so its occupant faced the door with the harbour at his back. A single chair in front of it. No personal effects on the desk except a laptop, a glass of water, and a ceramic pot containing an orchid. White petals, a single stem, improbably alive in a room that felt like it had been designed to discourage living things. Along the left wall, a bank of monitors showed CCTV feeds in silent rotation: the ground floor, the entrance, the loading dock, angles of Hagu-dong streets I recognised. The wall of eyes. Jaewon's eyes, distributed throughout the district, and this room was where they converged.
+
+The chair behind the desk was occupied.
+
+Yun Dowan did not look up when I entered.
+
+He was reading something on the laptop screen, his face lit from below by the pale glow, and I stood three feet inside the door and waited. The file had given me photographs. Surveillance stills, mostly, grainy, shot from distance. They hadn't prepared me for the physical fact of him.
+
+He was larger than the photographs suggested. Broad through the shoulders and chest, the kind of build that came from use, not vanity, filling out a black shirt that was tailored well enough to follow the lines of his body without straining. His jaw was square, heavy, and his brows were thick and straight above eyes that, in the harbour light, appeared almost black. His hair was cropped close on the sides, longer on top, styled with a precision that said someone took care with it every morning. His mouth was set in a line that communicated nothing.
+
+On his left hand, where it rested beside the laptop, I could see the tattoo. A black chrysanthemum, the petals detailed and dense, covering the back of his hand and wrapping around his wrist before disappearing beneath his sleeve. The Yun family mark. Ink that said ownership the way a brand says ownership, and I thought of cattle, and then I thought of nothing, because he looked up.
+
+The weight of his attention was physical. Not threatening, exactly. Worse. Thorough. His eyes moved from my face to my shoulders to my hands to my boots and back to my face in a circuit that took perhaps four seconds and left me with the distinct impression that he now knew things about me I hadn't told him.
+
+I held still. I kept my face in its default register: mild, attentive, the expression of a man who was competent and uncomplicated and had nothing to hide. Inside, every nerve I owned was firing at a frequency I hadn't felt since training.
+
+"Han." His voice was quiet. Not soft. Quiet the way a room goes quiet before the verdict. Low, unhurried, with a texture like gravel under water. "Sit."
+
+I sat. The chair was wood, uncomfortable by design. Everything in this room served a purpose, and the purpose of this chair was to remind its occupant that they were not comfortable here.
+
+Dowan closed the laptop. Placed his hands flat on the desk, one on each side, the chrysanthemum tattoo vivid against the black lacquer. His fingers were long, the knuckles thickened and scarred, skin split and re-healed over years until the bones beneath looked like they'd been set wrong and corrected by someone who wasn't a doctor.
+
+"Bae's restructure," he said. "The restaurant owner."
+
+"Approved?"
+
+"Being reviewed. You recommended leniency on a fifty-three-million-won default. That's unusual for a collector."
+
+"A dead debtor doesn't generate revenue. A breathing one does. It's arithmetic."
+
+Something shifted in his expression. Not a smile. The ghost of a place where a smile would go, if he were the kind of man who offered them to strangers. "My father's people wanted to liquidate him completely. Take the restaurant, the car, the insurance, and send someone to explain the interest in person. You know what that means."
+
+"I know what that means."
+
+"You talked them into a restructure instead. With a revenue-indexed repayment schedule. That's not arithmetic. That's creative."
+
+I said nothing. Silence was a tool Minjun had taught me early: let the other person fill it. They'll tell you what they think while trying to make you tell them what you know.
+
+Dowan studied me. The harbour light shifted as a cloud moved, and for a moment his face was in shadow, the angles harder, the eyes darker. Then the light returned, and he leaned back in his chair.
+
+"Your file says you did two years in Chungju for assault. Discharged from the army before that. No education past high school."
+
+"That's what it says."
+
+"A man with no education past high school doesn't build a revenue-indexed repayment schedule."
+
+"A man in Chungju has a lot of time to read."
+
+His eyes stayed on mine. Two seconds. Three. The silence was a living thing in the room, and I let it breathe, let it sit between us like a third party who knew more than either of us was saying.
+
+"I have a job for you," he said. "A test, if you want to call it that."
+
+"I'd rather call it a job. Tests imply I might fail."
+
+"You might." He opened a drawer, pulled out a slim folder, and slid it across the desk. "Nam Jungsoo. Owns a construction company in Sangji District. He borrowed two hundred million won through a chain of intermediaries that trace back to us. He's been under police protection for three weeks because he went to the fraud division with a sudden attack of conscience. He's untouchable by conventional collection methods."
+
+I opened the folder. A photograph clipped to the first page: a man in his fifties, soft-faced, wearing a suit that cost more than my apartment's annual rent. An address in Sangji. Police incident reports. Financial statements.
+
+"The fraud division is protecting him because he's offering testimony against the lending chain," I said, scanning. "Not against the Syndicate directly. Against the intermediaries."
+
+"Correct. Which means the police think he's a witness, not a debtor. And we need the money back without creating a trail that connects the lending chain to us."
+
+"You want me to collect two hundred million won from a man surrounded by cops."
+
+"I want you to collect it without anyone knowing it was collected. No threats. No violence. No contact that can be documented. If you can do that, we'll have a longer conversation about your future here."
+
+I closed the folder. Behind Dowan, through the floor-to-ceiling windows, a container ship was moving through the harbour, slow and enormous, its hull the red-brown of dried blood. Seagulls wheeled above it. The cranes at Pier 9 hadn't moved.
+
+"Timeline?" I asked.
+
+"One week."
+
+"I'll need access to his financial records. The real ones, not the police filings."
+
+"Mirae will provide them. Anything else?"
+
+"Quiet. I need everyone else off this. No Seojin, no backup, nobody watching. If the cops smell Syndicate attention, the protective detail doubles and we lose the window."
+
+His eyes narrowed by a fraction. Not suspicion. Assessment. I could feel him weighing me, and the sensation was not unlike being held underwater by someone deciding whether to let you breathe.
+
+"Granted," he said. "Report to me directly. Not to my father's people. Me."
+
+"Understood."
+
+I stood. Tucked the folder under my arm. Turned for the door.
+
+"Han."
+
+I stopped.
+
+"The orchid." I turned back. He was looking at the white flower on his desk, and for the smallest fragment of a second, the mask he wore was not a mask. The something underneath it was not anger or authority or assessment. It was care. The careful attention of a man watching something fragile that he'd chosen to keep alive. Then it was gone, and he was looking at me again with those black, flat, unreadable eyes.
+
+"Close the door when you leave."
+
+I closed it. In the corridor, Seojin was still leaning against the wall, watching me with the unblinking focus of a cat deciding whether something was prey.
+
+"Still breathing?" he asked.
+
+"Apparently."
+
+"Enjoy it." He peeled off the wall and headed for the stairs. "That feeling doesn't last around here."
+
+---
+
+I didn't go straight home.
+
+I walked. Through Hagu-dong's morning shift, which was a different animal than its night. The neon was off and the streets looked worse for it: grease-stained concrete, cracked sidewalks, the shuttered fronts of bars that only had faces after dark. Delivery scooters buzzed through the narrow lanes. A grandmother in a floral housecoat was hanging laundry on a rooftop line four stories up, the sheets snapping in the harbour wind like white flags of surrender. The smell was different too. Morning Hagu-dong smelled like fish guts from the market, exhaust from the buses on the main road, and coffee from the single franchise cafe that had opened on the corner of Block 3 and was slowly being rejected by the neighbourhood like a transplanted organ.
+
+My head was full.
+
+Dowan's office. The sparse control of it. The monitors on the wall, the harbour light, the orchid sitting on that black desk like a single note of colour in a room that had been drained of everything inessential. The way he'd looked at me like he was reading a language he didn't trust himself to translate.
+
+The locked door on the third floor. Deadbolt, no electronic panel, no camera visible. Everything else in The House was surveilled, catalogued, controlled. That door was different. That door was private. Dowan had seen me notice it, and I'd seen his jaw shift when he did, a muscle tightening along the hinge of his mandible that told me the room behind that lock was something he guarded.
+
+I filed it. All of it. The camera positions, the staff layout, the security protocols, the architecture. I would give Minjun the floor plan at our next meeting. I would describe Jaewon's office on the top floor, which I hadn't seen but which Seojin had gestured toward when he'd said, with a casual menace that impressed me despite myself, "Don't go up there unless you're invited. People who go up uninvited come back different. If they come back."
+
+I would describe Dowan. Height, build, appearance, speech patterns, the chrysanthemum tattoo, the scarred knuckles. I would describe the test he'd given me and its parameters. I would be professional and thorough and I would give Minjun everything he needed to update the operational file on the Yun Syndicate's interior.
+
+What I would not describe was the orchid. The way Dowan's face had changed when he looked at it, for that fraction of a second, like a door opening onto a room I wasn't supposed to see. That detail was not operationally relevant. It was personal. It told me nothing about drug pipelines or political connections or shipping manifests.
+
+It told me he was capable of tenderness. And that was the most dangerous piece of intelligence I'd collected in twenty-six months.
+
+I turned onto Block 7's street. The apartment building rose ahead of me, water-stained and sulking, and the broken elevator was a fact of life I no longer resented because four flights of stairs kept me sharp. The stairwell smelled like bleach and someone else's cigarettes. Fourth floor. My door. The karaoke sign across the alley was off in the daylight, just dead glass and metal, and I unlocked the door and went inside and stood in the middle of my one-room performance and thought about the folder under my arm.
+
+Nam Jungsoo. Two hundred million won. Police protection. One week.
+
+I pulled the chair from the counter and sat down and opened the folder and began to work.
+
+Somewhere in the back of my mind, in the room where I kept the things I didn't let myself examine, a white orchid bloomed on a black desk, and a man with scarred knuckles touched it the way you touch something you're afraid of losing.
+
+I turned the page.
+
+The test had started.`,
+      },
+      {
+        number: 3,
+        title: "Collection",
+        isFree: false,
+        content: `Nam Jungsoo lived on the fourteenth floor of a Sangji District high-rise that looked like it had been designed by someone who confused money with taste. Glass and brushed steel, a lobby with marble floors and a concierge desk staffed by a woman who smiled like she was being paid by the tooth. The kind of building where people paid thirty million won a year in maintenance fees and still complained about the water pressure.
+
+I didn't go through the lobby.
+
+I'd spent four days building a pressure profile on Nam Jungsoo, and the picture it painted was the portrait of a man who had mistaken running for a plan. His construction company, Namsung Development, held three active permits in the Sangji redevelopment zone. His wife, a woman named Cho Eunji, taught piano at a private academy in Haeundae and drove a white Mercedes SUV she'd bought with money that had passed through four shell companies before landing in her account. His daughter was nineteen, studying abroad at a university in Melbourne whose tuition was roughly the GDP of a small fishing village. He attended a Presbyterian church on Sundays, played golf at the Haemun Country Club on Wednesdays, and on Tuesdays and Thursdays between two and five in the afternoon, he visited an apartment in Jungang-dong that was leased under the name of a woman named Shin Yuna, age twenty-six, who worked at a hostess bar in Sangji and who was not his wife.
+
+That last detail wasn't in the file Dowan had given me. Mirae's financial records had shown a recurring monthly transfer of four million won to an account registered to a "personal services consultant." A vague enough description to be anything. But the payment dates aligned with a pattern in Jungsoo's credit card transactions: a restaurant in Jungang-dong every Tuesday, a hotel in the same neighbourhood every Thursday, both charges appearing and disappearing within a six-month window before being replaced by the lease payment. He'd moved his mistress into her own apartment. Upgraded from hotels. The progression of a man getting comfortable.
+
+I found Yuna through the lease records Mirae had pulled. I didn't approach her. I didn't need to. What I needed was the fact of her, and the fact that Jungsoo's wife didn't know, and the fact that the police protective detail assigned to Jungsoo was monitoring his safety, not his fidelity. The fraud division cared about his testimony against the lending chain. They did not care about where he spent his Tuesday afternoons.
+
+People always assumed debt collection was about force. About men with scarred knuckles showing up at your door and explaining the mathematics of pain. Sometimes it was. But the cleanest collections, the ones that left no trail and no bruises, were built on something quieter. Information. The gap between who a person presented themselves to be and who they actually were. Everyone had that gap. My entire existence was that gap. The trick was finding the right pressure point: the place where the gap was widest and the fear of exposure was greater than the cost of compliance.
+
+Jungsoo's gap was a twenty-six-year-old woman in a Jungang-dong apartment, and the forty-year marriage that would detonate if her name surfaced in the fraud investigation testimony he was currently volunteering.
+
+---
+
+On the fifth day, I found him.
+
+Not at the Sangji high-rise. Not at the apartment in Jungang-dong. I found him at a coffee shop three blocks from the courthouse where he'd been giving his deposition, a sleek glass-fronted place with too many plants and a barista who took his work personally. Jungsoo was sitting at a corner table with a paper cup he hadn't touched, staring out the window at the street where his police escort, two plainclothes detectives in a silver Kia, were parked at the kerb and looking spectacularly bored.
+
+I ordered an Americano. Sat at the table beside his. Opened a newspaper I'd bought from the stand outside.
+
+"Mr. Nam."
+
+He looked at me the way people look at strangers who know their name: with the careful, calibrated fear of a man calculating how many steps it was to the door.
+
+"Who are you?"
+
+"Nobody important. I'm going to talk for about ninety seconds, and then I'm going to leave, and you're going to finish your coffee and go home and think about what I've said. That's all."
+
+His hand moved toward his phone. I shook my head once, the smallest motion.
+
+"The detectives outside are watching the entrance and the south window. We're at the north wall. They can't see us, and this conversation isn't happening. If you call them over, I'll leave before they reach the door, and the next conversation will be less polite. I am the polite version, Mr. Nam. You don't want the other version."
+
+He stopped reaching for the phone. His face had gone the colour of wet cement.
+
+"Two hundred million won," I said. "You know who it belongs to. The fraud division thinks you borrowed from the intermediaries. You and I both know the chain doesn't stop there. You're giving testimony about the middle of a ladder while pretending the top and bottom don't exist."
+
+"I don't know what you're talking about."
+
+"Jungang-dong. Apartment 14-03. Lease registered to Shin Yuna."
+
+The cement colour drained into something closer to ash. His mouth opened. Nothing came out.
+
+"Your wife is Cho Eunji. Teaches piano. Drives a white Mercedes, license plate Gyeonggi 48-7702. Your daughter is studying in Melbourne on money that Mrs. Cho believes came from the Namsung pension fund. It didn't. It came from the same source as the two hundred million, and if Mrs. Cho's lawyers get involved in a divorce proceeding, the discovery process will make the fraud division's investigation look like a children's game."
+
+"You can't..."
+
+"I'm not threatening you. I'm describing a sequence of events that will occur if the two hundred million isn't returned within seventy-two hours. Not to us. To the intermediary account you originally drew from. The same one you reported to the police. You'll simply... settle your balance. The police will see a debtor honouring his obligation. No Syndicate connection. No trail. And the information about Jungang-dong stays exactly where it is now, which is nowhere."
+
+He was breathing through his mouth. Short, shallow pulls of air that fogged the window beside him in uneven patches. The coffee sat untouched. The newspaper in my hands was open to the business section, and to anyone glancing over, we were two men sitting at adjacent tables, one reading, one staring at nothing.
+
+"Seventy-two hours," I said. "The account number is written on the napkin under your cup. I put it there before you sat down."
+
+His eyes dropped to the cup. His hand trembled as he lifted it. The napkin was there, folded once, with a string of numbers in blue ink that I'd written in a hand nothing like my own.
+
+I stood. Folded the newspaper. Left the Americano on the table with enough cash to cover it and a tip that the barista would remember as generous and the face behind it as forgettable.
+
+At the door, I didn't look back. The detectives in the silver Kia were watching the entrance now, and I turned right, away from their sightline, and walked two blocks north before cutting through a department store and exiting on the opposite street. I caught the 302 bus back to Hagu-dong and sat in the rear seat and watched Sangji's glass towers shrink in the window until they were replaced by the low, stained concrete of the docklands, and the buildings got shorter, and the sky got closer, and I was home.
+
+The whole thing had taken eleven minutes.
+
+---
+
+Dowan was in his office when I reported the next evening. Same desk, same harbour light, same orchid. The container cranes at Pier 9 were lit against the darkening sky, floodlights making them glow like the bones of something prehistoric.
+
+I placed the folder on his desk, open to the confirmation page. A wire transfer of two hundred million won, routed through the intermediary account, timestamped fourteen hours after our coffee shop meeting. Jungsoo had needed less than a day. Fear will do that. The right kind of fear, applied to the right pressure point, and people move faster than you'd believe possible.
+
+Dowan looked at the confirmation. Then at me. Then back at the confirmation.
+
+"Sit down," he said.
+
+I sat. The uncomfortable wooden chair. The harbour behind him had gone the colour of ink, and the office lights reflected in the windows, doubling the room, creating a ghost version of us floating over the water.
+
+"Walk me through it."
+
+I walked him through it. The cover version: Jungsoo had financial exposure through his personal life that made continued police cooperation riskier than settling his debt. I'd identified the exposure. Applied it. He'd paid.
+
+"What kind of personal exposure?"
+
+"An affair. The mistress is in a Jungang-dong apartment. His wife doesn't know. A divorce proceeding would open financial discovery that would unravel everything the fraud division is building, which means Jungsoo's own testimony becomes a weapon against him. He understood that."
+
+"You found a mistress that the police protective detail missed."
+
+"The police weren't looking for a mistress. They were looking for threats."
+
+"And you were looking for leverage."
+
+"I was looking for whatever would work."
+
+He leaned back. The chair creaked. His hands rested on the arms, the chrysanthemum tattoo dark against the chrome, and his knuckles caught the light in a way that made the scar tissue look like quartz seams in stone.
+
+"No contact with the target's family. No threats documented. No violence. No Syndicate fingerprint anywhere on the transaction."
+
+"That was the brief."
+
+"The brief was a test, Han. Most people fail it by being too aggressive or too slow. You did neither." He paused. The silence had texture. "You built a pressure profile. Behavioural patterns, financial cross-referencing, relationship mapping. You found leverage that required access to records most street collectors wouldn't know how to read, let alone think to request."
+
+I kept my face still. The words were praise, but the delivery was dissection. He was taking apart my method the way a mechanic takes apart an engine, looking for parts that didn't belong.
+
+"Mirae provided the financial records," I said. "I just read them."
+
+"You read them like someone who's been trained to read them."
+
+"Chungju had a library."
+
+"Chungju's library doesn't teach intelligence tradecraft."
+
+The word landed in the room like a stone in still water. Intelligence. Not business. Not street smarts. He'd chosen that word deliberately, and the ripples from it touched every wall.
+
+I let two seconds pass. Then I let my mouth pull into the half-grin that Han, the collector, wore when someone came too close to something he didn't want examined. Cocky. A little mean. The face of a man who found the accusation funny because it was absurd.
+
+"Tradecraft," I said. "That's a big word for a guy who reads credit card statements."
+
+"It is."
+
+He didn't smile. He didn't look away. His eyes held mine with the steady, unblinking focus of someone who had decided to see me and was no longer interested in what I was showing him. The harbour light was gone now, replaced by the cold white of the office LEDs, and in that light his face was all planes and shadows and the dimple on his left cheek was invisible, as if even his body knew this wasn't a moment for softness.
+
+"Get up," he said. "We're going somewhere."
+
+---
+
+The car was a black Genesis sedan that smelled like leather and the ghost of Dowan's cologne, something clean and woody with a bitter edge that sat at the back of my throat. He drove. I sat in the passenger seat and didn't ask where we were going because asking would mean I cared, and Han, the collector, didn't care about destinations. He cared about getting paid.
+
+We drove south through Hagu-dong. The streets were narrow and wet from an afternoon rain that had passed through without breaking the humidity, and the neon was on now, pink and blue and the sick yellow of a pawnshop sign that buzzed like something dying. Dowan drove the way he spoke: controlled, unhurried, with a precision that left no room for error or spontaneity. His left hand rested on the wheel, the chrysanthemum visible even in the intermittent streetlight. His right hand was on the gear shift, and I noticed the second tattoo for the first time: a thin line along his right collarbone, visible where his shirt collar fell open. Musical notation. Small enough to miss if you weren't looking. I was always looking.
+
+He pulled over on a side street I didn't recognise. Between a shuttered dry cleaner and a building supply store with a faded awning, there was a door. Not a storefront. Just a door, wooden, with a pane of frosted glass in the upper half that glowed warm amber from inside.
+
+No sign. No markings. The kind of place you only found if someone showed you where it was.
+
+"Come on," Dowan said. He killed the engine and got out.
+
+Inside, the world changed.
+
+The shop was small. Eight seats at a worn wooden counter that had been polished by decades of elbows and wet bowls until the grain had darkened to the colour of honey. Behind the counter, a kitchen the size of a closet, every surface covered with something functional: jars of dried anchovies and kelp, a row of earthenware pots containing pastes and pickled things, a rack of ladles hanging from hooks, a cutting board scarred deep enough to read like a topographical map. The walls were bare except for a single calendar, three years out of date, and a photograph in a wooden frame that showed a young man standing in front of the same counter, thirty years and a full head of hair ago.
+
+Steam. That was what hit me first. Steam rising from a pot on the stove that was large enough to bathe a child in, and in it, broth. The smell of that broth filled the entire space and pushed out everything else: the damp of the streets, the leather of Dowan's car, the tight, controlled atmosphere of The House. It replaced all of it with something so specific and so deeply buried in my memory that my hands went still on the counter before I'd even registered sitting down.
+
+Pork bone. Dried anchovies. Dashima. Green onion, cut thick, not thin. A depth of garlic that meant whole cloves had been simmered for hours, not minced and tossed in at the end. And underneath all of it, the barest trace of doenjang, not enough to taste but enough to give the broth a low, earthy gravity that anchored everything above it.
+
+My grandmother's ramyeon. Not the recipe. The philosophy. The understanding that broth was not a step in cooking but the point of it, that the noodles were a vehicle and the toppings were decoration but the broth was the conversation between the cook and the person being fed, and if you rushed it, you were saying something you didn't mean.
+
+"Wan-ah."
+
+The voice came from the kitchen, and the man it belonged to emerged from behind the steam like something developing in a photograph. Old Man Jung. Sixty-seven, according to the universe bible of Hagu-dong gossip. Small, stooped, with a face that had been weathered past age into the kind of permanence that mountains have. His hair was white and thin, combed back from a forehead creased with deep lines that all pointed upward, as though his face had spent more years smiling than frowning and the architecture reflected it. He wore a stained apron over a thermal shirt, and his hands were red from hot water and steady as stone.
+
+"Two?" Jung asked, looking at me and then at Dowan with an expression that contained no surprise. As if strange men at his counter were as expected as the steam from his pot.
+
+"Two," Dowan said.
+
+Jung nodded and turned back to the stove. No menus. No questions about preferences or allergies or spice levels. Two bowls. That was the entire transaction.
+
+I watched him work. He moved in the small kitchen with an economy that came from forty years of the same choreography: noodles dropped into rolling water, broth ladled from the big pot into two mismatched ceramic bowls, one blue, one brown with a chip on the rim. A handful of chopped green onion. A soft-boiled egg, split with a knife so the yolk ran slow and golden. Sliced mushrooms. A single sheet of gim laid across the top, already curling from the heat.
+
+He placed the blue bowl in front of Dowan and the brown one in front of me. The broth was the colour of clouded amber, and the steam that rose from it carried everything I'd been holding at arm's length for twenty-six months.
+
+Dowan picked up his chopsticks. "Eat," he said. Not an invitation. An instruction.
+
+I ate.
+
+The first mouthful of broth hit my tongue and the back of my throat simultaneously, and something behind my ribs cracked open without warning or permission. It was not the taste. Or not only the taste. It was the temperature of it, the specific scalding warmth that numbed your lips and then bloomed into something gentler as it went down, and it was the weight of it, heavier than water, richer than anything made from simple ingredients had a right to be, and it was the smell, which at this distance, with the bowl inches from my face, was so close to the smell of my grandmother's kitchen in Tongyeong that for three unguarded seconds I was not in Hagu-dong, I was not Han, I was not Agent Shin Haneul, I was eight years old and sitting on a wooden stool while a woman with my mother's hands and a patience the size of the sea fed me because I was hungry and because feeding me was how she said the things she couldn't put into words.
+
+My eyes burned.
+
+I didn't blink. I breathed in through my nose and out through my mouth and I ate another mouthful of noodles and I did not let whatever was happening in my chest reach my face. But my hand. My left hand, the one not holding the chopsticks, had gone flat on the counter, fingers pressed hard against the worn wood, and the pressure was wrong for a man who was simply enjoying a bowl of ramyeon. It was the pressure of someone holding on.
+
+I looked up. Jung was watching me from behind the counter with an expression I couldn't name and didn't want to. It was not curiosity. It was recognition. The look of a man who had been feeding people for forty years and knew exactly what it meant when someone gripped his counter like it was the edge of a cliff.
+
+He said nothing. He placed a small dish of kkakdugi beside my bowl, the radish kimchi cut into rough cubes, bright red, and he did it the way my grandmother used to place things beside my plate: without comment, without expectation, as though the act of giving required nothing in return.
+
+I ate the kkakdugi. It was perfect. Crisp, sour, the ferment sharp enough to cut through the richness of the broth and reset the palate for the next mouthful. I ate it and I kept my eyes on my bowl because the alternative was looking at Jung again, and I was not confident about what my face would do if I did.
+
+Dowan ate beside me in silence. He ate slowly, methodically, and I noticed that he held his bowl the way you hold something you've been given many times: without ceremony, with the comfort of repetition. He belonged here. This counter, this steam, this old man who called him by a childhood name. This was not business. This was the room behind the locked door, or something adjacent to it. The place where the mask thinned.
+
+I understood, then, what this was. A reward. I'd passed the test. I'd collected two hundred million won from a man surrounded by police without leaving a mark, and this was what success earned in Dowan's world. Not money. Not promotion. A bowl of ramyeon in a shop with no sign, served by an old man who called you by name.
+
+But it was also a test. A different kind. The collection had shown him what I could do under pressure. The ramyeon shop was showing him what I did when the pressure dropped. When the performance wasn't necessary. When there was steam and warmth and a bowl of something made with care, and the walls I maintained might, for a moment, come down.
+
+He was watching me. I could feel it without looking. The particular weight of his attention, which I'd first felt in his office and which I was beginning to understand was not something he turned on and off but something he aimed, like a weapon, and right now it was aimed at my hands.
+
+My left hand. Still flat on the counter. Still pressing too hard.
+
+I made myself relax it. Picked up the bowl with both hands and drank the broth the way Han, the collector, would drink it: appreciatively, simply, the way a man with no past and no complications enjoys a good meal. I set it down. Wiped my mouth with the back of my hand.
+
+"That's the best ramyeon I've ever had," I said to Jung. And my voice was steady, and the words were true, and the truth of them was the most dangerous thing in the room.
+
+Jung smiled. The lines on his face rearranged themselves into something warm and worn, like a door that had been opened ten thousand times. "You eat like someone who's been hungry for a long time," he said. "Not in the stomach. Somewhere else."
+
+I looked at my bowl. The broth was nearly gone. The noodles were finished. The egg yolk had mixed with the last of the liquid, turning it golden, and the gim had dissolved into dark, soft fragments that clung to the sides of the ceramic.
+
+"It reminds me of someone's cooking," I said. And I should not have said it. Han, the debt collector with no education past high school and two years in Chungju for assault, did not have a someone whose cooking made his eyes burn. He had a past made of fabricated violence and institutional food and the kind of emptiness that didn't lend itself to nostalgia. What I'd just said was a crack in the wall, and I'd handed it to Dowan for free.
+
+"Whose?" Jung asked.
+
+"My grandmother's." The words came out before the discipline caught them. Two words. A lifetime inside them.
+
+Jung nodded. He took my bowl and Dowan's and carried them to the sink and began washing them with the careful attention of a man who believed that how you cleaned was as important as how you cooked. The water ran. Steam rose from the sink. The shop was quiet except for the sound of water and the low, constant simmer of the pot on the stove, which would keep going long after we left, feeding whoever came next.
+
+Dowan placed a folded bill on the counter. Jung ignored it. Dowan left it there. This, too, had the rhythm of repetition. An argument conducted entirely in gestures, settled the same way every time: the money left, the money eventually taken, the principle maintained on both sides.
+
+We walked out into the night. The side street was dark except for a single streetlight at the far end that turned the wet asphalt into a mirror reflecting nothing. The air was cool against my face after the warmth of the shop, and it smelled like rain and rust and the salt tang of the harbour two blocks south.
+
+Dowan lit a cigarette. Not Raison. Something else, a brand I didn't recognise, in a black pack he pulled from his coat pocket. The lighter's flame was brief, and the first exhale of smoke drifted between us and vanished.
+
+He didn't offer me one. He stood beside the car and smoked and looked at the street, and I stood beside him and waited, because the silence was his and he would fill it when he was ready.
+
+"Jung's been here forty years," he said. "Same spot. Same recipe. My mother brought me when I was four. Before she left."
+
+I said nothing. The information was a door he'd opened on purpose. I didn't walk through it. I waited on the threshold.
+
+"He's the only person in Hagu-dong who isn't afraid of my father." He took a drag. The cherry brightened, painting his cheekbones in amber. "That makes him either brave or senile. I've never figured out which."
+
+"Could be both."
+
+The ghost of the dimple. There and gone. He looked at me, and the look lasted one beat longer than it should have. Two beats. Three. The streetlight was behind him, which meant his face was in shadow and mine was lit, and I was aware, with the trained precision of a man whose survival depended on reading rooms, that the balance of visibility was not in my favour. He could see me. I could not see him. And whatever he was looking for in my face, he was looking for it in the place where the ramyeon had opened something I hadn't closed fast enough.
+
+"You're not what your file says you are, collector."
+
+He said it lightly. The way you'd comment on the weather or the time. A throwaway observation between the last drag and the moment you drop the cigarette.
+
+Not lightly meant. The weight of it sat in the air between us like a held breath. His eyes were still on me, dark, unreadable, and the cigarette burned down between his fingers, and the harbour wind moved through the street carrying salt and diesel and the distant sound of a ship's horn, low and long, the sound of something arriving or leaving, and I couldn't tell which.
+
+I held his gaze. I let Han's half-grin surface, easy, unbothered, the face of a man who had nothing to hide because he had nothing worth hiding.
+
+"Files don't say much," I said.
+
+He dropped the cigarette. Ground it under his heel. The ember died on the wet asphalt.
+
+"No," he said. "They don't."
+
+He got in the car. I got in the car. He drove me back to Block 7 without another word, and when I got out, he pulled away before I reached the building's entrance, the Genesis's taillights bleeding red into the wet street until the darkness and the fog swallowed them.
+
+I climbed four flights. Stood in my apartment in the dark. The karaoke sign across the alley was in its red phase, and the room was the colour of an open wound.
+
+My hands were shaking.
+
+Not fear. Not adrenaline. Something worse. The afterimage of a wooden counter under my palms and the taste of broth that a dead woman used to make me and an old man's voice saying *you eat like someone who's been hungry for a long time*, and the precise, annihilating weight of Dowan's attention as he watched me remember something I'd been paid to forget.
+
+I went to the bathroom. Crouched beside the sink. Pressed my fingers against the duct tape. The phone was there. The mission was there. The architecture of my fabricated life was intact, every wall in place, every door locked.
+
+Except one. A crack, two words wide. *My grandmother's.* Said in a steam-filled shop to an old man who fed strangers, in front of a man who was already looking at me too closely and who had just told me, in six words delivered like a knife wrapped in silk, that he saw the gap between who I was performing and who I was.
+
+I pressed my forehead against the cold pipe under the sink and breathed.
+
+*You're not what your file says you are, collector.*
+
+No. I wasn't.
+
+And the problem, the real problem, the one that no amount of tradecraft or training or twenty-six months of practice could solve, was that in Jung's shop, with the steam on my face and the broth on my tongue, I hadn't wanted to be.`,
+      },
+      {
+        number: 4,
+        title: "Closer",
+        isFree: false,
+        content: `A month is long enough to learn how a man takes his coffee. Short enough to pretend that knowing doesn't mean anything.
+
+Dowan drank his black. No sugar, no cream, from a ceramic mug he kept in the bottom drawer of his desk that was chipped on the rim and didn't match anything else in the office. He filled it from the machine on the ground floor every morning at exactly seven forty-five, before anyone else arrived, and carried it up three flights without a lid. I knew this because I was there at seven forty-five now. Every morning. Standing by the zinc-topped bar, pretending to review collection files on my phone while my peripheral vision tracked the chrysanthemum tattoo wrapped around the hand that held the mug.
+
+Thirty-one days since the ramyeon shop. Thirty-one days since *you're not what your file says you are, collector*. In that time, I had become something I didn't have a clean word for. Not his partner. Not his lieutenant. Seojin held those positions and guarded them with the instinct of a dog who'd been fed from one hand his entire life. What I'd become was closer to a shadow. Where Dowan went, I went. What Dowan needed done, I did.
+
+And every seventy-two hours, I told Minjun everything.
+
+---
+
+The work had a rhythm. Ugly, efficient, repeating.
+
+Mornings were collections. The black Genesis moving through Hagu-dong's waking streets, parking outside restaurants and warehouses and apartment blocks. I'd go in with a folder and come out with a signature or a payment plan or the quiet understanding that the next visit would not be mine. A dry cleaner who wept into his hands while his wife pressed shirts behind the counter, the hiss of the iron punctuating his sobs. A nightclub owner who pulled a knife and found his wrist pinned to the table by Seojin before the blade cleared the sheath. A shipping executive who paid in full, in cash, from a briefcase he'd had waiting by the door.
+
+I memorised everything. Names, amounts, account numbers, the flow of cash from street-level businesses into Mirae's laundering architecture. I transmitted it at night, sitting on my bathroom floor with the NIS phone, typing reports into the encrypted server while the karaoke sign across the alley painted my walls in alternating red and nothing.
+
+Evenings were Club Vein.
+
+The ground floor was a body. Three hundred people moving in violet light, the air thick with fog machine haze and sweat and the sweet chemical burn of whatever was being smoked in the corners the bouncers pretended not to see. The music wasn't heard so much as inhabited. Bass frequencies low enough to settle into the cage of your ribs and replace your heartbeat with something louder and less personal. Violet LED strips cut through the fog in parallel lines that made the crowd look sectioned, bodies appearing and disappearing in slices of purple light.
+
+We never stayed on the ground floor.
+
+The VIP level was a different country. The booths were deep, upholstered in black velvet worn to a shine at the edges, and heavy curtains could be drawn for the kind of privacy that turned conversations into confessions and handshakes into contracts. The light up here was dimmer, warmer, amber cutting through the residual violet, and the smell shifted from the ground floor's chemical fog to something older: leather, expensive whisky, the faint musk of cologne layered over cigarette smoke.
+
+Dowan held court here two, three nights a week. He sat in the corner booth with his back to the wall and his eyes on the room, and people came to him. Suppliers. Club managers. Men who spoke in low voices and left envelopes that Dowan slid into his jacket without looking at. I sat beside him and memorised every name, every face, every figure spoken over whisky that cost more per bottle than Bae's restaurant made in a week.
+
+The bass from below lived in my sternum. Hours of it, night after night, until I started feeling the phantom vibration even in silence, a ghost rhythm in my chest that wouldn't stop, as though Club Vein had installed something inside me that kept playing after I left.
+
+Seojin watched me. He was always watching. From across the VIP booth, from the bar, from the doorway where he leaned with his arms crossed and his bleached hair catching the violet light like a warning flare. He never said anything directly. He didn't need to. His presence was a question asked in silence: *who are you, and why are you here, and how long before I find out?*
+
+I ignored him the way Han, the collector, would ignore him. With the casual indifference of a man too busy being useful to worry about being liked.
+
+---
+
+"Shipment schedules," Minjun said. "Names. Account numbers. It's good. It's not enough."
+
+The parking garage. Sublevel two. The same dead Kia, the same construction van, the same black Grandeur with the engine running and the ashtray overflowing with Dunhill filters. Two in the morning, and I was sitting in the passenger seat with the window cracked because the smoke had reached a density that qualified as weather.
+
+"What else do you need?"
+
+"Political connections. The pipeline from Syndicate money to government officials. That's the case, Haneul. Without the political thread, we have a mid-level organised crime prosecution. The brass didn't invest three years for a mid-level prosecution."
+
+"I'm working on it."
+
+"Work faster." He lit a fresh Dunhill off the dying one. The brief doubling of ember light turned his face into something carved: all hollows and edges, the skin under his eyes so dark it looked bruised. "The director wants a progress briefing in two weeks. If I walk in there with shipment logs and club revenue, he'll pull funding and reassign you."
+
+"Jaewon keeps the political contacts separate from operations. I can't access his private records without being on the top floor, and nobody goes up there without an invitation."
+
+"Then get invited."
+
+"You don't get invited. You get summoned. And if you get summoned for the wrong reason, you don't come back down."
+
+Minjun smoked. The engine idled.
+
+"There might be another way," he said. "Dowan's office. He manages the operational layer between street crime and political money. If those connections exist in documentation, they'd be in his files."
+
+"You want me to search Dowan's office."
+
+"I want you to find the political thread. How you find it is operational discretion."
+
+"If I'm wrong about the files being there, I've burned my cover for nothing. If I'm right and I'm caught, I'm dead."
+
+"You won't get caught."
+
+"Twenty-six months is a long time to keep winning."
+
+He turned to look at me. The Dunhill between his fingers had burned down to a column of ash that defied gravity.
+
+"Are you still you?" he asked.
+
+The question. The check-in. The three words that were supposed to function as a welfare assessment and increasingly functioned as an accusation.
+
+"I'm still me."
+
+He held my gaze. Something worked behind his expression, a calculation or a concern, and I watched him decide which one to let through. He chose neither. He looked away. Crushed the Dunhill.
+
+"Two weeks," he said. "Find the thread."
+
+---
+
+The days blurred. That was the danger of proximity. When you spent enough time with someone, the hours stopped being discrete units and started flowing together, a current you floated in without noticing the distance you'd covered until you looked back and the shore was gone.
+
+I learned things about Dowan that no intelligence file contained. That he read on his phone during sedan rides and held the screen close to his face because he would never admit he needed glasses. That he tipped the pojangmacha vendors in Hagu-dong, folded bills left under bowls without comment. That he called Old Man Jung every Sunday morning for exactly twelve minutes, standing by his office window, and his voice during those calls was different. Not softer. Younger. As if the man who spoke to Jung existed at a different age than the man who managed violence.
+
+I learned that his hands narrated what his face refused to. When he was angry, they went still. When he was thinking, the right hand would tap a rhythm on whatever surface was nearest, something musical and precise, a pattern I suspected was connected to the notation tattooed along his collarbone.
+
+I learned all of this. I filed none of it. These details were not operationally relevant. They were useless to every version of me except the one who sat in the passenger seat of the Genesis at eleven p.m. on a Tuesday, watching Hagu-dong scroll past the rain-streaked window, and felt the silence between us like a room I wanted to stay in.
+
+---
+
+It was raining. It was always raining in Haemun, but this rain had committed. A full downpour that turned the windshield into a streaming wall of distortion and reduced the neon of Hagu-dong to smeared blurs of pink and blue, colour without shape, like a painting left out in a storm.
+
+Dowan drove. The wipers beat a slow, metronomic rhythm. The sedan's interior was dark except for dashboard glow and the intermittent sweep of headlights from oncoming traffic, each one flaring across Dowan's face and disappearing. The car smelled like rain-damp wool and leather and the ghost of his last cigarette.
+
+We'd come from Pier 9. A cargo ship from Vladivostok with a manifest that listed machine parts and a hold that didn't match. I'd committed the ship's name and registry to memory, and the calculation of when I could transmit them to Minjun had felt mechanical, obligatory, like a prayer recited by someone who'd stopped believing but couldn't stop kneeling.
+
+Dowan hadn't spoken since we left the pier. The silence was comfortable, which was worse than the alternative. Comfortable silence was intimacy. The sound of two people who had spent enough time together that the absence of words had become a language of its own.
+
+The rain hammered the roof. The wipers beat. Hagu-dong slid past in watercolour.
+
+"Do you have anyone?"
+
+The question came without preamble. No shift in posture, no preparatory breath. He asked it the way he asked everything: directly, without decoration, his eyes on the road.
+
+I looked at him. His profile was lit intermittently by the streetlights, each one revealing him in a flash and then returning him to shadow. Jaw. Brow. The heavy line of his mouth. Flash, shadow, flash.
+
+"Anyone?" I asked.
+
+"Family. Someone waiting. Anyone."
+
+The wipers beat. Two cycles. Three.
+
+"No," I said.
+
+He nodded. The gesture was small, almost imperceptible, the kind of nod that acknowledged an answer without evaluating it. But his right hand, the one resting on the gear shift, pressed his thumb against the scarred knuckle of his index finger. Once. Hard.
+
+"Why do you ask?" I said.
+
+"Curiosity."
+
+"You're not the curious type."
+
+"No." He turned the wheel. The sedan rounded a corner, and the headlights swept across a row of shuttered shop fronts, metal gates gleaming wet. "I'm not."
+
+The silence returned. But it was a different silence now. Heavier. Shaped by the question and the answer and the things neither of us had said. He'd asked because he wanted to know. Not for the Syndicate. Not for operational reasons. He'd asked the way a person asks when they're standing at the edge of something and checking whether anyone will notice if they fall.
+
+I knew this because the answer I'd given him was true. Both versions of it. Han, the collector, had no one. Shin Haneul, NIS agent, had no one. The fabrication and the reality had converged on the same empty room, and the loneliness was so precisely shared between my two selves that it had become the most honest thing about me.
+
+He didn't tell me his answer. He didn't need to. It was there in the thumb pressed against the scarred knuckle, in the twelve-minute Sunday calls to an old man who made ramyeon, in the orchid he kept alive on a black desk in an office designed to discourage living things. He had no one. He had built a life inside a machine that killed softness, and he had survived it by becoming the machine, and somewhere inside the mechanism, a white flower bloomed because he refused to let it die.
+
+We drove the rest of the way without speaking. He dropped me at Block 7. The rain was still falling, and when I opened the door, the sound of it flooded the sedan's quiet interior like a broken seal.
+
+"Collector."
+
+I paused.
+
+He was looking at the windshield, not at me. The rain streamed down the glass and the dashboard light caught the planes of his face and for a moment he looked like someone underwater, seen from above, sinking slowly, watching the surface recede.
+
+"Get some sleep," he said.
+
+I got out. Shut the door. Watched the taillights disappear into the rain, red bleeding into grey, and then gone.
+
+---
+
+I searched his office on a Thursday.
+
+Dowan left The House at nine p.m. for a meeting with Mirae at Club Vein, something to do with quarterly accounts that required the kind of concentration he didn't give to things that bored him. He'd be gone two hours minimum. Seojin went with him. The ground floor was staffed by two men who spent their nights watching CCTV feeds and playing cards, and whose attention could be reliably predicted by the schedule of a football match I'd confirmed was on that night.
+
+The third floor was empty. The camera in the corridor was on a forty-five-second rotation that left a twelve-second blind spot at the door to Dowan's office. I'd timed it across six separate nights. Twelve seconds to enter. Twelve seconds to exit. Everything between was invisible to the surveillance system because Dowan, in a decision that revealed more about him than any conversation, had no camera inside his own office. He surveilled everyone. He refused to be surveilled himself.
+
+I picked the lock in four seconds. Closed the door behind me. Stood in the dark.
+
+The harbour was visible through the floor-to-ceiling windows, the city's lights reflecting off the water in long, shivering columns of white and amber. The orchid on the desk was a pale shape in the dimness. The room smelled like him. Coffee and clean cotton and the woody edge of cologne that had seeped into the furniture over months, maybe years.
+
+I moved to the desk. The laptop was password-protected. I'd expected that. I wasn't here for the laptop. I was here for the filing cabinet against the left wall, a steel unit with three drawers, locked with a key Dowan kept on a ring in his coat pocket. I'd watched him open it twice. Standard pin-tumbler lock, four pins.
+
+Thirty seconds. The drawer slid open.
+
+Files. Organised with the precision I'd come to expect. Collection records, payment schedules, personnel files, operational summaries. I photographed each page with the NIS phone, working by the harbour light that came through the windows, my hands steady, my breathing controlled, my pulse doing something my breathing refused to.
+
+Middle drawer. Financial records. Mirae's laundering accounts, routing numbers, shell company registrations. I photographed them. This was the architecture Minjun wanted, the skeleton of the money flow, and each image I captured was a bone pulled from the body of the operation I was embedding myself inside.
+
+Bottom drawer. I almost didn't open it. The first two drawers had given me enough to keep Minjun satisfied for weeks. The political thread might not be here. It might be in Jaewon's office, or in Dowan's head, or nowhere in paper form at all.
+
+I opened it.
+
+The folder was unmarked. Brown manila, no label, thinner than the others. I pulled it out and opened it on the desk and angled it toward the harbour light.
+
+Bank statements. Transfer confirmations. A list of account numbers paired with names and amounts, handwritten in Dowan's precise, angular script. I scanned the names, looking for politicians, assemblymen, government officials, the political thread that would justify three years of operation and one man's dismantled life.
+
+The names were not politicians.
+
+Hagu-dong Community Youth Centre. 15,000,000 won. Monthly.
+
+Haemun Dockworkers' Mutual Aid Society. 8,000,000 won. Quarterly.
+
+Block 7 Residents' Emergency Fund. 3,000,000 won. Monthly.
+
+Tongyeong Coastal Fishermen's Cooperative. 5,000,000 won. Bi-monthly.
+
+The list continued. Twelve organisations. Community groups, mutual aid funds, worker cooperatives, a free clinic in Hagu-dong I'd walked past a hundred times without knowing who funded it. The amounts were significant. The transfers were routed through three layers of intermediary accounts, structured to be invisible to anyone who wasn't specifically looking for them, and they originated from Syndicate revenue streams that I recognised from Mirae's laundering architecture.
+
+He was stealing from the Syndicate. Not for himself. For them. For Hagu-dong.
+
+I stood in the dark office with the file open on the desk and the harbour light falling across handwritten numbers that added up to something I hadn't been trained to account for. The orchid was a white blur at the edge of my vision. The room smelled like coffee and cotton and the cologne of a man who broke people's hands for a living and used the money to fund a youth centre and a free clinic and an emergency fund for the residents of the building where I slept.
+
+Block 7. My building. The emergency fund that had repaired the stairwell lighting last month, that I'd assumed was the landlord finally doing his job. That was Dowan. The free clinic where the pojangmacha vendors went when they burned themselves on the griddles and couldn't afford the hospital. That was Dowan. The youth centre where kids from the dockworker families went after school so they weren't on the streets where the Syndicate recruited. That was Dowan.
+
+He was redistributing. Quietly, systematically, at enormous personal risk. If Jaewon discovered this, the consequence would not be a reprimand. It would be the soundproofed basement and the men whose names I'd never learned because names weren't relevant to what they did. Dowan knew this. He was doing it anyway. He was hollowing out his father's empire from the inside and filling the cavity with something that looked, from the right angle, like penance.
+
+This didn't fit the profile. The NIS file on Yun Dowan described an enforcer, an heir apparent, a man who had been shaped by violence into a weapon his father aimed at whatever needed breaking. Efficient. Dispassionate. Dangerous. The file did not describe a man who funneled millions to community organisations and kept an orchid alive on his desk and took his collector to an old man's ramyeon shop as a reward.
+
+The file described a monster. The file was wrong.
+
+I photographed the pages. All of them. My hands were steady. My breathing was controlled. The images would go to Minjun, who would file them in the operational record, where they would become evidence. Evidence that Dowan was embezzling from the Syndicate. Evidence that could be used as leverage, as a weapon, as the thread that unraveled a man who was already unraveling himself.
+
+I put the file back. Closed the drawer. Locked it. Wiped the surfaces I'd touched. Stood in the dark office and looked at the orchid, which was the same white it had been when I walked in, which hadn't changed at all, which didn't know anything about what I'd just done.
+
+The harbour light moved on the ceiling. The building was quiet. Somewhere below, the football match was still playing, and the men at the CCTV monitors were still watching it, and the world was still the shape it had been an hour ago.
+
+Except it wasn't. Because I was standing in the office of a man who had asked me if I had anyone, and whose answer was the same as mine, and who was trying to save the neighbourhood that his family's empire was poisoning, and I was holding a phone full of photographs that could destroy him.
+
+I left the office. Twelve-second blind spot. The corridor was empty. The stairwell was quiet. The rain had stopped while I was inside, and when I stepped out of The House into the Hagu-dong night, the streets were wet and gleaming and the air smelled like salt and clean concrete, the way a city smells when the rain has washed it and left it raw.
+
+I walked home. Four flights. My apartment. The karaoke sign was off. The room was dark.
+
+I sat on the bathroom floor with the NIS phone in my hand and the photographs glowing on the screen and I thought about a man who drove through rain-soaked streets and asked questions he already knew the answer to and funded youth centres with money stolen from his father's drug pipeline.
+
+I thought about the word *monster*.
+
+I thought about how easy it had been, until tonight, to believe that what I was doing was simple. A mission. An operation. A case with a target and an objective and an endpoint where I walked away and became someone real. Simple. Clean. The math of justice: gather evidence, build a case, bring down the bad men, save the world, go home.
+
+The photographs on the screen didn't fit that math. They were a remainder. The part left over after the equation balanced, the part that meant the equation had never been as clean as I'd needed it to be.
+
+I pressed my thumb against the ring on my right hand. My mother's silver. Worn thin on the inside from turning.
+
+I sent the photographs to Minjun.
+
+Then I put the phone back under the sink and pressed my forehead against the cold pipe and stayed there until my breathing evened out and the trembling in my hands found something to do with itself, which was nothing, which was all I had to offer.
+
+The pipe was cold against my skin. The apartment was dark. Somewhere in Hagu-dong, a man with scarred knuckles and a chrysanthemum on his hand was sitting in a velvet booth reviewing quarterly accounts, and he didn't know that the person he'd asked about was no one, and that the no one was me, and that I had just handed his secret to the people who would use it to end him.
+
+I closed my eyes.
+
+I was still me.
+
+I wasn't sure that was a good thing anymore.`,
+      },
     ],
   },
   {
@@ -2397,6 +3095,1132 @@ He chose me. Fine. Let him.
 I didn't come here to be chosen. I came here to be a weapon. And weapons don't care who pulls the trigger.
 
 But my hands kept shaking, and I couldn't make them stop.`,
+      },
+      {
+        number: 2,
+        title: "The Rehearsal",
+        isFree: false,
+        content: `The Ashford Hotel smelled like money and gardenias.
+
+Not real gardenias. The Ashford hadn't used real flowers in the lobby since the renovation in 2019. These were diffused through the ventilation system, a custom scent developed by a perfumer in Grasse who charged six figures to make a building smell like old wealth and good taste. I knew this because my father owned the hotel. I knew this because I had approved the invoice. I knew this because noticing things like artificial floral scent was how my brain kept itself from screaming in rooms where screaming was not allowed.
+
+I counted exits. Front entrance, thirty feet behind me. Service corridor left of the concierge desk. Fire stairs through the door marked STAFF ONLY. Freight elevator at the end of the east hallway. Four ways out. Filed. Moving on.
+
+The private dining room was on the second floor. The Monarch Room, named for the butterfly motif in the crown moulding, though I'd always thought it was named for what monarchs did best: sit in gilded rooms and decide who lived. Tonight, two families would sit in this gilded room and pretend they hadn't spent thirty years trying to destroy each other. Tonight, I would meet the man I was going to marry.
+
+Lena was waiting outside the double doors. Emerald green dress, statement earrings, curls pinned half-up in a way that looked effortless and had almost certainly taken forty-five minutes.
+
+"You're late," she said.
+
+"I'm exactly on time."
+
+"Your father arrived twenty minutes ago. In Victor Maren's world, on time is late. You know this."
+
+"I do. I chose to arrive at the time printed on the invitation."
+
+She wanted to argue. She looked at my face and decided against it.
+
+"You look good," she said instead.
+
+I looked calculated. Black dress, fitted, high neck, long sleeves. No jewellery except my mother's watch. Hair down, which I almost never wore, because Lena had said, *Wear it down, it makes you look less like you're about to cross-examine someone.* She had a point.
+
+"How many inside?" I said.
+
+"Twelve at last count. Your father, his lawyer, two security. Gianna Valenti, Luca Valenti, three men I don't recognise, and a woman in black who looks like she could kill me with a salad fork."
+
+"That's the mother."
+
+"She's terrifying."
+
+"She's five-three."
+
+"Terrifying isn't a height requirement, Sera."
+
+"And Nico?"
+
+"Not yet."
+
+Something loosened in my chest. A reprieve. Time to enter and position myself before he arrived.
+
+"Let's go."
+
+The Monarch Room hit me first as colour. Gold leaf on the ceiling, gold frames on the oil paintings, gold-rimmed china on a table long enough to seat twenty. Crystal chandeliers hung at intervals, three of them, dripping light like something liquid. White linen, tall candles in silver holders, white roses and dark greenery that smelled sharp and alive. The walls were panelled in dark wood that caught the candlelight and held it, giving the room the feeling of the inside of a jewellery box. Floor-to-ceiling windows along the far wall overlooked Central Park, the park a dark sprawl beyond the glass, dotted with the distant orange of lampposts.
+
+Beautiful. And a cage.
+
+My father stood at the head of the table with scotch. Charcoal bespoke, silver hair swept back, his signet ring catching light as he turned it. Once. Twice. He was nervous.
+
+"Sera. You look well."
+
+"Thank you."
+
+"The Valentis will arrive shortly. Gianna is already here."
+
+"Power move."
+
+His jaw tightened. He couldn't deny it. Gianna Valenti had walked into his hotel twenty minutes early and claimed the space. She sat at the far end of the table now, a small woman in black, silver-streaked hair pinned in an elegant knot, a glass of red wine she hadn't touched. She was watching me the way a cat watches a bird it hasn't decided to kill yet.
+
+My father's hand caught my elbow. "Be gracious tonight. Smile. Make her believe this is something you want."
+
+"I'll handle it."
+
+I walked the length of the table. Twenty-two steps. The candles flickered as I passed.
+
+"Mrs. Valenti. Thank you for coming."
+
+"Gianna," she said. Her voice was lower than I expected, accented, warm the way a cast-iron pan is warm: useful and capable of burning you. "We are to be family."
+
+"Gianna." I offered my hand. Her grip was firm and brief.
+
+"You have your mother's face," she said.
+
+"You knew my mother?"
+
+"I met her once. A lifetime ago. She was very beautiful. Very quiet." Gianna's eyes moved across my features like fingers reading Braille. "You have her bones. But your eyes are your father's."
+
+"I've been told."
+
+"It was not a compliment."
+
+Lena, somewhere behind me, made a sound like a swallowed cough. Gianna's expression didn't change. It wasn't hostile. It was honest, which was worse.
+
+"Sit," Gianna said. "We'll talk while the men arrange themselves."
+
+A waiter poured wine without asking. I lifted the glass and didn't drink.
+
+"You are not what I expected," Gianna said.
+
+"What did you expect?"
+
+"Someone softer. Victor's daughter, I thought, would be polished glass. Pretty and breakable. You are not breakable."
+
+"Thank you."
+
+"It was not a compliment either."
+
+I felt something I hadn't anticipated: respect. Not trust, not warmth, but the specific regard of one strategic woman recognising another.
+
+Then Luca Valenti walked in, and the room shifted.
+
+Six feet, lean, dark hair slicked back, green eyes that swept the room with lazy confidence. Navy suit, no tie, gold watch catching candlelight. A snake tattoo wound from his right wrist up beneath his cuff. He was beautiful the way sharp things are beautiful: you admired them right up until they opened you.
+
+He found me immediately. Crossed the room, took my hand before I offered it, and raised it to his lips.
+
+"Sera Maren." His mouth grazed my knuckles. His eyes didn't leave mine. "My brother's bride. I've been looking forward to this."
+
+"Have you."
+
+"A beautiful woman joining our family? Of course." He stayed close. I could smell his cologne, cedar and something darker. "I only wish it were me walking you down the aisle."
+
+He said it lightly. A joke, or the shape of one. But his thumb was resting on my knuckle, and the pressure was a fraction too deliberate to be accidental.
+
+"I'm sure you'll survive the disappointment."
+
+He laughed. Quick and bright, reaching his eyes just enough to be convincing. He was charming the way a pickpocket is charming: the warmth was there to distract from the hand in your pocket.
+
+"Luca." Gianna's voice carried the weight of a closing door. "Sit down."
+
+He winked at me and took his seat across the table. I catalogued him: dangerous, charismatic, resentful. A thread I could pull, or one that could unravel me.
+
+But it was the seat he chose that interested me. Directly across from where Nico would sit. Not beside his mother. Not at the far end, where distance could masquerade as deference. He sat where his brother would have to look at him all night, and the placement had the precision of someone who had been mapping power dynamics since he was old enough to understand them.
+
+The door opened again.
+
+Nico Valenti entered the way silence enters a room: without announcement, but suddenly everything else was quieter. His eyes swept the table and landed on Luca, who was still leaning toward me, still too close, still wearing the residue of that kiss-the-hand performance. Nico's jaw tightened. One controlled flex of muscle, barely visible in the candlelight, and then gone. Luca saw it. He smiled wider. Gianna's hand moved to her wine glass. The three Valenti men by the door straightened like dogs hearing a whistle.
+
+Six-two, broad through the shoulders, black on black, tailored to the millimetre. No tie. Rolled sleeves. A watch on his left wrist that looked old, well-worn, kept because someone he loved gave it to him. Dark hair pushed back, stubble shadowing a jaw that could have been drawn with a straight edge. The thin scar bisecting his left eyebrow. Eyes so dark they looked black in the candlelight.
+
+I had expected a brute. I had built him in my mind as something crude, a man who led through force. I had made him simple because simple enemies are easy to destroy.
+
+He was not simple.
+
+He moved quietly for his size, and the quiet unsettled me. Greeted my father with a brief handshake. Kissed his mother's cheek and murmured something in Italian that made her touch his face. Passed Luca without stopping. Luca's jaw tightened, barely, a micro-expression that lasted less than a heartbeat. I caught it. Filed it. Brothers who loved each other didn't look like that. Brothers at war did. Then Nico straightened and looked at me.
+
+Just looked. Dark eyes steady, expression neutral, giving nothing.
+
+I looked back. I had told myself I would study him clinically, as a problem to be solved. But looking at Nico Valenti was like staring into a room with no lights on and knowing something was in there, something that could hear you breathing.
+
+He held my gaze. I held his. The room, the candles, the crystal, all of it receded, and for four seconds there was nothing except his eyes on mine and the terrible feeling that he was not just looking at me but reading me, turning pages I hadn't given him permission to open.
+
+I looked away first.
+
+It happened before I could stop it. My eyes dropped to the linen, the gold-rimmed plate. A flinch. I had looked away first, and he had seen it, and the knowledge sat in my chest like a coal.
+
+When I looked up, he was pulling out the chair beside mine.
+
+"Sera," he said. "We finally meet."
+
+"We've met."
+
+"We've been in the same room. That's different."
+
+He sat. He smelled like something clean and warm, the faintest trace of smoke underneath, like a fireplace in a house where someone actually lived. I hated that I noticed.
+
+"You're right," I said. "It is different."
+
+He didn't smile. He watched me the way you watch weather changing. Like he was noting where the clouds were and calculating when the storm would hit. I straightened my knife beside my plate. Aligned it parallel to the fork. Small controls. Small comforts.
+
+Dinner was served. Seven courses. The first was a bisque poured tableside from a silver tureen, steam curling through candlelight. My father spoke to Gianna about Midtown property. Gianna responded with the ease of a woman who could discuss real estate while calculating the cost of betrayal. Luca charmed Lena, who was seated beside him and alternating between laughter and the expression she wore when cross-examining a hostile witness. The Valenti men ate in silence. My father's security watched them. Their security watched back. Everyone performed. Everyone knew it. The candlelight made it all look warm, and the wine made it all feel possible, and I reminded myself that this was what danger looked like when it put on a suit and sat down to dinner.
+
+Nico ate without speaking. He held his fork the European way, and his hands were large, scarred across the knuckles, capable of things I refused to think about while close enough to touch him. He didn't fill the silence between us. He simply existed beside me, and the silence had a texture I could almost feel on my skin.
+
+I broke first. Again.
+
+"Tell me something," I said, low enough for only him.
+
+He turned his head. This close, I could see the scar in detail. Someone had opened his face once, and he'd let it heal without hiding it.
+
+"Ask."
+
+"Why did you agree to this?"
+
+"The alliance is strategic."
+
+"That's your mother's reason. I'm asking for yours."
+
+He set down his fork. Picked up his wine. Turned the glass slowly.
+
+"My father spent the last year of his life trying to build something with your family. He died before he could finish. This marriage finishes it."
+
+"Better answer. Still not yours."
+
+His jaw tightened. The muscle flexed once, then released.
+
+"I don't give away answers for free, Sera."
+
+"What's the price?"
+
+"Time. Ask me again in a year."
+
+Across the table, a man leaned into the candlelight. Stocky, five-ten, buzzed brown hair, a nose broken at least twice. Leather jacket in a room full of suits. Kind eyes that were absolutely devoid of trust, fixed on me.
+
+"Marco," Nico said without looking away from me. "Stop staring at my wife."
+
+"She's not your wife yet," Marco said.
+
+"A technicality. Sera, Marco DeLucci. He handles my security."
+
+"He handles more than that," I said.
+
+Marco's eyes narrowed. Not anger. Interest. The interest of a man who'd been identified and was recalculating.
+
+"I do my homework," I said.
+
+"So do I," Marco said. He didn't blink. He watched me the way you watch a door you expect to open from the wrong side.
+
+Midway through the fourth course, my father tapped his glass. The room stilled.
+
+"I'll keep this brief." He stood. Candlelight carved his face into planes of shadow. "Tomorrow, our families join. But tonight, I want to speak to something contracts don't cover. Legacy. The Marens and the Valentis share a history. It has not always been kind. But my daughter carries the best of this family forward. I trust her to represent us well."
+
+He looked at me. For less than a second, something moved behind his eyes. Something like guilt. Then it was gone, and he was raising his glass.
+
+Nico stood.
+
+The room went quiet. Not polite quiet. Held-breath quiet.
+
+"To new beginnings," Nico said. His voice carried without effort. He held his glass before him, wine dark as blood against his scarred knuckles. "And to the courage they require."
+
+He looked at me when he said *courage*. Directly at me. He turned his head and fixed those black eyes on mine and placed the word in the space between us like he was handing it to me.
+
+This time, I did not look away. I held it until the glass came down and his mouth was wet with wine and the candlelight caught the scar through his brow, and I thought: *You don't scare me.* Which wasn't true. But I needed it to be.
+
+The table drank. Conversation resumed. But the word stayed lodged behind my sternum, pulsing. Courage. A challenge. Or a warning.
+
+The remaining courses passed. I spoke to Gianna about ceremony logistics. Deflected Luca's wine refills. Exchanged three sentences with Marco about Brooklyn parking, which was either the most mundane conversation of my life or a test I couldn't identify. Through all of it, Nico sat beside me and said very little and took up an unreasonable amount of space. Not physically. Something about his presence bled past its boundaries, a gravitational field I kept drifting toward and correcting away from.
+
+I excused myself. The hallway was cool and dim after the dining room's candlelit heat. I leaned against the wall and pressed my fingers to my temples.
+
+A hand touched my arm.
+
+Gianna. Small and straight in black, green eyes bright. She spoke. Italian, rapid and low, a sentence I caught fragments of but couldn't assemble. Her hand was firm on my arm, her eyes holding mine with an intensity that felt like a transfer. She was giving me something. I couldn't read it.
+
+"I don't speak Italian," I said.
+
+"I know." And then, in English: "Learn."
+
+She walked back in. The door swung shut.
+
+I stood replaying the words, syllable by syllable, feeling them slip.
+
+The door opened. Nico.
+
+He leaned against the opposite wall, hands in his pockets.
+
+"She does that," he said.
+
+"Does what?"
+
+"Tests people in languages they don't speak. She wants to see how you react to not understanding."
+
+"And how did I react?"
+
+"You tried to memorize what she said. I watched your lips move."
+
+I folded my arms. "Are you going to tell me what she said, or are you going to stand there looking enigmatic?"
+
+The corner of his mouth shifted. Not a smile. A fracture in the mask.
+
+"She said: *Le donne che sopravvivono a questa famiglia sono quelle che smettono di fingere.*"
+
+"Translation."
+
+"'The ones who survive this family are the ones who stop pretending.'"
+
+The words settled over me like a change in temperature.
+
+"Good advice," I said.
+
+"My mother doesn't give advice. She gives warnings."
+
+He pushed off the wall. At his full height, I had to tilt my chin to hold eye contact.
+
+"Courage," I said.
+
+"What?"
+
+"Your toast. What did you mean?"
+
+He was quiet. Five seconds. Ten. The hallway clock ticked.
+
+"I meant that tomorrow, you and I stand in front of everyone we know and promise things we don't yet mean. And the only honest thing about it will be the courage it takes to do it anyway."
+
+He held my gaze one more breath. Then he turned and walked back in, and I was alone with the gold wallpaper and the echo of a man who had handed me the truth like a lit match and walked away.
+
+The dinner ended at eleven. My father told me I'd done well. Lena hugged me in the lobby and whispered, "He watches you," and I said, "I know," and she said, "No, Sera. He *watches* you," and I chose not to examine the emphasis.
+
+My apartment. Thirty-second floor, Upper East Side. Clean lines, white walls, a kitchen I used for coffee and nothing else. I locked the door, kicked off my heels, and stood in the dark for twelve seconds.
+
+Then I moved.
+
+The writing desk was walnut, antique, the one piece of furniture I'd chosen myself. I sat and pressed my thumb to the underside of the second drawer. A click. The false bottom released.
+
+Inside: Marcus's notebook. A USB drive, brushed silver, no label. And a photograph.
+
+I picked it up. Slightly faded, creased at one corner. Two men at a table in what looked like a restaurant, warm-toned, low lighting, cloth napkins. The man on the left was Marcus. Younger, maybe twenty-two, leaning forward with his elbows on the table, gesturing with one hand. Talking about something that mattered. I knew the posture. I knew the fire.
+
+The man on the right I did not know.
+
+Older. Fifties. Dark complexion, heavy brows, a strong face that might have been handsome before something carved severity into it. He was listening to Marcus with an expression I couldn't read. Not hostile. Not friendly. Something careful and weighted.
+
+Three years I'd had this photograph. He wasn't in any database I could access, any of my father's files. A ghost sitting across from my dead brother in a restaurant I couldn't name.
+
+I memorised his face again. The heavy brow. The jaw. The slight asymmetry of his nose, broken once and set imperfectly. Every detail committed to the part of my brain where I kept the things that mattered most.
+
+I put everything back. Pressed the false bottom shut. Seamless. Invisible.
+
+I sat in the dark and pressed my thumb to the tattoo. Three.
+
+Tomorrow I would walk into the Church of St. Cecilia and promise myself to a man whose family name was written in my brother's hand in the notebook hidden three feet from where I sat. Tomorrow I would move into his home, eat at his table, sleep on the other side of his wall.
+
+I thought about Nico's voice in the hallway. The way he said *courage* like he already knew what it would cost.
+
+I thought about Gianna's warning: *stop pretending.*
+
+I thought about Luca's mouth on my knuckles and Marco's mistrustful stare and the photograph of my brother with a man whose face I would find if it took another seven years.
+
+Tomorrow I walked into the lion's den.
+
+I turned off the light. I didn't sleep.`,
+      },
+      {
+        number: 3,
+        title: "The Vows",
+        isFree: false,
+        content: `The Church of St. Cecilia smelled like incense and centuries.
+
+I stood in the vestibule with my father's arm through mine and counted the things I could see through the crack in the oak doors. Fourteen rows of pews, dark wood worn smooth by generations of hands. Stone columns rising into vaulted arches, the kind of architecture that was built to make humans feel small and God feel close. Stained glass along the eastern wall throwing colour onto the floor in long, bleeding panels: gold, crimson, blue, violet. The light moved when clouds shifted outside, so the saints in the glass seemed to breathe. Candles everywhere, hundreds of them, clustered on the altar and lining the aisle in glass holders that caught the flame and multiplied it.
+
+It was beautiful. The kind of beautiful that made your chest ache if you let it.
+
+I was not going to let it.
+
+"Ready?" my father said.
+
+Silver hair. Charcoal bespoke. Signet ring turning, turning, turning.
+
+"You look beautiful," he said. He didn't meet my eyes.
+
+"Thank you."
+
+"Your mother would have loved this."
+
+"My mother would have hated this. You know that."
+
+His jaw tightened. For one breath I wanted to ask him: *Did you think about Marcus? Did you think about Celia?* I didn't ask. I'd stopped needing things from Victor Maren the night I found Marcus's notebook.
+
+"Ready," I said.
+
+The doors opened.
+
+The organ hit first. Bach, Jesu, Joy of Man's Desiring, swelling up into the vaulted ceiling like something alive. The pews were full. Two hundred guests split down the centre aisle in a division that had everything to do with territory. Left: Maren allies, politicians, women in pastel. Right: Valentis, darker colours, harder faces.
+
+My father walked me forward. The dress moved like water against my legs. My veil trailed on stone.
+
+Marcus would have walked me down this aisle.
+
+The thought arrived without permission, and I let it stay because fighting it would have shown on my face. Marcus, who believed in people. Marcus, who called me after every fight with our father and said, *Tell me something real, Sera.* He would have been thirty this year. He would have leaned in halfway down the aisle and whispered something irreverent, because Marcus understood that the only way to survive a performance was to acknowledge it was one.
+
+But Marcus was dead. And the family waiting at the altar was the reason. So I carried my brother's memory like a blade beneath my ribs and kept my face as still as the stone saints in the windows.
+
+The incense was thick enough to taste. The stained glass painted my white silk in shifting colour as I moved. Gold, then crimson, then blue. Like the church was trying to mark me.
+
+Nico stood at the altar. Black suit. No tie. His father's watch on his left wrist.
+
+His eyes found mine at twenty feet.
+
+I held them. I did not look away. Not this time. I had played that weakness at the rehearsal dinner, broken first, dropped my gaze, and I'd spent the hours since cataloguing it as a mistake I would not repeat. He would see exactly what I wanted him to see: a woman walking toward him with purpose, with poise, with nothing in her chest but the cold clarity of a plan seven years in the making.
+
+That was the version I chose to project. It was mostly true. Mostly.
+
+Because beneath the silk and the composure and the white-knuckled grip on the bouquet, something else was happening. Something I did not sanction. His face was doing that thing it did in the hallway at the Ashford, that almost-imperceptible shift from neutral to something unguarded. His lips parted a fraction. His shoulders dropped, just barely, like a breath he'd been holding released on its own. And his eyes moved over me not the way an adversary appraises a threat but the way a man looks at a woman who has stopped him mid-thought.
+
+I filed it. I told myself it was useful information.
+
+My pulse was wrong. I pressed my bouquet tighter to my stomach as if pressure could correct a physiological response.
+
+My father released my arm. I stepped up to the altar.
+
+"You wore your hair down," Nico said.
+
+Not *you look beautiful*. Not *I'm glad you're here*. He noticed the specific thing. The deviation from my pattern.
+
+"Don't read into it," I said.
+
+"I read into everything."
+
+"I know. That's why I said it."
+
+"Warning me?"
+
+"Establishing terms."
+
+The corner of his mouth shifted. "Noted."
+
+The priest began. Father Rossi. Seventy, white-haired, kind-faced, the kind of priest who believed in the sacrament with his whole body and had no idea he was consecrating a treaty.
+
+Luca read from Corinthians. He stood at the lectern in his navy suit, green eyes bright, and delivered the words about love being patient and kind with a voice so smooth it could have sold you anything. *Love does not insist on its own way. It is not irritable or resentful.* He looked at me on the word *resentful*. A beat too long. Then he smiled and stepped down.
+
+Lena read the Song of Solomon. Her voice shook once, on the word *beloved*, and she looked at me while she read and I could see the effort it took her not to cry. I gave her the smallest nod.
+
+The vows.
+
+"Dominic Nicolo Valenti, do you take this woman to be your wife? To have and to hold, from this day forward, for better, for worse, for richer, for poorer, in sickness and in health, to love and to cherish, until death do you part?"
+
+"I do," Nico said. No hesitation. No performance. Two words in that low, rough voice, spoken directly to me, not to the priest, not to the congregation.
+
+Then Father Rossi turned to me.
+
+"Seraphina Maren, do you take this man to be your husband?"
+
+The church waited. Two hundred people held their breath, and the candles flickered in a draft I couldn't feel.
+
+"I do," I said.
+
+My voice didn't shake. I delivered the words like a contract clause, clean and precise and legally binding, because that was all they were. The verbal architecture of a deal struck in boardrooms by people who didn't care if the two humans standing in this church ever felt anything for each other.
+
+*Until death do you part.* I planned for it to be the death of his empire, not mine.
+
+The rings. Nico took my left hand.
+
+His fingers were warm. Steady. His thumb settled against my palm, and the contact sent something electric up through my wrist, past the tattoo, into the hollow of my elbow. My pulse jumped. Not a subtle thing. A jolt, the kind that originated somewhere deeper than logic. I hated that my body responded to his touch with something that felt less like strategy and more like want. I hated that his hand was gentle when it didn't need to be. He held it the way you hold something you're being careful with, and the care was worse than any roughness would have been because it confused the narrative I'd built around him.
+
+He slid the ring on. White gold, simple. It settled against my finger like it had always been there.
+
+I slid his ring on without letting my fingers linger.
+
+"You may kiss the bride."
+
+He stepped forward. His hand came to my jaw, his thumb just below my ear, the touch so light I might have imagined it if my nerve endings hadn't been cataloguing every point of contact.
+
+The kiss was brief. Dry. His lips touched mine for two seconds, maybe three. It was performative. We both knew it.
+
+But his hand. His hand pressed against the small of my back as he pulled away. One second too long. Five fingertips and a palm, firm and warm through the silk, holding me in place at the exact point where my spine curved. My body catalogued it: the heat, the pressure, the way his thumb shifted against my vertebra before he dropped his hand.
+
+Hours later, I could still feel it.
+
+The congregation applauded. The organ surged. We turned, and two hundred people saw the Maren-Valenti alliance, sealed, signed, delivered.
+
+I walked back down the aisle with Nico's arm through mine.
+
+"Breathe," he said without looking at me.
+
+"I'm breathing."
+
+"You're not."
+
+I breathed. He was right. The stained glass saints watched us pass, their painted faces as serene and indifferent as God.
+
+Outside, the cold hit like a correction. Lena caught my arm on the church steps.
+
+"You okay?"
+
+"Perfect."
+
+"You're lying."
+
+"I'm a bride. It's expected."
+
+---
+
+The Ashford ballroom was a cage made of crystal.
+
+Three chandeliers hanging from a ceiling painted to look like a Venetian sky. Gold leaf on the moulding. Marble floors polished to a mirror. Round tables draped in white, centrepieces of roses and greenery and candles in glass columns. A string quartet playing something classical that bled into the ambient noise of two hundred people drinking champagne and pretending they were happy to be here.
+
+Four exits. Main entrance behind me. Service door near the kitchen. French doors to the terrace. Staff corridor behind the bar. Filed.
+
+"Mrs. Valenti." A waiter appeared with champagne. The name hit me like a slap delivered with a silk glove. I took the glass.
+
+Lena appeared at my elbow. "How are you holding up?"
+
+"I'm fine."
+
+"You've said *I'm fine* four times today. At what point do we acknowledge that's code for the opposite?"
+
+"Five. Five is the threshold."
+
+"Sera."
+
+"I'm standing in a ballroom wearing a ring that belongs to a man whose family I'm going to dismantle. I'm fine."
+
+She looked at me for a long moment. "You know what scares me? I believe you."
+
+"Good."
+
+"That's the scary part."
+
+My father spoke first. Controlled, polished, brief. He talked about legacy and the strength of partnership, and he never once said the word *love*, and I respected the honesty of the omission even as I hated him for it.
+
+Then Luca stood.
+
+He took the microphone with the ease of a man who'd been performing since birth. The room laughed before he'd said a word.
+
+"So," he said. "My brother got married." He grinned. "Some of you know Nico. You know he's not exactly the romantic type. The man runs an empire. He doesn't write love letters. He writes contracts. He doesn't send flowers. He sends NDAs."
+
+Laughter. Warm, easy. Luca waited for it to subside.
+
+"But I'll tell you something about my brother that most people don't know. When Nico decides something belongs to him, that's it. Done. There's no negotiation, no appeal, no exit clause. He protects what's his with everything he has." Luca's eyes drifted to me. "Everything."
+
+The word sat in the air a beat too long.
+
+"So, Sera." He raised his glass. His smile was wide and warm and the threat underneath was so perfectly calibrated that only someone looking for it would find it. I was looking. "Welcome to the family. We take care of our own."
+
+*We take care of our own.* Two meanings, delivered simultaneously, wrapped in charm.
+
+Lena leaned close. "Did that speech sound like a threat to you, or am I being paranoid?"
+
+"It sounded like a best man speech."
+
+"Sera."
+
+"It sounded like a threat dressed up as a best man speech. Better?"
+
+"Much. Just wanted to confirm we're living in the same reality."
+
+The quartet shifted to something slower. Nico appeared at my side without sound. He did that. Moved through rooms like smoke.
+
+"Dance," he said. Not a question.
+
+His right hand settled on my waist. His left held mine at shoulder height. We stepped into the waltz and I understood immediately that Nico Valenti was a good dancer. Not the kind of good that comes from lessons. The kind that comes from awareness of another body in relation to your own, from the ability to lead without forcing. He moved, and I moved with him, and my body did the thing bodies do when they find a partner who matches their cadence: it stopped resisting.
+
+"You're angry," he said. Low enough that only I heard it, his mouth close enough to my ear that I felt his breath displace my hair.
+
+"I'm your wife," I said. "Same thing."
+
+Something shifted in his face. Not a smile. Almost. The corner of his mouth moved, and for a half-second I saw something that looked like genuine amusement, the kind that surprises the person feeling it. Then it was gone and we were turning slowly under three chandeliers while the quartet played Debussy and the champagne went flat in glasses no one was drinking.
+
+"Your brother's speech was interesting," I said.
+
+"Luca says what he means in a way that lets him deny he meant it."
+
+"A useful skill."
+
+"A dangerous one."
+
+"For who?"
+
+"For everyone near him."
+
+The song ended. Another began. He didn't let go, and I didn't pull away.
+
+"You didn't step on my feet," I said.
+
+"Low bar."
+
+"You'd be surprised. Most men dance like they're solving a math problem."
+
+"I'm not most men."
+
+"I've noticed."
+
+"People are watching," I said.
+
+"People have been watching us all night. That's the point."
+
+"The point is the alliance."
+
+"Yes."
+
+"So this is performance."
+
+He was quiet. We turned. The music swelled.
+
+"If it helps you to think so," he said.
+
+"What's the alternative?"
+
+"That I wanted to dance with my wife."
+
+"Don't call me that."
+
+"It's what you are."
+
+"It's what the contract says I am. Not the same thing."
+
+"Closer than you think," he said.
+
+The song ended. I stepped back. He let me.
+
+At the bar, I ordered water instead of champagne. Pellegrino over ice. I stood at the mahogany counter and pressed my thumb to the ring on my left hand and tried to remember the plan.
+
+A woman sat three stools down. Red hair, sharp bob, pale skin, freckles. Glasses with dark frames. She wore a grey blazer over a black dress, practical, the kind of outfit that said *I dressed to blend in but not to belong.* She was drinking whisky, neat, and she was watching the room the way I watched rooms. Exits. Faces. Connections. The scan of someone here to observe, not celebrate.
+
+She wasn't on the guest list. I would have remembered the hair.
+
+Our eyes met. One second. She didn't smile. Didn't look away. Just held my gaze with calm assessment, then returned to her whisky.
+
+I filed her. Red hair. Glasses. Watching. Something to find later.
+
+The bartender refilled my water without being asked. "Long night?" he said.
+
+"Long year," I said.
+
+He had the good sense not to follow up.
+
+Across the room, near the service corridor, my father stood in the shadow of a marble column speaking to Gianna Valenti. Their heads were close together. Not intimate. Urgent. Gianna's hand was on his forearm, gripping, and her mouth was moving fast, and my father's face was ashen. Not the controlled pallor of discomfort. The grey of a man hearing something that frightened him. His signet ring was still. Not turning. That was wrong. He always turned it. The stillness of his hands meant whatever Gianna was saying had stopped even his subconscious fidgeting.
+
+They noticed me watching. My father's face reassembled into composure so quickly it was like watching a mask slide back into place. Gianna moved in the opposite direction.
+
+Lena materialized beside me. "Your father looks like he just saw a ghost."
+
+"He looks like he always looks."
+
+"He does not. I've seen Victor Maren in boardrooms, at funerals, at your sister's memorial. He doesn't rattle. He's rattled."
+
+"I saw."
+
+"And?"
+
+"And I'll deal with it."
+
+"Tonight?"
+
+"When I'm ready."
+
+She looked at me, then at the spot where my father had been standing. "Be careful, Sera. Whatever that was, it wasn't small."
+
+I added it to the file. Victor. Gianna. The fear on my father's face. I would find it.
+
+The night wore on. I danced with Marco, who held me like a man defusing a bomb.
+
+"Can I ask you something?" I said.
+
+"You can ask."
+
+"How long have you known him?"
+
+"Since we were fifteen. He broke a guy's nose for me in a parking lot in Red Hook. I drove the getaway car. We've been inseparable since."
+
+"That's almost sweet."
+
+"Don't hurt him," Marco said.
+
+"That's a strange thing to say to a bride."
+
+"Not this bride."
+
+We finished the song in silence.
+
+At eleven, the ballroom thinned. The white roses were wilting.
+
+Nico found me on the terrace. The evening air was sharp and cold against my bare shoulders. Central Park stretched below, dark and vast.
+
+"It's time to go," he said.
+
+"Already tired of me?"
+
+"If I were tired of you, I'd have left you at the church."
+
+"Romantic."
+
+"Honest. There's a difference. Where's your coat?"
+
+"I didn't bring one."
+
+He looked at my bare shoulders. Looked away. "The car's warm."
+
+"Where's the car?"
+
+"I'm driving."
+
+"You're driving."
+
+"I don't let other people drive me."
+
+"A preference or a control issue?"
+
+"Both."
+
+He opened the passenger door. I got in. The leather was cold, then warm where my body met it.
+
+We drove south. Manhattan at midnight was all headlights and reflections, the wet streets catching neon. His scarred knuckles caught streetlight as we passed beneath lamps.
+
+"You can turn on the radio," he said.
+
+"I don't need music."
+
+"Most people fill silence."
+
+"Most people are uncomfortable with what silence tells them."
+
+"And what is it telling you?"
+
+"That we just made a very large mistake in a very old church."
+
+"Or a very calculated decision."
+
+"Those aren't mutually exclusive."
+
+He almost smiled again. That fracture in the mask, there and gone.
+
+"No," he said. "They're not."
+
+We crossed the Brooklyn Bridge. The cables rose above us in dark lines against the sky, and the glittering Manhattan skyline receded in the rearview.
+
+He parked on a street I didn't recognize but had memorized from satellite imagery three months ago. Four townhouses, connected in ways that weren't visible from outside.
+
+"This is it?" I said.
+
+"This is it."
+
+"It looks like a neighbourhood."
+
+"That's the idea."
+
+Nico turned off the engine. Came around to my side. Opened my door.
+
+He stood in the amber wash of a streetlamp, one hand on the door, his face half in shadow.
+
+"Welcome home, Mrs. Valenti."
+
+The words hit like a key turning in a lock. Not opening something. Closing it.
+
+I stepped out. The brownstone loomed above us, four stories of red brick and dark windows, a wrought-iron gate leading to stone steps. Ivy climbed the facade, dead in February, its skeleton clinging to the brick like the memory of something green.
+
+The front door was open. Warm light spilled from inside, and the smell of espresso reached me before I reached the threshold. Not the thin coffee of a machine left running. The rich, deliberate scent of espresso made by hand.
+
+Gianna stood in the entrance hall. Five-three, silver-streaked hair still pinned, still in black, still straight-backed. She held two small cups on a tray. Her green eyes moved from her son to me and back.
+
+It was midnight. She had left the reception, driven here, and made espresso. As if she'd known exactly when we'd arrive. As if time was a thing this family bent to its convenience.
+
+"Come in," she said. "You'll want coffee."
+
+I stepped across the threshold. Dark wood floors, warm light, the smell of decades of cooking embedded in the plaster walls, oil paintings in heavy frames, a staircase curving upward into shadow. Nothing like the glass and white marble I'd grown up in. Dense and warm and, against my will, not quite hostile.
+
+Gianna handed me the espresso.
+
+"Drink," she said. "Tomorrow is harder."
+
+"Harder than marrying a stranger?"
+
+"He is not a stranger anymore. That is what makes it harder."
+
+I drank. It was perfect. Dark, bitter, no sugar.
+
+Nico stood behind me. I could feel him without turning. The specific displacement of air that meant he was close.
+
+"You don't have to hover," I said without turning around.
+
+"I'm not hovering. I live here."
+
+Gianna took the empty cup from my hands. "Your room is upstairs. Third floor. Nico will show you." She touched my face, brief, her thumb against my cheekbone. The gesture of a mother, or the assessment of a sculptor checking her material. "Sleep. If you can."
+
+She walked deeper into the house, her footsteps fading on the dark wood floors, and I stood in the entrance hall of the Valenti compound at midnight, wearing a wedding dress and a dead man's name and a ring I planned to use as a skeleton key.
+
+No one in this family slept. I was beginning to understand why.`,
+      },
+      {
+        number: 4,
+        title: "The Compound",
+        isFree: false,
+        content: `I woke in a bed that wasn't mine, in a house that smelled like someone else's life.
+
+For three seconds I didn't know where I was. The ceiling was wrong. Too high, plaster instead of drywall, a hairline crack running from the light fixture to the far corner. The light was wrong too. Not the hard, white morning that bounced off my Upper East Side walls but something softer, filtered through curtains I hadn't chosen. Heavy linen. Cream with a thread of gold.
+
+Then I felt the ring on my finger and remembered everything.
+
+I sat up. The bedroom was warm-toned, nothing like the glass and bleached surfaces I'd grown up in. Dark wood floors, a Persian rug in deep reds and navy, a wardrobe built into the wall sometime around 1920. The sheets were white cotton, worn soft, the kind of fabric that had been washed a hundred times and gotten better for it. On the nightstand: a lamp with a brass base, a glass of water I didn't remember pouring, and a single stem of rosemary in a small vase.
+
+Gianna. It had to be.
+
+I crossed to the window. Brooklyn Heights in February. Grey sky, brown brick, bare branches. A woman walked a dog. A delivery truck idled at the corner. Normal life, unaware of what operated behind the wrought-iron gate below my window.
+
+I counted cameras. One above the front gate. One tucked under the eave of the neighbouring townhouse, covering the shared alley. A third mounted on the lintel of the first-floor window directly below me. Three visible from this position alone. Filed. I started getting dressed.
+
+Black trousers, grey cashmere sweater, hair in a low knot. No jewellery except the ring and my mother's watch.
+
+The hallway outside my door was dim. Dark wood panelling, sconce lighting, a runner carpet in faded burgundy. To my left: Nico's bedroom door. Closed. To my right: the shared sitting room connecting our two bedrooms like a demilitarised zone. Ahead: the staircase, curving down into the warm belly of the house.
+
+Below me, the faint clink of ceramic. The hiss of steam. A radio playing something low and Italian. The house was alive.
+
+I went down.
+
+The staircase walls were lined with photographs. Not the curated gallery-wall aesthetic of the homes I knew, where art was chosen by consultants and hung by specialists. These were family photographs in mismatched frames, arranged with the organic logic of accumulation. A wedding portrait, black and white. A christening. Children on a stoop, squinting in summer light.
+
+And then I stopped.
+
+Two boys. Maybe eight and five. The older one had his arm around the younger, protective and easy, the way children hold each other before they learn to calculate the cost. The older boy was dark-haired, serious-eyed, already carrying something in his expression that was too heavy for a child. The younger boy was laughing, mouth open, green eyes bright, leaning into his brother like his brother was the most solid thing in the world.
+
+Nico and Luca. Before.
+
+Behind them stood a man. Tall, broad, dark-complexioned, with a face that held the particular warmth of someone who loved without reservation. He had one hand on each boy's shoulder. His smile was wide and real, crinkling the corners of his eyes, and he was looking not at the camera but at his sons.
+
+Dominic Valenti.
+
+I stared at his face. I'd built an image of the Valenti patriarch over seven years: cold, calculating, a man who ordered violence the way other men ordered dinner. The man in this photograph was none of those things. He looked kind.
+
+This didn't fit. I pushed it away. Photographs lie. A kind face means nothing. The same hands resting on those small shoulders had signed orders, moved money, built an empire on the bones of people who got in the way.
+
+I kept walking. But Dominic Valenti's face stayed behind my eyes like an afterimage, warm and inconvenient.
+
+The kitchen was on the ground floor, at the back of the house. I smelled it before I saw it: coffee, butter, old wood. The scent of a room that had been cooking for forty years and had absorbed every meal into its walls.
+
+Nico was standing at the counter with his back to me.
+
+Of course he was. The man ran a criminal empire but apparently he also made espresso at six in the morning, standing barefoot on terracotta tile. I catalogued: dark T-shirt, grey sweatpants, wet hair from a shower I was not going to think about. His shoulders were broader without a jacket. The muscles in his forearms moved as he worked the lever on an old Pavoni espresso machine, chrome and brass, built in 1970 and never broken.
+
+"There's a cup for you," he said without turning around. "Left of the stove."
+
+A white ceramic cup on a saucer beside the range. Already warm. He'd heated it.
+
+"You knew I was coming down," I said.
+
+"I heard the fourth stair. It creaks."
+
+"I'll remember that."
+
+"I'm sure you will."
+
+I picked up the cup and waited. He pulled the shot. The espresso was dark and thick, a perfect crema forming as it settled. He poured it into my cup first, then his own. I noted that. My cup first.
+
+The kitchen was large by New York standards. Terracotta floor, butcher-block counters worn pale where knives had worked for decades. Copper pots hung from a rack above the stove. A window over the sink looked onto a narrow garden, winter-bare. The wooden table in the centre was scarred and large enough for eight, surrounded by chairs that didn't match. One had a cushion tied to its seat. Another had a child's scratch marks on the armrest.
+
+A family ate here. A real family, with elbows on the table and arguments over bread. The warmth of it pressed against me like a hand on my chest.
+
+I drank the espresso standing up. Dark, bitter, no sugar.
+
+"Your mother's recipe?" I said.
+
+"My father's."
+
+I filed that too. Everything in this house pointed back to Dominic.
+
+Nico leaned against the counter. He watched me over the rim of his cup. Not staring. Just present, the way a person is present when they're comfortable in a room and you're the variable.
+
+"How did you sleep?" he said.
+
+"Fine."
+
+"You run the tap for four minutes before bed. Every night?"
+
+My hand tightened on the cup. He'd heard that. Through the wall, through the shared sitting room. Four minutes of water running, drowning out the thoughts that came when the lights went off. I'd done it since Celia died. I didn't examine it.
+
+"Thin walls," I said.
+
+"Old house."
+
+"Is that your way of saying you'll be listening?"
+
+"It's my way of saying the walls don't keep secrets here. If that matters to you, adjust accordingly."
+
+"In this house, is there a difference between a warning and a courtesy?"
+
+He set down his cup. "Not always."
+
+"That's honest."
+
+"You sound surprised."
+
+"I expected more strategy from you. Less candour."
+
+"Candour is a strategy. You just haven't decided what kind yet."
+
+I almost smiled. The impulse came and went before it reached my mouth.
+
+"Your mother will give you the tour this morning," he said. "She'll be thorough."
+
+"I'd expect nothing less."
+
+"She'll show you everything she wants you to see. The things she doesn't show you are the things worth finding."
+
+I looked at him. His wet hair was drying in uneven waves, and there was a crease on his cheek from his pillow. For one disorienting second he looked like a person instead of an adversary.
+
+"Why would you tell me that?" I said.
+
+"Because you'd figure it out anyway. And I'd rather you know I know."
+
+"You're giving me permission to snoop around your family's house."
+
+"I'm giving you the courtesy of acknowledging what we both know you're going to do."
+
+"And if I find something you don't want me to find?"
+
+"Then we'll have a very interesting conversation."
+
+I set the cup in the sink. Turned to leave. His voice followed me.
+
+"Sera."
+
+I stopped.
+
+"The espresso machine takes a specific grind. Cabinet above the stove, left side. In case you want to make your own tomorrow."
+
+"I won't be making my own tomorrow."
+
+"No?"
+
+"I want to see if you heat the cup again."
+
+Something shifted in his face. Not a smile. The space where a smile would go if he allowed it.
+
+I left the kitchen. My hands were steady. My pulse was not.
+
+---
+
+Gianna's tour began at nine.
+
+She moved through the compound with the precision of a general walking a new officer through a military installation. Every room had a name, a history, a purpose she explained with warmth that did not invite questions.
+
+The main house was four stories. Ground floor: kitchen, formal dining room, a parlour with bookshelves floor to ceiling. First floor: a living room with two sofas facing a coffee table made from a ship's hatch, a study lined in green leather. Second floor: guest bedrooms. Third floor: mine and Nico's.
+
+"This floor is yours," Gianna said at the top of the stairs. "The sitting room is shared. His bedroom is there, yours is there. The door between the sitting room and his side locks from both sides."
+
+"And his side?"
+
+"Locks from both sides."
+
+"Equal terms."
+
+"In this house, we respect closed doors." She paused. "We also notice them."
+
+She showed me the connections between the townhouses. Doorways cut through shared walls, some disguised behind bookcases.
+
+"How many people live here?" I said.
+
+"Nico. You. Luca, when he chooses to be home. Marco has his own apartment but keeps a room. And me." She opened a door to what had been a dining room, now filled with monitors. She closed it again without comment. "The family has always been here. Dominic bought the first townhouse when Nico was born. The others came later."
+
+"He built all of this?"
+
+"He built all of this." Her voice didn't change, but something behind it did. "My husband believed that family should live close enough to protect each other."
+
+"And far enough apart to keep secrets?"
+
+She looked at me. Her green eyes were Luca's eyes in a steadier face. "You're sharper than your father described."
+
+"My father doesn't know me as well as he thinks."
+
+"No," she said. "Fathers rarely do."
+
+I mapped it all. Six exterior exits from the main house alone. Eight cameras I could spot. Seventeen rooms I was shown, plus the ones I wasn't.
+
+The basement door was at the end of the ground-floor hallway, past the kitchen, set into the wall like an afterthought. Heavy wood, iron hardware, a deadbolt that looked newer than the door.
+
+"And down there?" I said.
+
+"Storage," Gianna said. She didn't slow down. "Old furniture, wine that needs temperature control, the things every old house accumulates. It runs the full block."
+
+"Can I see it?"
+
+"When it's been organised. Right now it's forty years of Valenti clutter. You'd need a map."
+
+She smiled. It was warm and final. The door was locked, and she didn't offer a key, and the subject was closed with the gentle authority of a woman who had been deciding what people could and could not access for longer than I'd been alive.
+
+I smiled back. "I'm patient."
+
+"I know," Gianna said. "That's what concerns me."
+
+---
+
+The house emptied by early afternoon. Gianna left for what she called errands. Nico left without announcement. Luca's music stopped. The silence that followed was total, the particular silence of a large, old house holding its breath.
+
+I explored.
+
+The study first. Desk drawers unlocked but empty. Deliberately empty. Someone had cleared them before I arrived. The bookshelves held history, philosophy, Italian literature, a battered copy of *The Prince* with notes in the margins in a handwriting I didn't recognise. I photographed three pages with my phone.
+
+The living room. The ship's-hatch coffee table had a drawer. Inside: coasters, a lighter, a deck of cards, a photograph face-down. I turned it over. Dominic again. Older, maybe fifty, sitting on this sofa with wine and a newspaper. He was looking at whoever held the camera with an expression that made my stomach tighten. Tenderness. Unguarded, unperformative.
+
+I put it back. Face-down, exactly as I'd found it.
+
+More photographs along the hallway. Christmases, birthdays, a teenage Nico in a football jersey with a black eye and a grin that transformed his face into something I wasn't prepared for. Dominic in a tuxedo, Gianna on his arm, both laughing.
+
+And one more. Dominic and another man, standing outside what looked like a restaurant, shoulders almost touching. The other man was shorter, older, silver-haired. They were shaking hands, smiling, and the body language was unmistakable: these were men who trusted each other.
+
+The silver-haired man was my father.
+
+Victor Maren and Dominic Valenti. Smiling. My father had never mentioned anything but enmity, territory, threat. The Valentis were the enemy. That was the first and final word.
+
+But here they were. And no one had told me.
+
+I checked every door, every window, every lock. The kitchen door to the garden had an old, loose bolt. The alley door had a keypad with a green light.
+
+And then the basement.
+
+I stood in front of it for a full minute. The deadbolt was a Medeco, high security, resistant to picking without professional tools I didn't have. The door frame was reinforced, the hinges on the inside. Whatever was down there, the Valentis didn't protect it casually.
+
+I tried the handle. Locked. Firm. The mechanism didn't give even a millimetre.
+
+I pressed my ear to the wood. Nothing. Just the deep, insulated silence of a space below ground.
+
+I stepped back. Filed it. Moved on.
+
+The kitchen was empty when I returned to it, but it wasn't empty for long.
+
+"Making yourself at home?"
+
+Marco stood in the doorway. Leather jacket, boots, arms crossed. His broken nose cast a shadow across his upper lip, and his kind eyes had gone flat and watchful. He filled the doorframe the way men fill doorframes when they want you to know the only exit is through them.
+
+"Gianna said to treat the house as mine," I said.
+
+"Gianna is polite."
+
+"And you're not."
+
+"Not when it matters." He stepped into the kitchen. The distance between us halved. "I've known Nico since we were fifteen. I know what loyalty looks like."
+
+He stopped. Close enough that I could see the individual scars on his knuckles, white lines over brown skin, a map of every fight he'd walked away from.
+
+"You don't have it," he said.
+
+The words were quiet. Not angry. Certain, the way a man is certain about weather or gravity. A fact, not an accusation.
+
+I smiled. Not warmly. The way you smile when someone plays a card you expected.
+
+"You don't know what I have."
+
+"I know you're in this house with an agenda. I know you volunteered for this marriage, which means you wanted to be here, which means you want something. I don't know what it is yet. But I'll find out."
+
+"Is that a threat?"
+
+"It's a promise. I don't make threats. Threats are for people who might not follow through."
+
+We stood there. The kitchen clock ticked. The copper pots caught afternoon light and threw it in dull circles on the ceiling.
+
+"I appreciate the honesty," I said.
+
+"No, you don't. You appreciate the information. You're filing this conversation right now, deciding what it tells you about me and about Nico and about how this household works."
+
+"Am I that transparent?"
+
+"You're not transparent at all. That's the problem. Transparent people are harmless. You're the opposite."
+
+"And what does that make me?"
+
+"Something I'm going to keep my eye on."
+
+"Fair enough."
+
+"It's not about fair. It's about Nico." His jaw tightened. "He's given more to this family than anyone knows. I'm not going to watch someone take it apart from the inside."
+
+"You're loyal."
+
+"And you're not. That's the whole conversation."
+
+"Then why are we still having it?"
+
+"Because I want you to know that I see you. Whatever face you show Gianna, whatever game you play with Nico, I see you. And I don't look away."
+
+He was right. He didn't.
+
+"Nico already knows what you are," he said. "He married you anyway. That's the part I can't figure out." He looked at me for a long moment. "But I will."
+
+He left. I stood in the kitchen with the afternoon light and the copper pots and the lingering pressure of a man who saw me clearly and did not like what he saw.
+
+My reflection in the kitchen window was a woman in grey cashmere in a warm room, and she looked, against her will, like she could belong here.
+
+---
+
+Night came slowly.
+
+I spent the evening in my room. The house resettled around me. Doors opening, closing. Footsteps on stairs. The smell of dinner cooking: garlic, tomato, something herbed and slow. Gianna had left a plate outside my door: pasta with red sauce, bread, a glass of wine. The gesture was either kindness or a message. You are fed. You are provided for. Guests eat what the host gives them.
+
+The pasta was extraordinary. I hated how good it was.
+
+By eleven, the house was quiet. I did my ritual. Four minutes, tap running. Changed into the silk robe. Sat on the edge of the bed with the lights off, the streetlamp painting a pale rectangle on the floor.
+
+Then I heard it.
+
+Piano. Coming through the wall, through the shared sitting room, from Nico's side of the floor. Not scales or exercises. A piece. Something classical and slow, built on a melody that climbed and fell and climbed again, each phrase more exposed than the last. I didn't know the composer. I knew the feeling. The music sounded the way grief sounds when it stops being sharp and becomes the thing you live inside, the temperature of every room, the colour behind your eyes when you close them.
+
+He played without stopping. No pauses, no mistakes, no hesitation. The notes moved through the wall like water through stone, finding every crack, every gap, filling the dark.
+
+I stood. Crossed the room. Pressed my back against the wall that separated us.
+
+The plaster was cool through the silk. I could feel the vibration of the piano in my shoulder blades, a low hum that was not quite sound, not quite touch. He was fifteen feet away. Playing something that I understood without knowing the name of it, something that said *I am alone in a room and I am not performing for anyone and this is what I sound like when no one is watching.*
+
+I pressed my palms flat against the wall. I listened. I did not go to him.
+
+I stayed there long enough for the piece to end and another to begin, slower, quieter, as if the piano itself were falling asleep. Long enough for my breathing to match the rhythm of his playing, which I noticed and did not correct.
+
+I did not go to him.
+
+The music stopped. A creak, a footstep, a door closing softly. His side of the floor went dark.
+
+I slid down the wall until I was sitting on the floor, knees drawn up, silk robe pooling around me. The ring was heavy on my finger. The house kept its secrets in the walls, and I sat against one and kept mine.
+
+At some point in the small hours, I got up for water. The streetlamp had shifted, the light rectangle now lying across the foot of the bed. As I moved toward the bathroom, my bare foot touched something on the floor near the door.
+
+Paper. Stiff. An envelope, cream-coloured, slid beneath the gap.
+
+I picked it up. No name on the front. No markings. I turned it over. Unsealed.
+
+Inside: a photograph.
+
+My breath stopped.
+
+Marcus. My brother. Sitting in a restaurant, warm-toned, low lighting, leaning forward with his elbows on the table. The same posture, the same fire. And across from him, the same man I'd kept in my desk for three years. The older man with the heavy brows and the broken nose and the face I'd memorised a hundred times without ever learning his name.
+
+But this was a different photograph. Different angle, taken from across the room, slightly blurred as if shot quickly, without permission. In this version, I could see more of the restaurant. A wine bottle between them. Marcus's hand gesturing. The other man leaning forward, listening. Their body language was close, conspiratorial, two people in the middle of something important.
+
+I turned the photograph over.
+
+Handwriting on the back. Not Marcus's angular scrawl. Not my father's precise capitals. A hand I didn't recognise, small and neat and deliberate.
+
+Five words:
+
+*Ask your father about Dominic.*
+
+My blood went cold. Not a metaphor. A plunge in temperature that started in my hands and moved inward, like falling through ice into dark water. I stood barefoot on the dark wood floor of the Valenti compound at two in the morning, holding a photograph of my dead brother and a message from someone who knew things I didn't, and every assumption I'd carried into this house shifted beneath me like a floor that had been solid a moment ago and now was not.
+
+Ask your father about Dominic.
+
+The kind-faced man in the photographs on the stairs. The man whose espresso recipe his son still used. The man who was murdered at a family dinner five years ago.
+
+What did my father know? What did Marcus know? And who in this house was sliding messages under my door in the dark?
+
+I put the photograph back in the envelope, the envelope in my suitcase, interior pocket, zipped shut. I would need a better hiding place. Tomorrow.
+
+I sat on the edge of the bed. Pressed my thumb to the tattoo. Three.
+
+I had come here with a plan. A clean, sharp, seven-year plan built on grief and certainty.
+
+The certainty was cracking.
+
+I pressed harder. Marcus. Celia. Sera.
+
+*Ask your father about Dominic.*
+
+I did not sleep. I sat in the dark and held the question like a blade, turning it, feeling its weight, trying to decide which direction it cut.
+
+Toward the Valentis. Or toward home.`,
       },
     ],
   },
