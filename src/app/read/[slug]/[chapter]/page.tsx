@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getStory, getChapter, chapterIllustrations } from "@/lib/stories";
 import PaywallGate from "./PaywallGate";
+import EmailCapture from "./EmailCapture";
 
 interface PageProps {
   params: Promise<{ slug: string; chapter: string }>;
@@ -101,8 +102,15 @@ export default async function ReadChapter({ params }: PageProps) {
           })()}
         </div>
 
+        {/* Email capture for free chapters */}
+        {chapter.isFree && (
+          <div className="mt-16">
+            <EmailCapture accentColor={accentColor} />
+          </div>
+        )}
+
         {/* End of chapter CTA */}
-        <div className="mt-20 pt-10 border-t border-[#e5e5e3] text-center">
+        <div className="mt-10 pt-10 border-t border-[#e5e5e3] text-center">
           {chapter.number < 4 ? (
             <>
               <p className="text-[#999] text-sm mb-4">
