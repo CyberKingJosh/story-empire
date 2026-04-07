@@ -8,8 +8,8 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Email required" }, { status: 400 });
     }
 
-    const priceId = process.env.STRIPE_PRICE_ID_MONTHLY;
-    const secretKey = process.env.STRIPE_SECRET_KEY;
+    const priceId = (process.env.STRIPE_PRICE_ID_MONTHLY ?? "").trim();
+    const secretKey = (process.env.STRIPE_SECRET_KEY ?? "").trim();
 
     if (!priceId || !secretKey) {
       return NextResponse.json({ error: "Stripe not configured" }, { status: 500 });
