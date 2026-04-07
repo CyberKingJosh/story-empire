@@ -15,6 +15,28 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Stripe not configured" }, { status: 500 });
     }
 
+    // Check if user already has an active subscription
+    const custRes = await fetch(
+      `https://api.stripe.com/v1/customers?email=${encodeURIComponent(email)}&limit=1`,
+      { headers: { "Authorization": `Bearer ${secretKey}` } }
+    );
+    const custData = await custRes.json();
+
+    if (custData.data && custData.data.length > 0) {
+      const subRes = await fetch(
+        `https://api.stripe.com/v1/subscriptions?customer=${custData.data[0].id}&status=active&limit=1`,
+        { headers: { "Authorization": `Bearer ${secretKey}` } }
+      );
+      const subData = await subRes.json();
+
+      if (subData.data && subData.data.length > 0) {
+        return NextResponse.json(
+          { error: "You already have an active subscription. Use your email to unlock chapters." },
+          { status: 400 }
+        );
+      }
+    }
+
     const appUrl = "https://storyempire.online";
 
     const params = new URLSearchParams();

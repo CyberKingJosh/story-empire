@@ -225,12 +225,20 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-[#0a0910] px-6 py-10">
-        <div className="max-w-6xl mx-auto flex items-center justify-between text-sm text-white/30">
-          <span>&copy; {new Date().getFullYear()} Story Empire</span>
-          <div className="flex gap-6">
-            <Link href="/subscribe" className="hover:text-white/60 transition-colors">
-              Subscribe
-            </Link>
+        <div className="max-w-6xl mx-auto text-sm text-white/30">
+          <div className="flex items-center justify-between mb-4">
+            <span>&copy; {new Date().getFullYear()} Story Empire</span>
+            <div className="flex gap-6">
+              <Link href="/subscribe" className="hover:text-white/60 transition-colors">
+                Subscribe
+              </Link>
+              <Link href="/cancel" className="hover:text-white/60 transition-colors">
+                Manage Subscription
+              </Link>
+              <a href="mailto:help@storyempire.online" className="hover:text-white/60 transition-colors">
+                Help
+              </a>
+            </div>
           </div>
         </div>
       </footer>
