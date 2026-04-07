@@ -175,13 +175,19 @@ export default async function ReadChapter({ params }: PageProps) {
         chapterContent
       ) : (
         <PaywallGate
+          storySlug={slug}
           storyTitle={story.title}
+          storyGenre={story.genre}
           chapterNumber={chapter.number}
           chapterTitle={chapter.title}
           accentColor={accentColor}
-        >
-          {chapterContent}
-        </PaywallGate>
+          genreLabel={genreLabels[story.genre] || "Fiction"}
+          hasNextChapter={story.chapters.some(c => c.number === chapter.number + 1)}
+          endQuote={story.genre === "romantasy" ? "The corridor pulled her in like a breath..."
+            : story.genre === "cozy-mystery" ? "She didn't move until she heard Nina's knock."
+            : story.genre === "bl-romance" ? "The game had more players than he knew..."
+            : "She sharpened her teeth..."}
+        />
       )}
 
       {/* Footer */}

@@ -2,67 +2,90 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
+
+interface ChapterIllustration {
+  afterParagraph: number;
+  src: string;
+  alt: string;
+}
 
 interface PaywallGateProps {
+  storySlug: string;
   storyTitle: string;
+  storyGenre: string;
   chapterNumber: number;
   chapterTitle: string;
   accentColor: string;
-  children: React.ReactNode;
+  genreLabel: string;
+  hasNextChapter: boolean;
+  endQuote: string;
 }
 
 export default function PaywallGate({
+  storySlug,
   storyTitle,
+  storyGenre,
   chapterNumber,
   chapterTitle,
   accentColor,
-  children,
+  genreLabel,
+  hasNextChapter,
+  endQuote,
 }: PaywallGateProps) {
   const [checking, setChecking] = useState(true);
   const [hasAccess, setHasAccess] = useState(false);
+  const [content, setContent] = useState<string | null>(null);
+  const [illustrations, setIllustrations] = useState<ChapterIllustration[]>([]);
 
   useEffect(() => {
     const email = localStorage.getItem("se_email");
-
-    // Check if we have a cached verification (valid for 24 hours)
-    const cachedAt = localStorage.getItem("se_verified_at");
-    if (email && cachedAt) {
-      const hoursSince = (Date.now() - parseInt(cachedAt)) / (1000 * 60 * 60);
-      if (hoursSince < 24) {
-        setHasAccess(true);
-        setChecking(false);
-        return;
-      }
-    }
 
     if (!email) {
       setChecking(false);
       return;
     }
 
-    // Only verify with Stripe if cache expired or doesn't exist
-    fetch("/api/stripe/verify-access", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email }),
-    })
-      .then((r) => r.json())
-      .then((data) => {
-        setHasAccess(data.hasAccess);
-        if (data.hasAccess) {
-          localStorage.setItem("se_verified_at", Date.now().toString());
-        } else {
-          localStorage.removeItem("se_email");
-          localStorage.removeItem("se_verified_at");
-        }
-      })
-      .catch(() => {
-        // If verification fails (network error), grant access if email exists
-        // Better to let a paying customer read than block them due to API issues
-        if (email) setHasAccess(true);
-      })
-      .finally(() => setChecking(false));
+    // Check cache first
+    const cachedAt = localStorage.getItem("se_verified_at");
+    if (cachedAt) {
+      const hoursSince = (Date.now() - parseInt(cachedAt)) / (1000 * 60 * 60);
+      if (hoursSince < 24) {
+        // Cached as verified — fetch content directly
+        fetchContent(email);
+        return;
+      }
+    }
+
+    // Verify then fetch
+    fetchContent(email);
   }, []);
+
+  async function fetchContent(email: string) {
+    try {
+      const res = await fetch("/api/chapter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, slug: storySlug, chapter: chapterNumber }),
+      });
+
+      if (res.ok) {
+        const data = await res.json();
+        setContent(data.content);
+        setIllustrations(data.illustrations || []);
+        setHasAccess(true);
+        localStorage.setItem("se_verified_at", Date.now().toString());
+      } else {
+        localStorage.removeItem("se_email");
+        localStorage.removeItem("se_verified_at");
+        setHasAccess(false);
+      }
+    } catch {
+      // Network error — if email exists, try to show content anyway
+      setHasAccess(false);
+    }
+    setChecking(false);
+  }
 
   if (checking) {
     return (
@@ -72,24 +95,98 @@ export default function PaywallGate({
     );
   }
 
-  if (hasAccess) {
-    return <>{children}</>;
+  if (hasAccess && content) {
+    const paragraphs = content.split("\n\n").filter(Boolean);
+    const illustrationMap = new Map(illustrations.map(ill => [ill.afterParagraph, ill]));
+    let paraIdx = 0;
+
+    return (
+      <>
+        <header className="bg-white border-b border-[#e5e5e3] py-12 px-6 text-center">
+          <span className="text-xs font-bold uppercase tracking-widest" style={{ color: accentColor }}>
+            {genreLabel}
+          </span>
+          <h1 className="text-3xl font-bold text-[#1a1a1a] mt-3">{storyTitle}</h1>
+          <p className="text-lg text-[#6b6b6b] mt-2">Chapter {chapterNumber}: {chapterTitle}</p>
+        </header>
+
+        <article className="max-w-2xl mx-auto px-6 py-14">
+          <div className="prose-chapter">
+            {paragraphs.map((p, i) => {
+              if (p.startsWith("# ")) return null;
+              if (p === "---") {
+                return (
+                  <div key={i} className="my-12 flex justify-center">
+                    <div className="flex gap-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#ccc]" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#ccc]" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#ccc]" />
+                    </div>
+                  </div>
+                );
+              }
+              const text = p.replace(/\*(.*?)\*/g, "<em>$1</em>");
+              const currentIdx = paraIdx++;
+              const illustration = illustrationMap.get(currentIdx);
+
+              return (
+                <div key={i}>
+                  <p dangerouslySetInnerHTML={{ __html: text }} />
+                  {illustration && (
+                    <div className="my-10 -mx-6 md:-mx-16">
+                      <Image
+                        src={illustration.src}
+                        alt={illustration.alt}
+                        width={768}
+                        height={1024}
+                        className="w-full rounded-lg shadow-lg"
+                        style={{ maxHeight: '500px', objectFit: 'cover' }}
+                      />
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="mt-20 pt-10 border-t border-[#e5e5e3] text-center">
+            {hasNextChapter ? (
+              <>
+                <p className="text-[#999] text-sm mb-4">Continue reading</p>
+                <Link
+                  href={`/read/${storySlug}/${chapterNumber + 1}`}
+                  className="inline-block px-7 py-3 rounded-lg font-semibold text-white text-base transition-colors"
+                  style={{ backgroundColor: accentColor }}
+                >
+                  Chapter {chapterNumber + 1} &rarr;
+                </Link>
+              </>
+            ) : (
+              <>
+                <p className="text-xl text-[#1a1a1a] mb-2 italic" style={{ fontFamily: "Georgia, serif" }}>
+                  {endQuote}
+                </p>
+                <p className="text-[#999] text-sm mb-8">New chapters every week.</p>
+              </>
+            )}
+          </div>
+        </article>
+      </>
+    );
   }
 
+  // Not verified — show paywall (NO content sent to browser)
   return (
     <div className="max-w-lg mx-auto px-6 py-20 text-center">
       <h1 className="text-2xl font-bold text-[#1a1a1a] mb-2">{storyTitle}</h1>
-      <p className="text-[#6b6b6b] mb-8">
-        Chapter {chapterNumber}: {chapterTitle}
-      </p>
+      <p className="text-[#6b6b6b] mb-8">Chapter {chapterNumber}: {chapterTitle}</p>
       <div className="bg-[#fafaf8] border border-[#e5e5e3] rounded-xl p-8">
-        <p className="text-[#555] mb-4">
-          This chapter is available to subscribers.
-        </p>
-        <p className="text-[#999] text-sm mb-6">
-          Already subscribed? Enter the email you used to subscribe.
-        </p>
-        <EmailCheck accentColor={accentColor} onAccess={() => setHasAccess(true)} />
+        <p className="text-[#555] mb-4">This chapter is available to subscribers.</p>
+        <p className="text-[#999] text-sm mb-6">Already subscribed? Enter the email you used.</p>
+        <EmailCheck
+          accentColor={accentColor}
+          onAccess={(email) => fetchContent(email)}
+        />
         <div className="mt-6 pt-6 border-t border-[#e5e5e3]">
           <Link
             href="/subscribe"
@@ -115,7 +212,7 @@ function EmailCheck({
   onAccess,
 }: {
   accentColor: string;
-  onAccess: () => void;
+  onAccess: (email: string) => void;
 }) {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
@@ -127,22 +224,10 @@ function EmailCheck({
     setError("");
 
     try {
-      const res = await fetch("/api/stripe/verify-access", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
-      });
-      const data = await res.json();
-      if (data.hasAccess) {
-        localStorage.setItem("se_email", email);
-        localStorage.setItem("se_verified_at", Date.now().toString());
-        onAccess();
-      } else {
-        setError("No active subscription found for this email.");
-      }
+      localStorage.setItem("se_email", email);
+      onAccess(email);
     } catch {
       setError("Something went wrong. Try again.");
-    } finally {
       setLoading(false);
     }
   }
@@ -167,9 +252,7 @@ function EmailCheck({
           {loading ? "..." : "Unlock"}
         </button>
       </div>
-      {error && (
-        <p className="text-red-500 text-sm text-center">{error}</p>
-      )}
+      {error && <p className="text-red-500 text-sm text-center">{error}</p>}
     </form>
   );
 }
