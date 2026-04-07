@@ -101,7 +101,7 @@ export default function PaywallGate({
         </div>
         <p className="text-[#bbb] text-xs mt-6">
           Forgot your email?{" "}
-          <a href="mailto:help@storyempire.online" className="text-[#999] underline">
+          <a href="mailto:joshuaogugua10@gmail.com" className="text-[#999] underline">
             Contact us for help
           </a>
         </p>

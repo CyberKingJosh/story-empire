@@ -107,7 +107,7 @@ export default async function StoryPage({ params }: PageProps) {
         <div className="mt-12 pt-8 border-t border-[#e5e5e3] text-center">
           <p className="text-[#bbb] text-xs">
             Need help? Contact us at{" "}
-            <a href="mailto:help@storyempire.online" className="text-[#999] underline">
+            <a href="mailto:joshuaogugua10@gmail.com" className="text-[#999] underline">
               help@storyempire.online
             </a>
           </p>

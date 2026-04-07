@@ -109,9 +109,10 @@ export default function Home() {
               const hasChapters = story.chapters.length > 0;
 
               return (
-                <div
+                <Link
+                  href={hasChapters ? `/read/${story.slug}` : '#'}
                   key={story.slug}
-                  className="group rounded-2xl overflow-hidden bg-[#1a1825] border border-white/10 shadow-sm hover:shadow-xl hover:shadow-purple-500/5 transition-all"
+                  className="group rounded-2xl overflow-hidden bg-[#1a1825] border border-white/10 shadow-sm hover:shadow-xl hover:shadow-purple-500/5 transition-all block"
                 >
                   {/* Card illustration */}
                   <div className="relative h-64 overflow-hidden">
@@ -155,7 +156,7 @@ export default function Home() {
                       </span>
                     )}
                   </div>
-                </div>
+                </Link>
               );
             })}
           </div>
@@ -235,7 +236,7 @@ export default function Home() {
               <Link href="/cancel" className="hover:text-white/60 transition-colors">
                 Manage Subscription
               </Link>
-              <a href="mailto:help@storyempire.online" className="hover:text-white/60 transition-colors">
+              <a href="mailto:joshuaogugua10@gmail.com" className="hover:text-white/60 transition-colors">
                 Help
               </a>
             </div>

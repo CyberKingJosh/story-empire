@@ -152,15 +152,22 @@ export default async function ReadChapter({ params }: PageProps) {
       <nav className="border-b border-[#e5e5e3] bg-white px-6 py-4">
         <div className="max-w-3xl mx-auto flex items-center justify-between">
           <Link href="/" className="text-sm text-[#6b6b6b] hover:text-[#1a1a1a] transition-colors">
-            &larr; Back to Story Empire
+            &larr; Home
           </Link>
-          <Link
-            href="/subscribe"
-            className="text-sm font-semibold hover:opacity-80 transition-opacity"
-            style={{ color: accentColor }}
-          >
-            Subscribe
-          </Link>
+          <div className="flex items-center gap-4">
+            <Link
+              href={`/read/${slug}`}
+              className="text-sm text-[#6b6b6b] hover:text-[#1a1a1a] transition-colors"
+            >
+              All Chapters
+            </Link>
+            <Link
+              href="/cancel"
+              className="text-sm text-[#6b6b6b] hover:text-[#1a1a1a] transition-colors"
+            >
+              Settings
+            </Link>
+          </div>
         </div>
       </nav>
 
@@ -179,8 +186,15 @@ export default async function ReadChapter({ params }: PageProps) {
 
       {/* Footer */}
       <footer className="border-t border-[#e5e5e3] bg-white px-6 py-8">
-        <div className="max-w-3xl mx-auto text-center text-sm text-[#999]">
-          &copy; {new Date().getFullYear()} Story Empire
+        <div className="max-w-3xl mx-auto text-center text-sm text-[#bbb]">
+          <div className="flex items-center justify-center gap-4 mb-3">
+            <Link href={`/read/${slug}`} className="hover:text-[#999] transition-colors">All Chapters</Link>
+            <span>&middot;</span>
+            <Link href="/cancel" className="hover:text-[#999] transition-colors">Manage Subscription</Link>
+            <span>&middot;</span>
+            <a href="mailto:joshuaogugua10@gmail.com" className="hover:text-[#999] transition-colors">Help</a>
+          </div>
+          <p>&copy; {new Date().getFullYear()} Story Empire</p>
         </div>
       </footer>
     </main>
