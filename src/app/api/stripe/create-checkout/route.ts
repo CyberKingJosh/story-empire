@@ -20,14 +20,17 @@ export async function POST(req: NextRequest) {
     }
 
     // Use Stripe REST API directly instead of SDK (avoids connection issues)
+    const successUrl = `${appUrl}/subscribe?success=true&session_id={CHECKOUT_SESSION_ID}`;
+    const cancelUrl = `${appUrl}/subscribe?cancelled=true`;
+
     const body = [
       "mode=subscription",
       "payment_method_types[0]=card",
       `customer_email=${encodeURIComponent(email)}`,
       `line_items[0][price]=${priceId}`,
       "line_items[0][quantity]=1",
-      `success_url=${appUrl}/subscribe?success=true&session_id={CHECKOUT_SESSION_ID}`,
-      `cancel_url=${appUrl}/subscribe?cancelled=true`,
+      `success_url=${encodeURIComponent(successUrl)}`,
+      `cancel_url=${encodeURIComponent(cancelUrl)}`,
     ].join("&");
 
     const res = await fetch("https://api.stripe.com/v1/checkout/sessions", {
