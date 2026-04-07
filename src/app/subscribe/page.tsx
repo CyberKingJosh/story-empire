@@ -137,16 +137,22 @@ function SubscribeForm() {
               </span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="text-[#999] mt-0.5 font-bold">&#8226;</span>
-              <span className="text-[#555]">New chapters every week, delivered to your inbox</span>
+              <span className="text-[#ef4444] mt-0.5 font-bold">&#8226;</span>
+              <span className="text-[#333]">
+                <strong>Crimson Vow</strong> &mdash; BL dark romance.
+                An undercover agent falling for the man he&apos;s supposed to destroy.
+              </span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-[#e11d48] mt-0.5 font-bold">&#8226;</span>
+              <span className="text-[#333]">
+                <strong>Brutal Vows</strong> &mdash; 18+ dark romance.
+                She married her enemy to burn his family from the inside.
+              </span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#999] mt-0.5 font-bold">&#8226;</span>
-              <span className="text-[#555]">Original illustrations for key scenes</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-[#999] mt-0.5 font-bold">&#8226;</span>
-              <span className="text-[#555]">Four series across multiple genres</span>
+              <span className="text-[#555]">New chapters every week with original illustrations</span>
             </li>
           </ul>
         </div>

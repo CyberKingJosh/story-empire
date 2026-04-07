@@ -122,25 +122,27 @@ function EmailCheck({
   }
 
   return (
-    <form onSubmit={handleCheck} className="flex gap-2">
-      <input
-        type="email"
-        required
-        placeholder="your@email.com"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        className="flex-1 px-3 py-2 rounded-lg border-2 border-[#e5e5e3] text-sm text-[#1a1a1a] focus:outline-none focus:border-[#b8860b]"
-      />
-      <button
-        type="submit"
-        disabled={loading}
-        className="px-4 py-2 rounded-lg text-white text-sm font-semibold disabled:opacity-50"
-        style={{ backgroundColor: accentColor }}
-      >
+    <form onSubmit={handleCheck} className="space-y-3">
+      <div className="flex gap-2">
+        <input
+          type="email"
+          required
+          placeholder="your@email.com"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          className="flex-1 px-3 py-2.5 rounded-lg border-2 border-[#e5e5e3] text-sm text-[#1a1a1a] focus:outline-none focus:border-[#b8860b]"
+        />
+        <button
+          type="submit"
+          disabled={loading}
+          className="px-4 py-2.5 rounded-lg text-white text-sm font-semibold disabled:opacity-50"
+          style={{ backgroundColor: accentColor }}
+        >
         {loading ? "..." : "Unlock"}
       </button>
+      </div>
       {error && (
-        <p className="text-red-500 text-xs mt-1 absolute">{error}</p>
+        <p className="text-red-500 text-sm text-center">{error}</p>
       )}
     </form>
   );
