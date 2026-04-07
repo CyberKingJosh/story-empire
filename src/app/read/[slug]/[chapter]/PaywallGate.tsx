@@ -23,11 +23,24 @@ export default function PaywallGate({
 
   useEffect(() => {
     const email = localStorage.getItem("se_email");
+
+    // Check if we have a cached verification (valid for 24 hours)
+    const cachedAt = localStorage.getItem("se_verified_at");
+    if (email && cachedAt) {
+      const hoursSince = (Date.now() - parseInt(cachedAt)) / (1000 * 60 * 60);
+      if (hoursSince < 24) {
+        setHasAccess(true);
+        setChecking(false);
+        return;
+      }
+    }
+
     if (!email) {
       setChecking(false);
       return;
     }
 
+    // Only verify with Stripe if cache expired or doesn't exist
     fetch("/api/stripe/verify-access", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -36,19 +49,25 @@ export default function PaywallGate({
       .then((r) => r.json())
       .then((data) => {
         setHasAccess(data.hasAccess);
-        if (!data.hasAccess) {
-          // Email stored but no active sub — clear it
+        if (data.hasAccess) {
+          localStorage.setItem("se_verified_at", Date.now().toString());
+        } else {
           localStorage.removeItem("se_email");
+          localStorage.removeItem("se_verified_at");
         }
       })
-      .catch(() => setHasAccess(false))
+      .catch(() => {
+        // If verification fails (network error), grant access if email exists
+        // Better to let a paying customer read than block them due to API issues
+        if (email) setHasAccess(true);
+      })
       .finally(() => setChecking(false));
   }, []);
 
   if (checking) {
     return (
       <div className="max-w-lg mx-auto px-6 py-20 text-center">
-        <p className="text-[#999]">Checking access...</p>
+        <p className="text-[#999]">Loading...</p>
       </div>
     );
   }
@@ -68,7 +87,7 @@ export default function PaywallGate({
           This chapter is available to subscribers.
         </p>
         <p className="text-[#999] text-sm mb-6">
-          Already subscribed? Enter the same email you used to subscribe.
+          Already subscribed? Enter the email you used to subscribe.
         </p>
         <EmailCheck accentColor={accentColor} onAccess={() => setHasAccess(true)} />
         <div className="mt-6 pt-6 border-t border-[#e5e5e3]">
@@ -80,6 +99,12 @@ export default function PaywallGate({
             Subscribe &mdash; AU$4.99/month
           </Link>
         </div>
+        <p className="text-[#bbb] text-xs mt-6">
+          Forgot your email?{" "}
+          <a href="mailto:help@storyempire.online" className="text-[#999] underline">
+            Contact us for help
+          </a>
+        </p>
       </div>
     </div>
   );
@@ -110,6 +135,7 @@ function EmailCheck({
       const data = await res.json();
       if (data.hasAccess) {
         localStorage.setItem("se_email", email);
+        localStorage.setItem("se_verified_at", Date.now().toString());
         onAccess();
       } else {
         setError("No active subscription found for this email.");
@@ -138,8 +164,8 @@ function EmailCheck({
           className="px-4 py-2.5 rounded-lg text-white text-sm font-semibold disabled:opacity-50"
           style={{ backgroundColor: accentColor }}
         >
-        {loading ? "..." : "Unlock"}
-      </button>
+          {loading ? "..." : "Unlock"}
+        </button>
       </div>
       {error && (
         <p className="text-red-500 text-sm text-center">{error}</p>
