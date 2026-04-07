@@ -1,9 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import Stripe from "stripe";
-
-function getStripe() {
-  return new Stripe(process.env.STRIPE_SECRET_KEY ?? "");
-}
 
 export async function POST(req: NextRequest) {
   try {
@@ -13,23 +8,30 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ hasAccess: false });
     }
 
-    const stripe = getStripe();
+    const secretKey = (process.env.STRIPE_SECRET_KEY ?? "").trim();
 
-    // Find customer by email
-    const customers = await stripe.customers.list({ email, limit: 1 });
-    if (customers.data.length === 0) {
+    // Find customer by email using REST API
+    const custRes = await fetch(
+      `https://api.stripe.com/v1/customers?email=${encodeURIComponent(email)}&limit=1`,
+      { headers: { "Authorization": `Bearer ${secretKey}` } }
+    );
+    const custData = await custRes.json();
+
+    if (!custData.data || custData.data.length === 0) {
       return NextResponse.json({ hasAccess: false });
     }
 
-    // Check for active subscription
-    const subscriptions = await stripe.subscriptions.list({
-      customer: customers.data[0].id,
-      status: "active",
-      limit: 1,
-    });
+    const customerId = custData.data[0].id;
+
+    // Check for active subscription using REST API
+    const subRes = await fetch(
+      `https://api.stripe.com/v1/subscriptions?customer=${customerId}&status=active&limit=1`,
+      { headers: { "Authorization": `Bearer ${secretKey}` } }
+    );
+    const subData = await subRes.json();
 
     return NextResponse.json({
-      hasAccess: subscriptions.data.length > 0,
+      hasAccess: subData.data && subData.data.length > 0,
     });
   } catch (error) {
     console.error("Verify access error:", error);

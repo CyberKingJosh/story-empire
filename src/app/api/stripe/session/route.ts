@@ -1,9 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import Stripe from "stripe";
-
-function getStripe() {
-  return new Stripe(process.env.STRIPE_SECRET_KEY ?? "");
-}
 
 export async function GET(req: NextRequest) {
   const sessionId = req.nextUrl.searchParams.get("id");
@@ -13,9 +8,15 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    const stripe = getStripe();
-    const session = await stripe.checkout.sessions.retrieve(sessionId);
-    return NextResponse.json({ email: session.customer_email });
+    const secretKey = (process.env.STRIPE_SECRET_KEY ?? "").trim();
+
+    const res = await fetch(
+      `https://api.stripe.com/v1/checkout/sessions/${sessionId}`,
+      { headers: { "Authorization": `Bearer ${secretKey}` } }
+    );
+    const data = await res.json();
+
+    return NextResponse.json({ email: data.customer_email || null });
   } catch {
     return NextResponse.json({ email: null });
   }
