@@ -111,7 +111,7 @@ export default async function ReadChapter({ params }: PageProps) {
 
         {/* End of chapter CTA */}
         <div className="mt-10 pt-10 border-t border-[#e5e5e3] text-center">
-          {chapter.number < 4 ? (
+          {story.chapters.some(c => c.number === chapter.number + 1) ? (
             <>
               <p className="text-[#999] text-sm mb-4">
                 Continue reading
