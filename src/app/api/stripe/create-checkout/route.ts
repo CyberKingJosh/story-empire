@@ -1,9 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import Stripe from "stripe";
-
-function getStripe() {
-  return new Stripe(process.env.STRIPE_SECRET_KEY ?? "");
-}
 
 export async function POST(req: NextRequest) {
   try {
@@ -14,27 +9,46 @@ export async function POST(req: NextRequest) {
     }
 
     const priceId = process.env.STRIPE_PRICE_ID_MONTHLY;
-    if (!priceId) {
+    const secretKey = process.env.STRIPE_SECRET_KEY;
+    const appUrl = process.env.NEXT_PUBLIC_APP_URL || "https://storyempire.online";
+
+    if (!priceId || !secretKey) {
       return NextResponse.json(
-        { error: "Stripe price not configured" },
+        { error: "Stripe not configured" },
         { status: 500 }
       );
     }
 
-    const stripe = getStripe();
-    const session = await stripe.checkout.sessions.create({
-      mode: "subscription",
-      payment_method_types: ["card"],
-      customer_email: email,
-      line_items: [{ price: priceId, quantity: 1 }],
-      success_url: `${process.env.NEXT_PUBLIC_APP_URL}/subscribe?success=true&session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${process.env.NEXT_PUBLIC_APP_URL}/subscribe?cancelled=true`,
+    // Use Stripe REST API directly instead of SDK (avoids connection issues)
+    const res = await fetch("https://api.stripe.com/v1/checkout/sessions", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${secretKey}`,
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      body: new URLSearchParams({
+        mode: "subscription",
+        "payment_method_types[0]": "card",
+        customer_email: email,
+        "line_items[0][price]": priceId,
+        "line_items[0][quantity]": "1",
+        success_url: `${appUrl}/subscribe?success=true&session_id={CHECKOUT_SESSION_ID}`,
+        cancel_url: `${appUrl}/subscribe?cancelled=true`,
+      }).toString(),
     });
 
-    return NextResponse.json({ url: session.url });
+    const data = await res.json();
+
+    if (data.url) {
+      return NextResponse.json({ url: data.url });
+    } else {
+      const errMsg = data.error?.message || "Unknown Stripe error";
+      console.error("Stripe error:", errMsg);
+      return NextResponse.json({ error: errMsg }, { status: 500 });
+    }
   } catch (error) {
     const errMsg = error instanceof Error ? error.message : "Unknown error";
-    console.error("Stripe checkout error:", errMsg);
+    console.error("Checkout error:", errMsg);
     return NextResponse.json(
       { error: "Failed to create checkout session: " + errMsg },
       { status: 500 }
