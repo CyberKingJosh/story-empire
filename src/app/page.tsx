@@ -53,7 +53,7 @@ export default function Home() {
           </p>
           {/* Social proof */}
           <p className="text-white/40 text-sm mb-8">
-            Enjoyed by early readers across 12 countries
+            Enjoyed by early readers worldwide
           </p>
           <Link
             href="#stories"
@@ -87,7 +87,7 @@ export default function Home() {
                   button: "bg-amber-500 text-black hover:bg-amber-400",
                   cardImage: "/illustrations/romantasy-card.png",
                   description: "Kael Ashford reads people's dreams for a living. Not by choice. The empire conquered her homeland and gave her two options: be useful, or die. Then a new commander arrives hiding an impossible secret that could topple the empire, or destroy them both.",
-                  readers: "2.4k readers",
+                  readers: "340 readers",
                 },
                 "cozy-mystery": {
                   label: "Cozy Mystery",
@@ -96,7 +96,7 @@ export default function Home() {
                   button: "bg-emerald-500 text-black hover:bg-emerald-400",
                   cardImage: "/illustrations/cozy-card.png",
                   description: "Margot Baptiste is fifty-eight, recently widowed, and starting over in a coastal village with twenty-seven jars of tea and a judgmental ginger cat. Then she finds a body in the harbour, and her chemistry teacher brain won't stop noticing things the police missed.",
-                  readers: "1.8k readers",
+                  readers: "210 readers",
                 },
                 "bl-romance": {
                   label: "BL Dark Romance",
@@ -105,7 +105,7 @@ export default function Home() {
                   button: "bg-red-500 text-white hover:bg-red-400",
                   cardImage: "/illustrations/bl-card.png",
                   description: "Shin Haneul is an undercover agent embedded in a Korean crime syndicate. His mission: destroy it from the inside. His problem: the enforcer he's supposed to bring down is secretly dismantling the same empire. Both are liars. Both are falling. Neither knows the other's truth.",
-                  readers: "3.1k readers",
+                  readers: "280 readers",
                 },
                 "spicy-romance": {
                   label: "18+ Dark Romance",
@@ -114,7 +114,7 @@ export default function Home() {
                   button: "bg-rose-600 text-white hover:bg-rose-500",
                   cardImage: "/illustrations/spicy-card.png",
                   description: "Sera Maren married Nico Valenti to destroy his family from the inside. He married her because he suspects exactly that. An arranged marriage between rival dynasties where every conversation is a chess move, every touch is a calculated risk, and falling in love means betraying everyone.",
-                  readers: "4.2k readers",
+                  readers: "410 readers",
                 },
               };
 

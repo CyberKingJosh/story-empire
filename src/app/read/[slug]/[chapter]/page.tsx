@@ -67,6 +67,14 @@ export default async function ReadChapter({ params }: PageProps) {
           Volume 1 &middot; Chapter {chapter.number}: {chapter.title}
         </p>
         <p className="text-[#bbb] text-sm mt-2">{readTime} min read</p>
+        <a
+          href={`https://translate.google.com/translate?sl=en&tl=auto&u=https://storyempire.online/read/${slug}/${chapterNum}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-3 text-xs text-[#999] hover:text-[#666] transition-colors border border-[#e5e5e3] rounded-full px-4 py-1.5"
+        >
+          Translate to your language
+        </a>
       </header>
 
       {/* Chapter content */}
