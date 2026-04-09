@@ -68,6 +68,18 @@ export default async function StoryPage({ params }: PageProps) {
           </p>
         </div>
 
+        <div className="mb-6">
+          <div className="flex items-center gap-3 mb-1">
+            <h2 className="text-lg font-bold text-[#1a1a1a]">Volume 1</h2>
+            <span className="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700">
+              Complete
+            </span>
+          </div>
+          <p className="text-[#999] text-sm">
+            {story.chapters.length} chapters &middot; Volume 1 complete
+          </p>
+        </div>
+
         <div className="space-y-3">
           {story.chapters.map((ch) => {
             const readTime = estimateReadingTime(ch.content);
@@ -105,9 +117,24 @@ export default async function StoryPage({ params }: PageProps) {
           })}
         </div>
 
+        {/* Volume 2 teaser */}
+        <div className="mt-10 bg-[#fafaf8] border border-[#e5e5e3] border-dashed rounded-xl p-6 text-center">
+          <p className="text-[#1a1a1a] font-bold text-base mb-1">Volume 2 coming soon</p>
+          <p className="text-[#6b6b6b] text-sm mb-4">
+            Subscribe to be first to read it.
+          </p>
+          <Link
+            href="/subscribe"
+            className="text-sm font-semibold transition-colors hover:opacity-80"
+            style={{ color: accentColor }}
+          >
+            Get notified when Volume 2 drops &rarr;
+          </Link>
+        </div>
+
         <div className="mt-10 text-center">
           <p className="text-[#999] text-sm mb-4">
-            Start with the free chapters. Subscribe when you can't stop.
+            Start with the free chapters. Subscribe when you can&apos;t stop.
           </p>
           <Link
             href={`/read/${story.slug}/1`}

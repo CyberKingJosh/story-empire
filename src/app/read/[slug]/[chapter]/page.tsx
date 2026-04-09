@@ -64,7 +64,7 @@ export default async function ReadChapter({ params }: PageProps) {
           {story.title}
         </h1>
         <p className="text-lg text-[#6b6b6b] mt-2">
-          Chapter {chapter.number}: {chapter.title}
+          Volume 1 &middot; Chapter {chapter.number}: {chapter.title}
         </p>
         <p className="text-[#bbb] text-sm mt-2">{readTime} min read</p>
       </header>
@@ -190,18 +190,30 @@ export default async function ReadChapter({ params }: PageProps) {
             </>
           ) : (
             <>
-              <p
-                className="text-xl text-[#1a1a1a] mb-2 italic"
-                style={{ fontFamily: "Georgia, serif" }}
-              >
-                {story.genre === "romantasy" ? "The corridor pulled her in like a breath..."
-                  : story.genre === "cozy-mystery" ? "She didn't move until she heard Nina's knock."
-                  : story.genre === "bl-romance" ? "The game had more players than he knew..."
-                  : "She sharpened her teeth..."}
-              </p>
-              <p className="text-[#999] text-sm mb-8">
-                New chapters every week. Stay subscribed to keep reading.
-              </p>
+              <div className="bg-[#fafaf8] border border-[#e5e5e3] rounded-xl p-8 mb-6 max-w-lg mx-auto">
+                <p className="text-[#1a1a1a] font-bold text-xl mb-2">
+                  End of Volume 1
+                </p>
+                <p
+                  className="text-[#6b6b6b] text-sm italic mb-4"
+                  style={{ fontFamily: "Georgia, serif" }}
+                >
+                  {story.genre === "romantasy" ? "The corridor pulled her in like a breath..."
+                    : story.genre === "cozy-mystery" ? "She didn't move until she heard Nina's knock."
+                    : story.genre === "bl-romance" ? "The game had more players than he knew..."
+                    : "She sharpened her teeth..."}
+                </p>
+                <p className="text-[#555] text-sm leading-relaxed mb-5">
+                  Volume 2 is in progress. Subscribe to be notified when it drops.
+                </p>
+                <Link
+                  href="/subscribe"
+                  className="inline-block px-7 py-3 rounded-full font-semibold text-sm text-white transition-all shadow-lg"
+                  style={{ backgroundColor: accentColor }}
+                >
+                  Subscribe for Volume 2 &rarr;
+                </Link>
+              </div>
             </>
           )}
         </div>

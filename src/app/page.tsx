@@ -131,6 +131,10 @@ export default function Home() {
                     <span className={`absolute top-4 left-4 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full ${config.badge}`}>
                       {config.label}
                     </span>
+                    {/* Volume badge */}
+                    <span className="absolute top-14 left-4 text-[10px] font-semibold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-white/20 backdrop-blur-sm text-white/90">
+                      Volume 1
+                    </span>
                     {/* Reader count */}
                     <span className="absolute top-4 right-4 text-xs text-white/60 bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full">
                       {config.readers}
@@ -168,7 +172,7 @@ export default function Home() {
                       )}
                       {hasChapters && (
                         <span className="text-white/30 text-xs">
-                          {totalReadTime} min free read
+                          Volume 1 &middot; {story.chapters.length} Chapters &middot; New volume coming soon
                         </span>
                       )}
                     </div>

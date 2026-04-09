@@ -153,6 +153,10 @@ function SubscribeForm() {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#999] mt-0.5 font-bold">&#10003;</span>
+              <span className="text-[#555]">Volume 1 complete (12 chapters each) &middot; Volume 2 in progress</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-[#999] mt-0.5 font-bold">&#10003;</span>
               <span className="text-[#555]">New chapters every week with original illustrations</span>
             </li>
             <li className="flex items-start gap-3">
