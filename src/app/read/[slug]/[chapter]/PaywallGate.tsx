@@ -20,6 +20,7 @@ interface PaywallGateProps {
   genreLabel: string;
   hasNextChapter: boolean;
   endQuote: string;
+  nextChapterTeaser?: string | null;
 }
 
 export default function PaywallGate({
@@ -32,6 +33,7 @@ export default function PaywallGate({
   genreLabel,
   hasNextChapter,
   endQuote,
+  nextChapterTeaser,
 }: PaywallGateProps) {
   const [checking, setChecking] = useState(true);
   const [hasAccess, setHasAccess] = useState(false);
@@ -51,13 +53,11 @@ export default function PaywallGate({
     if (cachedAt) {
       const hoursSince = (Date.now() - parseInt(cachedAt)) / (1000 * 60 * 60);
       if (hoursSince < 24) {
-        // Cached as verified — fetch content directly
         fetchContent(email);
         return;
       }
     }
 
-    // Verify then fetch
     fetchContent(email);
   }, []);
 
@@ -81,7 +81,6 @@ export default function PaywallGate({
         setHasAccess(false);
       }
     } catch {
-      // Network error — if email exists, try to show content anyway
       setHasAccess(false);
     }
     setChecking(false);
@@ -175,33 +174,55 @@ export default function PaywallGate({
     );
   }
 
-  // Not verified — show paywall (NO content sent to browser)
+  // Not verified - show paywall with chapter preview
   return (
-    <div className="max-w-lg mx-auto px-6 py-20 text-center">
-      <h1 className="text-2xl font-bold text-[#1a1a1a] mb-2">{storyTitle}</h1>
-      <p className="text-[#6b6b6b] mb-8">Chapter {chapterNumber}: {chapterTitle}</p>
-      <div className="bg-[#fafaf8] border border-[#e5e5e3] rounded-xl p-8">
-        <p className="text-[#555] mb-4">This chapter is available to subscribers.</p>
-        <p className="text-[#999] text-sm mb-6">Already subscribed? Enter the email you used.</p>
-        <EmailCheck
-          accentColor={accentColor}
-          onAccess={(email) => fetchContent(email)}
-        />
-        <div className="mt-6 pt-6 border-t border-[#e5e5e3]">
+    <div className="max-w-lg mx-auto px-6 py-16">
+      <div className="text-center mb-8">
+        <h1 className="text-2xl font-bold text-[#1a1a1a] mb-2">{storyTitle}</h1>
+        <p className="text-[#6b6b6b]">Chapter {chapterNumber}: {chapterTitle}</p>
+      </div>
+
+      {/* Chapter preview teaser */}
+      {nextChapterTeaser && (
+        <div className="bg-[#fafaf8] border border-[#e5e5e3] rounded-xl p-6 mb-6">
+          <p className="text-[#555] text-sm leading-relaxed italic" style={{ fontFamily: "Georgia, serif" }}>
+            {nextChapterTeaser}
+          </p>
+          <div className="mt-3 h-12 bg-gradient-to-b from-transparent to-[#fafaf8]" />
+        </div>
+      )}
+
+      <div className="bg-[#fafaf8] border border-[#e5e5e3] rounded-xl p-8 text-center">
+        <p className="text-[#1a1a1a] font-semibold mb-2">This chapter is for subscribers</p>
+        <p className="text-[#999] text-sm mb-6">
+          Subscribe to unlock this chapter and every chapter across all four stories.
+        </p>
+
+        <Link
+          href="/subscribe"
+          className="inline-block text-white font-semibold px-8 py-3.5 rounded-full transition-colors shadow-lg"
+          style={{ backgroundColor: accentColor }}
+        >
+          Subscribe - $4.99/month
+        </Link>
+
+        <div className="mt-4">
           <Link
-            href="/subscribe"
-            className="inline-block text-white font-semibold px-6 py-3 rounded-lg transition-colors"
-            style={{ backgroundColor: accentColor }}
+            href="/subscribe?trial=true"
+            className="text-sm font-semibold transition-colors hover:opacity-80"
+            style={{ color: accentColor }}
           >
-            Subscribe &mdash; AU$4.99/month
+            Try 7 days free &rarr;
           </Link>
         </div>
-        <p className="text-[#bbb] text-xs mt-6">
-          Forgot your email?{" "}
-          <a href="mailto:joshuaogugua10@gmail.com" className="text-[#999] underline">
-            Contact us for help
-          </a>
-        </p>
+
+        <div className="mt-8 pt-6 border-t border-[#e5e5e3]">
+          <p className="text-[#999] text-sm mb-3">Already subscribed?</p>
+          <EmailCheck
+            accentColor={accentColor}
+            onAccess={(email) => fetchContent(email)}
+          />
+        </div>
       </div>
     </div>
   );

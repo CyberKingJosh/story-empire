@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
   try {
-    const { email } = await req.json();
+    const { email, trial } = await req.json();
 
     if (!email) {
       return NextResponse.json({ error: "Email required" }, { status: 400 });
@@ -45,8 +45,13 @@ export async function POST(req: NextRequest) {
     params.append("customer_email", email);
     params.append("line_items[0][price]", priceId);
     params.append("line_items[0][quantity]", "1");
-    params.append("success_url", appUrl + "/subscribe?success=true");
+    params.append("success_url", appUrl + "/subscribe?success=true&session_id={CHECKOUT_SESSION_ID}");
     params.append("cancel_url", appUrl + "/subscribe?cancelled=true");
+
+    // Add 7-day free trial if requested
+    if (trial) {
+      params.append("subscription_data[trial_period_days]", "7");
+    }
 
     const res = await fetch("https://api.stripe.com/v1/checkout/sessions", {
       method: "POST",

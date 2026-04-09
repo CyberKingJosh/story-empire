@@ -239,7 +239,7 @@ This changed everything.`,
       {
         number: 2,
         title: "The First Assignment",
-        isFree: false,
+        isFree: true,
         content: `Dawn in Verenthos smelled like jasmine and woodsmoke, even now. Fifteen years of occupation hadn't killed the jasmine vines that climbed the old quarter walls, and the bread sellers still lit their ovens before the sun crested the mountains. Small rebellions. The empire could take our sovereignty, our library-temples, our dream speakers. It couldn't kill the jasmine.
 
 I stood outside the former palace at first light, smoothing the front of my grey ward's robe, running through scenarios. I'd been up since the third bell, which meant I'd slept maybe two hours. The rest of the night I'd spent lying rigid on my cot, replaying that gossamer thread of dream energy drifting through Voss's office.
@@ -509,7 +509,7 @@ The game I thought I was playing had more players than I knew.`,
       {
         number: 3,
         title: "The Weaver and the Waste",
-        isFree: false,
+        isFree: true,
         content: `Three days. Three readings of Captain Dane's shattered mind. Three mornings standing in that stone room with Voss at my back, his dream energy pressing against my awareness like someone leaning on a bruise.
 
 By the third day, I'd mapped the full extent of the damage to Dane's subconscious. Whoever the copper-and-smoke weaver was, they'd been in his mind at least half a dozen times over several weeks, layering false memories like sediment. The work was elegant and vicious. Library-temple trained, without question. And they were still active. Fresh threads appeared between my readings, which meant they were weaving into Dane even now, even in a secure Caeloran holding cell.
@@ -1184,7 +1184,7 @@ Professor Whiskers sat on the true crime shelf and watched me through the mornin
       {
         number: 2,
         title: "The Weight of Whispers",
-        isFree: false,
+        isFree: true,
         content: `The kettle screamed at half past five the next morning. I hadn't slept.
 
 Every time I closed my eyes, I saw the pale bloat of James Whitford's face, the crab pot lines wound tight around his torso like a grotesque corset. And those knots. I kept seeing the knots, kept turning them over in my mind the way I used to turn over molecular structures on the whiteboard, searching for the bond that held the whole thing together.
@@ -1414,7 +1414,7 @@ Then she turned, walked to the end of the jetty, and dropped it into the water.`
       {
         number: 3,
         title: "What the Tide Brings Back",
-        isFree: false,
+        isFree: true,
         content: `I dreamed about the box.
 
 It sank through green water in my sleep, tumbling end over end, slow as a leaf falling in still air. I reached for it and my hands passed through the surface like it was glass, solid and cold, and I woke up with my fingers gripping the edge of the mattress so hard my knuckles ached.
@@ -2184,7 +2184,7 @@ Nine a.m.`,
       {
         number: 2,
         title: "The House",
-        isFree: false,
+        isFree: true,
         content: `The building looked dead from the outside. That was the point.
 
 I stood across the street at eight fifty-three in the morning, smoking a Raison Blue and cataloguing every detail the way Minjun had trained me to. Peeling grey paint curling off reinforced concrete walls in strips that reminded me of burnt skin. Ground-floor windows boarded with plywood so weathered it had gone the colour of bone. A rusted loading dock on the harbour side where seagulls fought over something I couldn't see and didn't want to. The whole structure sat on the waterfront like a corpse that hadn't been identified yet, and if you were a tourist, or a cop, or anyone who hadn't been invited, you'd walk past it without a second glance.
@@ -2396,7 +2396,7 @@ The test had started.`,
       {
         number: 3,
         title: "Collection",
-        isFree: false,
+        isFree: true,
         content: `Nam Jungsoo lived on the fourteenth floor of a Sangji District high-rise that looked like it had been designed by someone who confused money with taste. Glass and brushed steel, a lobby with marble floors and a concierge desk staffed by a woman who smiled like she was being paid by the tooth. The kind of building where people paid thirty million won a year in maintenance fees and still complained about the water pressure.
 
 I didn't go through the lobby.
@@ -3132,7 +3132,7 @@ But my hands kept shaking, and I couldn't make them stop.`,
       {
         number: 2,
         title: "The Rehearsal",
-        isFree: false,
+        isFree: true,
         content: `The Ashford Hotel smelled like money and gardenias.
 
 Not real gardenias. The Ashford hadn't used real flowers in the lobby since the renovation in 2019. These were diffused through the ventilation system, a custom scent developed by a perfumer in Grasse who charged six figures to make a building smell like old wealth and good taste. I knew this because my father owned the hotel. I knew this because I had approved the invoice. I knew this because noticing things like artificial floral scent was how my brain kept itself from screaming in rooms where screaming was not allowed.
@@ -3458,7 +3458,7 @@ I turned off the light. I didn't sleep.`,
       {
         number: 3,
         title: "The Vows",
-        isFree: false,
+        isFree: true,
         content: `The Church of St. Cecilia smelled like incense and centuries.
 
 I stood in the vestibule with my father's arm through mine and counted the things I could see through the crack in the oak doors. Fourteen rows of pews, dark wood worn smooth by generations of hands. Stone columns rising into vaulted arches, the kind of architecture that was built to make humans feel small and God feel close. Stained glass along the eastern wall throwing colour onto the floor in long, bleeding panels: gold, crimson, blue, violet. The light moved when clouds shifted outside, so the saints in the glass seemed to breathe. Candles everywhere, hundreds of them, clustered on the altar and lining the aisle in glass holders that caught the flame and multiplied it.

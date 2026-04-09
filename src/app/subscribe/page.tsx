@@ -9,6 +9,7 @@ function SubscribeForm() {
   const searchParams = useSearchParams();
   const success = searchParams.get("success");
   const cancelled = searchParams.get("cancelled");
+  const isTrial = searchParams.get("trial") === "true";
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -17,7 +18,6 @@ function SubscribeForm() {
   const sessionId = searchParams.get("session_id");
   const [emailSaved, setEmailSaved] = useState(false);
 
-  // Save email from Stripe session after successful payment
   if (success && sessionId && !emailSaved) {
     fetch(`/api/stripe/session?id=${sessionId}`)
       .then((r) => r.json())
@@ -59,7 +59,7 @@ function SubscribeForm() {
         <div className="max-w-md text-center">
           <h1 className="text-3xl font-bold text-[#1a1a1a] mb-4">No worries</h1>
           <p className="text-[#555] mb-8">
-            You can always come back. Chapter 1 of both stories is free.
+            You can always come back. The first three chapters of each story are free.
           </p>
           <Link
             href="/"
@@ -81,7 +81,7 @@ function SubscribeForm() {
       const res = await fetch("/api/stripe/create-checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, trial: isTrial }),
       });
 
       const data = await res.json();
@@ -100,7 +100,6 @@ function SubscribeForm() {
 
   return (
     <main className="flex-1 bg-white">
-      {/* Nav */}
       <nav className="border-b border-[#e5e5e3] bg-white px-6 py-4">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <Link href="/" className="text-sm text-[#6b6b6b] hover:text-[#1a1a1a] transition-colors">
@@ -111,10 +110,12 @@ function SubscribeForm() {
 
       <div className="max-w-lg mx-auto px-6 py-20">
         <h1 className="text-3xl font-bold text-[#1a1a1a] mb-3 text-center">
-          Subscribe to Story Empire
+          {isTrial ? "Start Your Free Trial" : "Subscribe to Story Empire"}
         </h1>
         <p className="text-[#6b6b6b] text-center mb-10">
-          AU$4.99/month &middot; Both series &middot; Every chapter &middot; Cancel anytime
+          {isTrial
+            ? "7 days free, then $4.99/month. Cancel anytime."
+            : "$4.99/month. All four series. Every chapter. Cancel anytime."}
         </p>
 
         <div className="bg-[#fafaf8] border border-[#e5e5e3] rounded-xl p-8 mb-8">
@@ -123,38 +124,50 @@ function SubscribeForm() {
           </h2>
           <ul className="space-y-4 text-sm">
             <li className="flex items-start gap-3">
-              <span className="text-[#b8860b] mt-0.5 font-bold">&#8226;</span>
+              <span className="text-[#b8860b] mt-0.5 font-bold">&#10003;</span>
               <span className="text-[#333]">
-                <strong>The Ember Throne</strong> &mdash; Spicy romantasy. Dream magic,
+                <strong>The Ember Throne</strong> - Spicy romantasy. Dream magic,
                 enemies-to-lovers, a rebellion brewing.
               </span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="text-[#4a7c3f] mt-0.5 font-bold">&#8226;</span>
+              <span className="text-[#4a7c3f] mt-0.5 font-bold">&#10003;</span>
               <span className="text-[#333]">
-                <strong>The Steeping Room Mysteries</strong> &mdash; Cozy mystery.
+                <strong>The Steeping Room Mysteries</strong> - Cozy mystery.
                 Tea, cats, and murders that don&apos;t add up.
               </span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="text-[#ef4444] mt-0.5 font-bold">&#8226;</span>
+              <span className="text-[#ef4444] mt-0.5 font-bold">&#10003;</span>
               <span className="text-[#333]">
-                <strong>Crimson Vow</strong> &mdash; BL dark romance.
+                <strong>Crimson Vow</strong> - BL dark romance.
                 An undercover agent falling for the man he&apos;s supposed to destroy.
               </span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="text-[#e11d48] mt-0.5 font-bold">&#8226;</span>
+              <span className="text-[#e11d48] mt-0.5 font-bold">&#10003;</span>
               <span className="text-[#333]">
-                <strong>Brutal Vows</strong> &mdash; 18+ dark romance.
+                <strong>Brutal Vows</strong> - 18+ dark romance.
                 She married her enemy to burn his family from the inside.
               </span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="text-[#999] mt-0.5 font-bold">&#8226;</span>
+              <span className="text-[#999] mt-0.5 font-bold">&#10003;</span>
               <span className="text-[#555]">New chapters every week with original illustrations</span>
             </li>
+            <li className="flex items-start gap-3">
+              <span className="text-[#999] mt-0.5 font-bold">&#10003;</span>
+              <span className="text-[#555]">Cancel anytime, no questions asked</span>
+            </li>
           </ul>
+        </div>
+
+        {/* Testimonial */}
+        <div className="bg-white border border-[#e5e5e3] rounded-xl p-6 mb-8 text-center">
+          <p className="text-[#555] text-sm italic leading-relaxed" style={{ fontFamily: "Georgia, serif" }}>
+            &ldquo;I came for one story and ended up reading all four. The illustrations are a nice touch.&rdquo;
+          </p>
+          <p className="text-[#bbb] text-xs mt-2">Early reader</p>
         </div>
 
         <form onSubmit={handleSubscribe} className="space-y-4">
@@ -170,13 +183,23 @@ function SubscribeForm() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-[#1a1a1a] text-white font-semibold py-3 rounded-lg text-base hover:bg-[#333] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full bg-[#1a1a1a] text-white font-semibold py-3.5 rounded-lg text-base hover:bg-[#333] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {loading
               ? "Redirecting to checkout..."
-              : "Subscribe — AU$4.99/month"}
+              : isTrial
+                ? "Start 7-Day Free Trial"
+                : "Subscribe - $4.99/month"}
           </button>
         </form>
+
+        {!isTrial && (
+          <p className="text-center mt-4">
+            <Link href="/subscribe?trial=true" className="text-[#b8860b] text-sm font-semibold hover:opacity-80">
+              Or try 7 days free first &rarr;
+            </Link>
+          </p>
+        )}
 
         <p className="text-center text-[#bbb] text-xs mt-6">
           Secure payment via Stripe. Cancel anytime from your account.

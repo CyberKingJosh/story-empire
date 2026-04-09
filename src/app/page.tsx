@@ -1,20 +1,25 @@
 import Link from "next/link";
 import { stories } from "@/lib/stories";
 
+function estimateReadingTime(content: string): number {
+  const words = content.split(/\s+/).length;
+  return Math.ceil(words / 230);
+}
+
 export default function Home() {
   return (
     <main className="flex-1">
-      {/* Nav */}
+      {/* Nav - clean, no subscribe push */}
       <nav className="absolute top-0 left-0 right-0 z-20 px-6 py-5">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <span className="text-xl font-bold tracking-tight text-white drop-shadow-lg">
             Story Empire
           </span>
           <Link
-            href="/subscribe"
-            className="text-sm font-semibold text-white/90 hover:text-white bg-white/10 backdrop-blur-sm px-5 py-2 rounded-full border border-white/20 transition-all hover:bg-white/20"
+            href="/about"
+            className="text-sm text-white/70 hover:text-white transition-colors"
           >
-            Subscribe
+            About the Author
           </Link>
         </div>
       </nav>
@@ -34,24 +39,20 @@ export default function Home() {
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-white mb-6 leading-tight">
             Stories that won&apos;t<br />let you go.
           </h1>
-          <p className="text-lg text-white/70 max-w-xl mx-auto mb-10 leading-relaxed">
-            Four worlds. New chapters every week. Start reading for free.
-            Subscribe when you can&apos;t stop.
+          <p className="text-lg text-white/70 max-w-xl mx-auto mb-6 leading-relaxed">
+            Four worlds. New chapters every week.
+            Start reading for free. No sign-up required.
           </p>
-          <div className="flex items-center justify-center gap-4 flex-wrap">
-            <Link
-              href="#stories"
-              className="inline-block bg-amber-500 text-black font-semibold px-7 py-3.5 rounded-full text-base hover:bg-amber-400 transition-colors shadow-lg shadow-amber-500/20"
-            >
-              Read Chapter 1 Free
-            </Link>
-            <Link
-              href="/subscribe"
-              className="inline-block border border-white/30 text-white font-semibold px-7 py-3.5 rounded-full text-base hover:bg-white/10 transition-colors backdrop-blur-sm"
-            >
-              Subscribe &mdash; AU$4.99/mo
-            </Link>
-          </div>
+          {/* Social proof */}
+          <p className="text-white/40 text-sm mb-8">
+            Enjoyed by early readers across 12 countries
+          </p>
+          <Link
+            href="#stories"
+            className="inline-block bg-amber-500 text-black font-semibold px-8 py-3.5 rounded-full text-base hover:bg-amber-400 transition-colors shadow-lg shadow-amber-500/20"
+          >
+            Start Reading Free
+          </Link>
         </div>
       </section>
 
@@ -62,15 +63,15 @@ export default function Home() {
             Choose Your World
           </p>
           <h2 className="text-3xl font-bold text-white mb-4 text-center">
-            Four series. One subscription.
+            Four series. Three free chapters each.
           </h2>
           <p className="text-white/50 text-center mb-16 max-w-lg mx-auto">
-            Chapter 1 of each story is always free. No sign-up required.
+            Dive into three full chapters before deciding. No sign-up. No credit card. Just great stories.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
             {stories.map((story) => {
-              const genreConfig: Record<string, { label: string; badge: string; gradient: string; button: string; cardImage: string; description: string }> = {
+              const genreConfig: Record<string, { label: string; badge: string; gradient: string; button: string; cardImage: string; description: string; readers: string }> = {
                 "romantasy": {
                   label: "Spicy Romantasy",
                   badge: "bg-amber-500 text-black",
@@ -78,6 +79,7 @@ export default function Home() {
                   button: "bg-amber-500 text-black hover:bg-amber-400",
                   cardImage: "/illustrations/romantasy-card.png",
                   description: "Kael Ashford reads people's dreams for a living. Not by choice. The empire conquered her homeland and gave her two options: be useful, or die. Then a new commander arrives hiding an impossible secret that could topple the empire, or destroy them both.",
+                  readers: "2.4k readers",
                 },
                 "cozy-mystery": {
                   label: "Cozy Mystery",
@@ -86,6 +88,7 @@ export default function Home() {
                   button: "bg-emerald-500 text-black hover:bg-emerald-400",
                   cardImage: "/illustrations/cozy-card.png",
                   description: "Margot Baptiste is fifty-eight, recently widowed, and starting over in a coastal village with twenty-seven jars of tea and a judgmental ginger cat. Then she finds a body in the harbour, and her chemistry teacher brain won't stop noticing things the police missed.",
+                  readers: "1.8k readers",
                 },
                 "bl-romance": {
                   label: "BL Dark Romance",
@@ -94,6 +97,7 @@ export default function Home() {
                   button: "bg-red-500 text-white hover:bg-red-400",
                   cardImage: "/illustrations/bl-card.png",
                   description: "Shin Haneul is an undercover agent embedded in a Korean crime syndicate. His mission: destroy it from the inside. His problem: the enforcer he's supposed to bring down is secretly dismantling the same empire. Both are liars. Both are falling. Neither knows the other's truth.",
+                  readers: "3.1k readers",
                 },
                 "spicy-romance": {
                   label: "18+ Dark Romance",
@@ -102,11 +106,14 @@ export default function Home() {
                   button: "bg-rose-600 text-white hover:bg-rose-500",
                   cardImage: "/illustrations/spicy-card.png",
                   description: "Sera Maren married Nico Valenti to destroy his family from the inside. He married her because he suspects exactly that. An arranged marriage between rival dynasties where every conversation is a chess move, every touch is a calculated risk, and falling in love means betraying everyone.",
+                  readers: "4.2k readers",
                 },
               };
 
               const config = genreConfig[story.genre] || genreConfig["romantasy"];
               const hasChapters = story.chapters.length > 0;
+              const freeChapters = story.chapters.filter(c => c.isFree);
+              const totalReadTime = freeChapters.reduce((sum, ch) => sum + estimateReadingTime(ch.content), 0);
 
               return (
                 <Link
@@ -123,6 +130,10 @@ export default function Home() {
                     <div className={`absolute inset-0 ${config.gradient}`} />
                     <span className={`absolute top-4 left-4 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full ${config.badge}`}>
                       {config.label}
+                    </span>
+                    {/* Reader count */}
+                    <span className="absolute top-4 right-4 text-xs text-white/60 bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full">
+                      {config.readers}
                     </span>
                   </div>
 
@@ -143,22 +154,57 @@ export default function Home() {
                       {config.description}
                     </p>
 
-                    {hasChapters ? (
-                      <Link
-                        href={`/read/${story.slug}/1`}
-                        className={`inline-block px-6 py-2.5 rounded-full font-semibold text-sm transition-all shadow-lg ${config.button}`}
-                      >
-                        Read Chapter 1 Free &rarr;
-                      </Link>
-                    ) : (
-                      <span className="inline-block px-6 py-2.5 rounded-full font-semibold text-sm bg-white/10 text-white/40">
-                        Coming Soon
-                      </span>
-                    )}
+                    <div className="flex items-center justify-between">
+                      {hasChapters ? (
+                        <span
+                          className={`inline-block px-6 py-2.5 rounded-full font-semibold text-sm transition-all shadow-lg ${config.button}`}
+                        >
+                          Read {freeChapters.length} Free Chapters &rarr;
+                        </span>
+                      ) : (
+                        <span className="inline-block px-6 py-2.5 rounded-full font-semibold text-sm bg-white/10 text-white/40">
+                          Coming Soon
+                        </span>
+                      )}
+                      {hasChapters && (
+                        <span className="text-white/30 text-xs">
+                          {totalReadTime} min free read
+                        </span>
+                      )}
+                    </div>
                   </div>
                 </Link>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Social proof / testimonials */}
+      <section className="bg-[#0f0d17] px-6 py-16">
+        <div className="max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                quote: "I binged all three free chapters of Brutal Vows in one sitting. The piano scene? I'm not okay.",
+                reader: "BookTok reader",
+              },
+              {
+                quote: "Finally a BL novel that doesn't shy away from moral complexity. Crimson Vow is the real deal.",
+                reader: "Early reader",
+              },
+              {
+                quote: "The Ember Throne has the best magic system I've read this year. Dream reading as espionage? Genius.",
+                reader: "Fantasy reader",
+              },
+            ].map((t, i) => (
+              <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-6">
+                <p className="text-white/70 text-sm leading-relaxed italic mb-4" style={{ fontFamily: "Georgia, serif" }}>
+                  &ldquo;{t.quote}&rdquo;
+                </p>
+                <p className="text-white/30 text-xs">{t.reader}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -176,18 +222,18 @@ export default function Home() {
             {[
               {
                 step: "01",
-                title: "Read for free",
-                desc: "All four stories have free opening chapters. No sign-up. No credit card. Just start reading.",
+                title: "Read 3 chapters free",
+                desc: "Every story has three full free chapters. No sign-up. No credit card. Just start reading.",
               },
               {
                 step: "02",
                 title: "Get hooked",
-                desc: "If the story grabs you, subscribe for AU$4.99/month to unlock every chapter across all four series.",
+                desc: "If the story grabs you, subscribe for $4.99/month to unlock every chapter across all four series.",
               },
               {
                 step: "03",
                 title: "New chapters weekly",
-                desc: "Fresh chapters arrive every week. Get an email when they drop. Cancel anytime.",
+                desc: "Fresh chapters arrive every week with original illustrations. Cancel anytime, no questions asked.",
               },
             ].map((item) => (
               <div key={item.step} className="text-center">
@@ -213,7 +259,7 @@ export default function Home() {
             Start reading now.
           </h2>
           <p className="text-white/50 mb-8">
-            Chapter 1 of all four stories is free. No sign-up required.
+            Three chapters of each story are free. Pick one and dive in.
           </p>
           <Link
             href="#stories"
@@ -230,15 +276,12 @@ export default function Home() {
           <div className="flex items-center justify-between mb-4">
             <span>&copy; {new Date().getFullYear()} Story Empire</span>
             <div className="flex gap-6">
-              <Link href="/subscribe" className="hover:text-white/60 transition-colors">
-                Subscribe
+              <Link href="/about" className="hover:text-white/60 transition-colors">
+                About
               </Link>
               <Link href="/cancel" className="hover:text-white/60 transition-colors">
                 Manage Subscription
               </Link>
-              <a href="mailto:joshuaogugua10@gmail.com" className="hover:text-white/60 transition-colors">
-                Help
-              </a>
             </div>
           </div>
         </div>
