@@ -21,20 +21,24 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ cancelled: false });
     }
 
-    // Find active subscription
+    // Find active or trialing subscription
     const subRes = await fetch(
-      `https://api.stripe.com/v1/subscriptions?customer=${custData.data[0].id}&status=active&limit=1`,
+      `https://api.stripe.com/v1/subscriptions?customer=${custData.data[0].id}&limit=10`,
       { headers: { "Authorization": `Bearer ${secretKey}` } }
     );
     const subData = await subRes.json();
 
-    if (!subData.data || subData.data.length === 0) {
+    const activeSub = subData.data?.find(
+      (sub: { status: string }) => sub.status === "active" || sub.status === "trialing"
+    );
+
+    if (!activeSub) {
       return NextResponse.json({ cancelled: false });
     }
 
     // Cancel at end of billing period
     await fetch(
-      `https://api.stripe.com/v1/subscriptions/${subData.data[0].id}`,
+      `https://api.stripe.com/v1/subscriptions/${activeSub.id}`,
       {
         method: "POST",
         headers: {

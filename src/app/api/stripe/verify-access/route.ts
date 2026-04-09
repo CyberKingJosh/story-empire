@@ -23,16 +23,18 @@ export async function POST(req: NextRequest) {
 
     const customerId = custData.data[0].id;
 
-    // Check for active subscription using REST API
+    // Check for active or trialing subscription using REST API
     const subRes = await fetch(
-      `https://api.stripe.com/v1/subscriptions?customer=${customerId}&status=active&limit=1`,
+      `https://api.stripe.com/v1/subscriptions?customer=${customerId}&limit=10`,
       { headers: { "Authorization": `Bearer ${secretKey}` } }
     );
     const subData = await subRes.json();
 
-    return NextResponse.json({
-      hasAccess: subData.data && subData.data.length > 0,
-    });
+    const hasAccess = subData.data?.some(
+      (sub: { status: string }) => sub.status === "active" || sub.status === "trialing"
+    ) ?? false;
+
+    return NextResponse.json({ hasAccess });
   } catch (error) {
     console.error("Verify access error:", error);
     return NextResponse.json({ hasAccess: false });

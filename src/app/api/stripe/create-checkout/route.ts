@@ -24,12 +24,16 @@ export async function POST(req: NextRequest) {
 
     if (custData.data && custData.data.length > 0) {
       const subRes = await fetch(
-        `https://api.stripe.com/v1/subscriptions?customer=${custData.data[0].id}&status=active&limit=1`,
+        `https://api.stripe.com/v1/subscriptions?customer=${custData.data[0].id}&limit=10`,
         { headers: { "Authorization": `Bearer ${secretKey}` } }
       );
       const subData = await subRes.json();
 
-      if (subData.data && subData.data.length > 0) {
+      const hasActiveSub = subData.data?.some(
+        (sub: { status: string }) => sub.status === "active" || sub.status === "trialing"
+      ) ?? false;
+
+      if (hasActiveSub) {
         return NextResponse.json(
           { error: "You already have an active subscription. Use your email to unlock chapters." },
           { status: 400 }

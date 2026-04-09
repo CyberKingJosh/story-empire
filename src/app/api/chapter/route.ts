@@ -45,12 +45,16 @@ export async function POST(req: NextRequest) {
     }
 
     const subRes = await fetch(
-      `https://api.stripe.com/v1/subscriptions?customer=${custData.data[0].id}&status=active&limit=1`,
+      `https://api.stripe.com/v1/subscriptions?customer=${custData.data[0].id}&limit=10`,
       { headers: { "Authorization": `Bearer ${secretKey}` } }
     );
     const subData = await subRes.json();
 
-    if (!subData.data || subData.data.length === 0) {
+    const hasActiveSub = subData.data?.some(
+      (sub: { status: string }) => sub.status === "active" || sub.status === "trialing"
+    ) ?? false;
+
+    if (!hasActiveSub) {
       return NextResponse.json({ error: "No active subscription" }, { status: 401 });
     }
 
