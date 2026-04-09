@@ -15,12 +15,20 @@ export default function Home() {
           <span className="text-xl font-bold tracking-tight text-white drop-shadow-lg">
             Story Empire
           </span>
-          <Link
-            href="/about"
-            className="text-sm text-white/70 hover:text-white transition-colors"
-          >
-            About the Author
-          </Link>
+          <div className="flex items-center gap-6">
+            <Link
+              href="/about"
+              className="text-sm text-white/70 hover:text-white transition-colors"
+            >
+              About the Author
+            </Link>
+            <Link
+              href="/shop"
+              className="text-sm text-white/70 hover:text-white transition-colors"
+            >
+              Shop
+            </Link>
+          </div>
         </div>
       </nav>
 
@@ -282,6 +290,9 @@ export default function Home() {
             <div className="flex gap-6">
               <Link href="/about" className="hover:text-white/60 transition-colors">
                 About
+              </Link>
+              <Link href="/shop" className="hover:text-white/60 transition-colors">
+                Shop
               </Link>
               <Link href="/cancel" className="hover:text-white/60 transition-colors">
                 Manage Subscription
