@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sendEmail } from "@/lib/email";
+import { day0WelcomeHtml } from "@/lib/email-sequences";
 import { promises as fs } from "fs";
 import path from "path";
 
@@ -40,29 +41,13 @@ export async function POST(req: NextRequest) {
     // Persist email + feedback to local data file
     await saveReader({ email, message, story, chapter });
 
-    // Send welcome email via Resend
-    await sendEmail(
+    // Send Day 0 welcome email via Resend (part of 3-email drip sequence)
+    const welcomeHtml = day0WelcomeHtml({
       email,
-      "Welcome to Story Empire!",
-      `<div style="font-family:Georgia,serif;max-width:500px;margin:0 auto;padding:30px">
-        <h1 style="color:#1a1a1a;font-size:24px;margin-bottom:20px">Welcome to Story Empire</h1>
-        <p style="color:#555;line-height:1.7;margin-bottom:15px">
-          Thanks for reading! You'll be the first to know when new chapters drop.
-        </p>
-        ${message ? `<p style="color:#555;line-height:1.7;margin-bottom:15px;background:#f5f5f0;padding:12px 16px;border-radius:8px;border-left:3px solid #b8860b"><em>Your message:</em> "${message}"</p>` : ''}
-        <p style="color:#555;line-height:1.7;margin-bottom:15px">
-          Chapters 1-3 of all four stories are free. Keep reading at
-          <a href="https://storyempire.online" style="color:#b8860b">storyempire.online</a>.
-        </p>
-        <p style="color:#555;line-height:1.7;margin-bottom:25px">
-          When you're hooked, subscribe for $4.99/month to unlock every chapter across all four series. Cancel anytime.
-        </p>
-        <a href="https://storyempire.online/subscribe" style="display:inline-block;background:#1a1a1a;color:white;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:600">
-          Subscribe and Keep Reading
-        </a>
-        <p style="color:#999;font-size:12px;margin-top:30px">Story Empire &middot; storyempire.online</p>
-      </div>`
-    );
+      message: message || undefined,
+      storySlug: story || undefined,
+    });
+    await sendEmail(email, "Thank you for reading. — Lena", welcomeHtml);
 
     return NextResponse.json({ ok: true });
   } catch (error) {
