@@ -195,7 +195,7 @@ export default function PaywallGate({
       <div className="bg-[#fafaf8] border border-[#e5e5e3] rounded-xl p-8 text-center">
         <p className="text-[#1a1a1a] font-semibold mb-2">This chapter is for subscribers</p>
         <p className="text-[#999] text-sm mb-6">
-          Subscribe to unlock this chapter and every chapter across all four stories.
+          Subscribe to unlock this chapter and every chapter across all seven stories.
         </p>
 
         <Link

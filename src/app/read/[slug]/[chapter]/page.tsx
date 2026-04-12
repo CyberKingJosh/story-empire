@@ -29,12 +29,18 @@ export default async function ReadChapter({ params }: PageProps) {
     "cozy-mystery": "#4a7c3f",
     "bl-romance": "#ef4444",
     "spicy-romance": "#e11d48",
+    "billionaire-romance": "#b45309",
+    "paranormal-romance": "#7c3aed",
+    "political-thriller": "#334155",
   };
   const genreLabels: Record<string, string> = {
     "romantasy": "Spicy Romantasy",
     "cozy-mystery": "Cozy Mystery",
     "bl-romance": "BL Dark Romance",
     "spicy-romance": "18+ Dark Romance",
+    "billionaire-romance": "Billionaire Romance",
+    "paranormal-romance": "Paranormal Romance",
+    "political-thriller": "Political Thriller",
   };
   const accentColor = genreColors[story.genre] || "#b8860b";
   const readTime = estimateReadingTime(chapter.content);
@@ -145,7 +151,7 @@ export default async function ReadChapter({ params }: PageProps) {
                 Hooked? Keep reading.
               </p>
               <p className="text-[#6b6b6b] text-sm mb-6 leading-relaxed">
-                You just finished the free chapters. Subscribe to unlock Chapter {chapter.number + 1} and every chapter across all four stories. New chapters every week.
+                You just finished the free chapters. Subscribe to unlock Chapter {chapter.number + 1} and every chapter across all seven stories. New chapters every week.
               </p>
 
               {/* Teaser of next chapter */}
@@ -209,6 +215,9 @@ export default async function ReadChapter({ params }: PageProps) {
                   {story.genre === "romantasy" ? "The corridor pulled her in like a breath..."
                     : story.genre === "cozy-mystery" ? "She didn't move until she heard Nina's knock."
                     : story.genre === "bl-romance" ? "The game had more players than he knew..."
+                    : story.genre === "billionaire-romance" ? "Some arrangements are harder to escape than others."
+                    : story.genre === "paranormal-romance" ? "The ink remembers. Even when we forget."
+                    : story.genre === "political-thriller" ? "Every secret has a cost. The question is who pays it."
                     : "She sharpened her teeth..."}
                 </p>
                 <p className="text-[#555] text-sm leading-relaxed mb-5">
@@ -264,6 +273,9 @@ export default async function ReadChapter({ params }: PageProps) {
           endQuote={story.genre === "romantasy" ? "The corridor pulled her in like a breath..."
             : story.genre === "cozy-mystery" ? "She didn't move until she heard Nina's knock."
             : story.genre === "bl-romance" ? "The game had more players than he knew..."
+            : story.genre === "billionaire-romance" ? "Some arrangements are harder to escape than others."
+            : story.genre === "paranormal-romance" ? "The ink remembers. Even when we forget."
+            : story.genre === "political-thriller" ? "Every secret has a cost. The question is who pays it."
             : "She sharpened her teeth..."}
           nextChapterTeaser={nextChapterTeaser}
         />

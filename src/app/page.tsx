@@ -48,7 +48,7 @@ export default function Home() {
             Stories that won&apos;t<br />let you go.
           </h1>
           <p className="text-lg text-white/70 max-w-xl mx-auto mb-6 leading-relaxed">
-            Four worlds. New chapters every week.
+            Seven worlds. New chapters every week.
             Start reading for free. No sign-up required.
           </p>
           {/* Social proof */}
@@ -71,7 +71,7 @@ export default function Home() {
             Choose Your World
           </p>
           <h2 className="text-3xl font-bold text-white mb-4 text-center">
-            Four series. Three free chapters each.
+            Seven series. Three free chapters each.
           </h2>
           <p className="text-white/50 text-center mb-16 max-w-lg mx-auto">
             Dive into three full chapters before deciding. No sign-up. No credit card. Just great stories.
@@ -267,7 +267,7 @@ export default function Home() {
               {
                 step: "02",
                 title: "Get hooked",
-                desc: "If the story grabs you, subscribe for $4.99/month to unlock every chapter across all four series.",
+                desc: "If the story grabs you, subscribe for $4.99/month to unlock every chapter across all seven series.",
               },
               {
                 step: "03",

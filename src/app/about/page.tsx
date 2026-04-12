@@ -24,7 +24,7 @@ export default function AboutPage() {
             />
           </div>
           <h1 className="text-3xl font-bold text-[#1a1a1a] mb-2">Lena Ashworth</h1>
-          <p className="text-[#999] text-sm">Author of Story Empire</p>
+          <p className="text-[#999] text-sm">Author of Story Empire &middot; also writing as Mara Voss</p>
         </div>
 
         <div className="prose-chapter space-y-6 text-[#444] leading-relaxed" style={{ fontFamily: "Georgia, serif" }}>
@@ -35,13 +35,16 @@ export default function AboutPage() {
             I grew up reading everything I could get my hands on: Korean dramas at midnight, fantasy epics during lunch breaks, romance novels hidden inside textbooks. Those influences bleed into everything I write. You'll find neon-lit Seoul alleys next to fantasy palace corridors, cozy tea shops next to dark mafia compounds.
           </p>
           <p>
-            Story Empire is my experiment in serialised fiction. Instead of writing one book and hoping someone finds it, I'm publishing weekly chapters across four very different genres. Each story is a full novel, released one chapter at a time, with original illustrations.
+            Story Empire is my experiment in serialised fiction. Instead of writing one book and hoping someone finds it, I'm publishing weekly chapters across seven very different genres. Each story is a full novel, released one chapter at a time, with original illustrations.
           </p>
           <p>
             The first three chapters of every story are free. I believe if the writing doesn't hook you by then, it shouldn't cost you anything to find out. If it does hook you, subscriptions keep the chapters coming.
           </p>
           <p>
             I read every piece of reader feedback. If you have thoughts on a chapter, there's a box at the end of each one. I pay attention. Sometimes your theories are better than my plans.
+          </p>
+          <p>
+            Mara Voss is Story Empire&apos;s second pen name, writing romance that lives in the spaces between what people say and what they mean: slow burns in the London art world, paranormal romance rooted in New Orleans ink magic, and political thriller romance set in Washington D.C.
           </p>
         </div>
 

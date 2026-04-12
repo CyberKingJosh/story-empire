@@ -21,12 +21,18 @@ export default async function StoryPage({ params }: PageProps) {
     "cozy-mystery": "#4a7c3f",
     "bl-romance": "#ef4444",
     "spicy-romance": "#e11d48",
+    "billionaire-romance": "#b45309",
+    "paranormal-romance": "#7c3aed",
+    "political-thriller": "#334155",
   };
   const genreLabels: Record<string, string> = {
     "romantasy": "Spicy Romantasy",
     "cozy-mystery": "Cozy Mystery",
     "bl-romance": "BL Dark Romance",
     "spicy-romance": "18+ Dark Romance",
+    "billionaire-romance": "Billionaire Romance",
+    "paranormal-romance": "Paranormal Romance",
+    "political-thriller": "Political Thriller",
   };
 
   const accentColor = genreColors[story.genre] || "#b8860b";

@@ -115,7 +115,7 @@ function SubscribeForm() {
         <p className="text-[#6b6b6b] text-center mb-10">
           {isTrial
             ? "7 days free, then $4.99/month. Cancel anytime."
-            : "$4.99/month. All four series. Every chapter. Cancel anytime."}
+            : "$4.99/month. All seven series. Every chapter. Cancel anytime."}
         </p>
 
         <div className="bg-[#fafaf8] border border-[#e5e5e3] rounded-xl p-8 mb-8">
@@ -152,6 +152,27 @@ function SubscribeForm() {
               </span>
             </li>
             <li className="flex items-start gap-3">
+              <span className="text-[#b45309] mt-0.5 font-bold">&#10003;</span>
+              <span className="text-[#333]">
+                <strong>The Arrangement</strong> - Billionaire Romance. by Mara Voss.
+                Some secrets are worth keeping. Some aren&apos;t.
+              </span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-[#7c3aed] mt-0.5 font-bold">&#10003;</span>
+              <span className="text-[#333]">
+                <strong>Midnight Meridian</strong> - Paranormal Romance. by Mara Voss.
+                The ink remembers everything.
+              </span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-[#334155] mt-0.5 font-bold">&#10003;</span>
+              <span className="text-[#333]">
+                <strong>The Glass Throne</strong> - Political Thriller. by Mara Voss.
+                She wrote his speeches. He watched her every move.
+              </span>
+            </li>
+            <li className="flex items-start gap-3">
               <span className="text-[#999] mt-0.5 font-bold">&#10003;</span>
               <span className="text-[#555]">Volume 1 complete (12 chapters each) &middot; Volume 2 in progress</span>
             </li>
@@ -169,7 +190,7 @@ function SubscribeForm() {
         {/* Testimonial */}
         <div className="bg-white border border-[#e5e5e3] rounded-xl p-6 mb-8 text-center">
           <p className="text-[#555] text-sm italic leading-relaxed" style={{ fontFamily: "Georgia, serif" }}>
-            &ldquo;I came for one story and ended up reading all four. The illustrations are a nice touch.&rdquo;
+            &ldquo;I came for one story and ended up reading all seven. The illustrations are a nice touch.&rdquo;
           </p>
           <p className="text-[#bbb] text-xs mt-2">Early reader</p>
         </div>
