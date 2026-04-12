@@ -62,7 +62,7 @@ export default async function StoryPage({ params }: PageProps) {
           <p className="text-[#6b6b6b] italic" style={{ fontFamily: "Georgia, serif" }}>
             &ldquo;{story.tagline}&rdquo;
           </p>
-          <p className="text-[#999] text-sm mt-2">by Lena Ashworth</p>
+          <p className="text-[#999] text-sm mt-2">by {story.author || "Lena Ashworth"}</p>
           <p className="text-[#bbb] text-xs mt-2">
             {freeCount} free chapters &middot; {story.chapters.length} total
           </p>

@@ -116,6 +116,33 @@ export default function Home() {
                   description: "Sera Maren married Nico Valenti to destroy his family from the inside. He married her because he suspects exactly that. An arranged marriage between rival dynasties where every conversation is a chess move, every touch is a calculated risk, and falling in love means betraying everyone.",
                   readers: "410 readers",
                 },
+                "billionaire-romance": {
+                  label: "Billionaire Romance",
+                  badge: "bg-amber-600 text-white",
+                  gradient: "bg-gradient-to-t from-[#1a1508]/95 via-[#1a1508]/60 to-transparent",
+                  button: "bg-amber-600 text-white hover:bg-amber-500",
+                  cardImage: "/illustrations/billionaire-card.png",
+                  description: "Slow burn. Old money. Secrets that cost more than art.",
+                  readers: "New",
+                },
+                "paranormal-romance": {
+                  label: "Paranormal Romance",
+                  badge: "bg-purple-600 text-white",
+                  gradient: "bg-gradient-to-t from-[#0f0a1a]/95 via-[#0f0a1a]/60 to-transparent",
+                  button: "bg-purple-600 text-white hover:bg-purple-500",
+                  cardImage: "/illustrations/paranormal-card.png",
+                  description: "New Orleans ink magic. A Warden who has waited 234 years.",
+                  readers: "New",
+                },
+                "political-thriller": {
+                  label: "Political Thriller",
+                  badge: "bg-slate-700 text-white",
+                  gradient: "bg-gradient-to-t from-[#0a0f1a]/95 via-[#0a0f1a]/60 to-transparent",
+                  button: "bg-slate-700 text-white hover:bg-slate-600",
+                  cardImage: "/illustrations/political-card.png",
+                  description: "A speechwriter. A spy. The truth that could end both of them.",
+                  readers: "New",
+                },
               };
 
               const config = genreConfig[story.genre] || genreConfig["romantasy"];
